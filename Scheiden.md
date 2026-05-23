@@ -2,6 +2,32 @@
 
 ---
 
+## Inhoudsopgave
+
+- [Wat is scheiden?](#wat-is-scheiden)
+- [Hoe verloopt het snijproces?](#hoe-verloopt-het-snijproces)
+  - [De gesneden rand](#de-gesneden-rand)
+- [Snijspleet (clearance)](#snijspleet-clearance)
+- [Pons- en matrijsafmetingen](#pons--en-matrijsafmetingen)
+  - [Bij stansen (blanking)](#bij-stansen-blanking--het-uitgestanste-stuk-is-het-product)
+  - [Bij ponsen (punching)](#bij-ponsen-punching--het-gat-is-het-product)
+- [Ponskracht berekening](#ponskracht-berekening)
+  - [Maximale theoretische ponskracht](#maximale-theoretische-ponskracht)
+  - [Aangrijpingspunt resulterende kracht](#waar-grijpt-de-resulterende-kracht-aan)
+- [Afgeschuind ponsgereedschap (Shear on tools)](#afgeschuind-ponsgereedschap-shear-on-tools)
+- [Gereedschappen en machines](#gereedschappen-en-machines)
+  - [Compleetstempel (Compound die)](#compleetstempel-compound-die)
+  - [Volgstempel (Progressive die)](#volgstempel-progressive-die)
+- [Fijnstansen (Fine blanking)](#fijnstansen-fine-blanking)
+- [Diverse plaatwerkprocessen](#diverse-plaatwerkprocessen)
+  - [Incrementeel omvormen](#incrementeel-omvormen-incremental-forming)
+  - [Vloeidraaien (Spinning)](#vloeidraaien-spinning)
+  - [Hydroformen (Hydroforming)](#hydroformen-hydroforming)
+- [Samenvatting en examenoverzicht](#samenvatting-en-examenoverzicht)
+- [Wat je echt moet kennen](#wat-je-echt-moet-kennen)
+
+---
+
 ## Wat is scheiden?
 
 Scheiden is het snijden van plaatmateriaal **zonder spanen te creëren**. Anders dan bij verspanen wordt er geen materiaal weggefreesd of gedraaid — het materiaal wordt gewoon doorgesneden via plastische vervorming tot breuk.

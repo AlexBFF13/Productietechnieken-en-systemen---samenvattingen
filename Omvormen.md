@@ -2,6 +2,54 @@
 
 ---
 
+## Inhoudsopgave
+
+**[Deel 4 – Omvormen (Les 10 & 11)](#deel-4--omvormen-les-10--11)**
+
+- [Wat is omvormen?](#wat-is-omvormen)
+- [Basisprincipes van vervorming](#basisprincipes-van-vervorming)
+  - [Elastisch vs plastisch](#elastisch-vs-plastisch--het-verschil)
+  - [Volumebehoud](#volumebehoud)
+- [Spanning en rek](#spanning-en-rek)
+  - [Ware rek vs nominale rek](#ware-rek-vs-nominale-rek)
+  - [Poisson's ratio en volumebehoud](#poissons-ratio-en-volumebehoud)
+- [De verstevigingskromme](#de-verstevigingskromme)
+  - [Versteviging (work hardening)](#versteviging-work-hardening--strain-hardening)
+- [Omvormtemperatuur](#omvormtemperatuur)
+- [Vloeicriteria](#vloeicriteria)
+  - [Tresca-criterium](#tresca-criterium-maximale-schuifspanning)
+  - [Von Mises-criterium](#von-mises-criterium)
+  - [Vlakke vervormingstoestand](#vlakke-vervormingstoestand)
+- [Arbeid bij omvormen](#arbeid-bij-omvormen)
+- [Walsen](#walsen)
+  - [Soorten walsen](#soorten-walsen)
+  - [Walssnelheden en neutraal punt](#walssnelheden-en-neutraal-punt)
+  - [Wrijving en meeneemvoorwaarde](#wrijving-en-meeneemvoorwaarde)
+  - [Walskracht en vermogen](#walskracht-en-vermogen)
+
+**[Deel 5 – Buigen (Les 11)](#deel-5--omvormen-van-plaat-buigen-les-11)**
+
+- [Waarom plaatwerk?](#waarom-plaatwerk)
+- [Buigen — wat is het?](#buigen--wat-is-het)
+- [Types buigprocessen](#types-buigprocessen)
+  - [Luchtbuigen](#luchtbuigen-air-bending--vrijbuigen)
+  - [Matrijsbuigen / V-buigen / U-buigen](#matrijsbuigen--v-buigen--u-buigen-die-bending--bottoming)
+  - [Rolbuigen](#rolbuigen-roll-bending)
+- [Plooiverlies en blankgrootte](#plooiverlies-en-blankgrootte)
+- [Terugvering (Springback)](#terugvering-springback)
+  - [Compensatiemethoden](#compensatiemethoden)
+- [Plooikracht](#plooikracht)
+- [Minimale buigradius en buigbaarheid](#minimale-buigradius-en-buigbaarheid)
+- [Veel voorkomende buigbewerkingen](#veel-voorkomende-buigbewerkingen)
+  - [Afkantpers](#afkantpers-press-brake)
+  - [Rolvormen](#rolvormen-roll-forming)
+  - [Flenzen](#flenzen-flanging)
+  - [Buizen buigen](#buizen-buigen)
+- [Samenvatting en examenoverzicht](#samenvatting-en-examenoverzicht)
+- [Wat je echt moet kennen](#wat-je-echt-moet-kennen)
+
+---
+
 ## Wat is omvormen?
 
 Omvormen (*metal forming*) is een productieproces waarbij je een metalen werkstuk zijn definitieve vorm geeft door het **opzettelijk plastisch te vervormen**. Dat klinkt eenvoudig, maar het verschil met andere bewerkingen is cruciaal: je verwijdert geen materiaal (zoals bij verspanen), en je voegt niets toe (zoals bij lassen). Het volume blijft constant — je hervormt alleen de geometrie.
