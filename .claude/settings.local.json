@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\Users\\\\WELL_ASUS_BUP\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\" \"C:\\\\Users\\\\WELL_ASUS_BUP\\\\extract_pdf.py\" 2>&1)"
+    ]
+  }
+}
