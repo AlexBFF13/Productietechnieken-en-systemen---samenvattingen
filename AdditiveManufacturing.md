@@ -137,6 +137,8 @@ Een concreet voorbeeld: een vliegtuigdeurscharnnier in SLM Ti6Al4V geeft **65% g
 
 **Principe:** Een vat vloeibare fotopolymeer (UV-gevoelige hars) wordt laag per laag uitgehard door een gefocuste UV-laser. De laser scant het oppervlak van de vloeistof en polymeriseert de hars op de belichte plaatsen. Na elke laag zakt het platform een laagdikte naar beneden, een nieuwe laag vloeistof wordt aangebracht, en het proces herhaalt zich.
 
+<img src="Images/image.png" width="500" alt="SLA schematic" />
+
 Er zijn twee varianten:
 - **Point-by-point scanning** — laser beweegt punt per punt over het oppervlak
 - **Layer-by-layer illumination** — een masker projecteert de hele laag tegelijk
@@ -152,6 +154,8 @@ SLA was de **eerste commerciële AM-technologie** (3D Systems, 1987) en blijft d
 
 **Principe:** Een plastic filament van een spoel wordt door een verwarmde nozzle geperst en gesmolten. De nozzle beweegt over het XY-vlak en deponeert het gesmolten materiaal precies waar het nodig is. Het materiaal stolt onmiddellijk bij koeling. Na elke laag stijgt de nozzle of daalt het bouwplatform een laagdikte.
 
+<img src="Images/image1.png" width="500" alt="FDM schematic" />
+
 FDM is de meest bekende vorm van 3D printen voor de consumentenmarkt (desktop printers). Industrieel wordt het gebruikt voor functionele prototypes.
 
 - Materialen: ABS, PLA, PEEK, gevulde polymeren, was
@@ -163,6 +167,8 @@ FDM is de meest bekende vorm van 3D printen voor de consumentenmarkt (desktop pr
 ### SLS — Selective Laser Sintering
 
 **Principe:** Een dunne laag poeder wordt uitgespreid op het bouwplatform. Een Nd:YAG-laser (of electronenbundel bij EBM) scant het poeder en sinterert of smelt de korrels samen op de gewenste plaatsen. Het ongesmolten poeder rondom het onderdeel fungeert als **support** — er zijn geen aparte supportstructuren nodig. Dit is een groot voordeel ten opzichte van SLA en FDM.
+
+<img src="Images/image2.png" width="500" alt="SLS schematic" />
 
 **Part nesting:** omdat het losse poeder als support werkt, kunnen bij SLS meerdere onderdelen in 3D worden "gestapeld" in de bouwtank (nesting). Dit verhoogt de machine-efficiëntie enorm.
 
@@ -211,6 +217,8 @@ Er zijn vier hoofdprocessen voor AM van metalen:
 
 **Principe:** Een wolframfilament wordt verhit tot extreem hoge temperaturen en geeft elektronen vrij. Een elektrisch veld versnelt die elektronen, elektromagnetische spoelen focusseren en sturen de bundel. De elektronenbundel smelt laag per laag het metaalpoeder in een **vacuümkamer**.
 
+<img src="Images/image3.png" width="500" alt="SLS schematic" />
+
 Procesverloop bij EBM:
 1. Poeder deponeren (rake spreidt laag poeder)
 2. Poeder **voor-sinteren** met een gedefocuste elektronenbundel (dit verhit het poeder en geeft het mechanische cohesie → geen steunstructuur nodig)
@@ -235,6 +243,8 @@ Procesverloop bij EBM:
 
 **Principe:** Poeder wordt via een of meerdere nozzles gespoten in het focuspunt van een laserstraal. Het poeder smelt ter plekke en stolt op het substraat. Anders dan bij SLM of EBM is er **geen poederbed** — het poeder wordt on-the-fly ingespoten.
 
+<img src="Images/image4.png" width="500" alt="SLS schematic" />
+
 LC wordt ook aangeduid als LENS (Laser Engineered Net Shaping), DMD (Direct Metal Deposition), DLF (Direct Laser Fabrication) of LMD (Laser Metal Deposition).
 
 **Hybride machines:** Laser Cladding gecombineerd met frezen (bijv. DMG Mori). Het proces wisselt af: laag cladden → frezen tot vlak → contour frezen → volgende laag cladden. Dit geeft betere maatnauwkeurigheid dan puur cladden.
@@ -252,6 +262,8 @@ LC wordt ook aangeduid als LENS (Laser Engineered Net Shaping), DMD (Direct Meta
 ### Selective Laser Melting (SLM)
 
 **Principe:** Een dunne laag metaalpoeder wordt uitgespreid op het bouwplatform. Een gefocuste laserstraal (typisch Yb-fiber laser, 200–400 W) scant het poeder langs het vooraf berekende scanpatroon. Het poeder wordt **volledig gesmolten** (in tegenstelling tot SLS waarbij het enkel sintert). Na stollen vormt zich een dichte, metallische laag. De buildcylinder zakt een laagdikte, nieuwe poeder wordt aangebracht, en het herhaalt zich.
+
+<img src="Images/image5.png" width="500" alt="SLS schematic" />
 
 Procesverloop bij SLM:
 1. Poeder deponeren (recoater arm spreidt poeder uit van feedcontainer)
