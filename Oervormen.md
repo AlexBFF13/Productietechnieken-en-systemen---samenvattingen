@@ -72,15 +72,15 @@ Metaal smelten
 De gietvorm is het **negatief** van het eindproduct — de holte in de vorm heeft precies de shape die je wil gieten. Een gietvorm bestaat typisch uit meerdere delen:
 
 ```
-┌──────────────────────────────────────────────┐
+┌───────────────────────────────────────────────┐
 │             Gietkom (ingang vloeistof)        │
 │             Gietloop (verticaal kanaal)       │
 │  Bovenkast  Aansnijding (horizontaal kanaal)  │
 │──────────────── VORMDELING ───────────────────│
 │  Onderkast  Vormholte (= negatief product)    │
-│             Kern (voor interne holtes)         │
+│             Kern (voor interne holtes)        │
 │             Opkomer (voedt krimp bij)         │
-└──────────────────────────────────────────────┘
+└───────────────────────────────────────────────┘
 ```
 
 **Onderdelen van het gietsysteem:**
@@ -344,6 +344,8 @@ Het blad wordt gegoten via **investment casting** (lost wax / verloren was proce
 
 Resultaat: willekeurig georiënteerde korrels. Redelijk prestaties, maar gevoelig voor intergranulair falen bij hoge temperatuur.
 
+<img src="Images/conventioneelgieten.png" width="500" alt="stolling" />
+
 ### Gerichte stolling (DS — Directionally Solidified)
 
 Het idee: controleer de koelingsrichting zodat alle korrels in dezelfde richting groeien. Als de korrels kolomvormig zijn en gericht **langs de centrifugaalkrachtrichting** (de longitudinale as van het blad), dan zijn er geen **transversale** korrelgrenzen. Die transversale grenzen zijn precies de zwakste plekken onder centrifugale belasting.
@@ -357,6 +359,8 @@ Het idee: controleer de koelingsrichting zodat alle korrels in dezelfde richting
 6. Thermische gradiënt typisch ~4000 K/m
 
 Resultaat: kolomvormige korrels, gericht langs de centrifugaalkrachtrichting. Geen transversale korrelgrenzen → betere creepweerstand in de kritische richting.
+
+<img src="Images/gerichtstolling.png" width="500" alt="stolling" />
 
 ### Enkelvoudig kristal (SX — Single Crystal)
 
@@ -380,6 +384,8 @@ Er zijn twee methodes:
 **Eigenschappen:**
 - Geen korrelgrenzen → corrosie- en creepweerstand sterk verbeterd
 - Marktleider voor bladen in de high-pressure turbine van moderne straalMotoren
+
+<img src="Images/singlecristal.png" width="500" alt="stolling" />
 
 ### Defecten in single crystal bladen
 
@@ -425,8 +431,6 @@ Bij superlegering Mar-M200 onder 206 MPa bij 982°C:
 | **Opkomer** | Compenseert krimp, moet later stollen dan gietstuk |
 | **Turbinebladen** | CC → DS → SX, telkens minder korrelgrenzen → betere creepweerstand |
 | **Grain selector** | Spiraalvormige geometrie laat slechts 1 korrel door → SX blade |
-
----
 
 ---
 

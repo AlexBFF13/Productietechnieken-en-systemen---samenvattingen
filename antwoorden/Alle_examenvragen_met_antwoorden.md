@@ -81,98 +81,65 @@
 
 **1. De drie basishoeken van de beitel**
 
-Een snijgereedschap (beitel) is in essentie een **wig** die in het werkstukmateriaal dringt. In een doorsnede loodrecht op de snijkant onderscheiden we drie basishoeken die samen steeds **90°** vormen:
+Een beitel is een **wig**; loodrecht op de snijkant onderscheiden we drie hoeken die samen **90°** vormen:
 
-```
-        spaanvlak Aγ
-           \
-            \  γ (spaanhoek)
-   spaan →   \________________
-               \  β (wighoek)
-                \
-        _________\___________
-        vrijloopvlak Aα   α (vrijloophoek)
-              ↓ bewerkt (gesneden) vlak werkstuk
-```
+<div style="display: flex; gap: 16px; align-items: flex-start;">
+  <img src="../Images/toolgeometrie.png" width="400" alt="geometrie" />
+  <img src="../Images/toolgeometrie3.png" width="400" alt="geometrie" />
+</div>
 
 $$\alpha + \beta + \gamma = 90^\circ$$
 
 | Symbool | Naam | Betekenis |
 |---|---|---|
-| **α** — vrijloophoek | Hoek tussen vrijloopvlak en het reeds bewerkte vlak van het werkstuk. | Vermindert wrijving op het vrijloopvlak. Typisch **6°–10°**. |
-| **β** — wighoek | Hoek van de snijwig zelf, tussen spaanvlak en vrijloopvlak. | Bepaalt **sterkte** van de wig en **warmteafvoer**. Zo groot mogelijk voor een sterke beitel. |
-| **γ** — spaanhoek | Hoek van het spaanvlak t.o.v. het vlak loodrecht op de snijrichting. | Bepaalt hoe de spaan wegloopt. Typisch **−10° tot +30°**. |
+| **α** — vrijloophoek | tussen vrijloopvlak en bewerkt vlak | vermindert wrijving op het vrijloopvlak; typisch **6°–10°** |
+| **β** — wighoek | hoek van de wig zelf (tussen Aγ en Aα) | bepaalt **sterkte** en **warmteafvoer**; zo groot mogelijk |
+| **γ** — spaanhoek | hoek spaanvlak t.o.v. vlak ⊥ snijrichting | bepaalt spaanafvoer; typisch **−10° tot +30°** |
 
-**Invloed van de spaanhoek γ:**
+**Invloed van γ:**
+- **Positief** (γ>0°): kleinere snijkrachten, minder trillingen, vlotte spaanafvoer — maar β kleiner → zwakkere beitel. Voor zachte/taaie materialen (Al, kunststoffen).
+- **Negatief** (γ<0°): spaan stuikt meer op → grotere krachten/warmte, maar sterke beitel. Voor harde/brosse materialen (staal > 1200 N/mm², keramiek).
 
-- **Positief** (γ > 0°): beitel snijdt gemakkelijker, kleinere snijkrachten, minder trillingsgevaar, spanen vloeien vlot weg. **Maar:** β wordt kleiner → zwakkere beitel. Toepassing: zachte, taaie materialen (aluminium, kunststoffen).
-- **Negatief** (γ < 0°): spaan wordt meer gestuikt → grotere krachten en meer warmte, maar zeer sterke beitel. Toepassing: harde, brosse materialen (staal > 1200 N/mm², keramiek).
+> **Vuistregel:** hoe harder het materiaal, hoe groter β en hoe kleiner (negatiever) γ.
 
-> **Vuistregel:** hoe harder het materiaal, hoe groter β en hoe kleiner (of negatiever) γ.
-
-**Vrijloophoek α:**
-- Te klein → veel wrijving tussen vrijloopvlak en werkstuk → warmte en slijtage.
-- Te groot → kleinere β → zwakkere beitel.
-- Zachte/taaie materialen → grote α; harde materialen → kleine α.
+**Invloed van α:** te klein → wrijving/warmte/slijtage op vrijloopvlak; te groot → kleinere β (zwakker). Zacht/taai materiaal → grote α; hard materiaal → kleine α.
 
 **2. Snededikte h versus spaandikte s**
 
-Het materiaal vóór de snijkant wordt **afgeschoven** langs een **afschuifvlak** en vormt zo een **spaan**. Twee diktes:
+Materiaal vóór de snijkant wordt **afgeschoven** langs een **afschuifvlak** tot een **spaan**:
+- **h (=T₁):** snededikte = dikte van het **onvervormde** materiaal (machine-instelling).
+- **s (=T₂):** spaandikte = dikte van de spaan **na vervorming** door afschuiving.
 
-- **Snededikte h (= T₁):** dikte van het **onvervormde** materiaal, zoals door de machine-instelling bepaald.
-- **Spaandikte s (= T₂):** dikte van de **spaan na vervorming**, na afschuiving over het afschuifvlak.
+Door plastische vervorming geldt steeds **s > h** (opstuiking).
 
-Door plastische vervorming bij het afschuiven geldt steeds **T₂ > T₁**, dus **s > h**: de spaan is dikker dan de snede (**opstuikverhouding**).
+**3. Instelhoek κ, voeding f en snededoorsnede**
 
-**3. Verband met instelhoek κ en voeding f — de snededoorsnede**
-
-De snededoorsnede A is het materiaal dat per snede verwijderd wordt:
-
-$$A = a \cdot f = b \cdot h$$
-
-met (via de instelhoek κ):
-
-$$b = \frac{a}{\sin\kappa} \qquad h = f \cdot \sin\kappa$$
+$$A = a \cdot f = b \cdot h, \qquad b = \frac{a}{\sin\kappa}, \qquad h = f \cdot \sin\kappa$$
 
 | Symbool | Naam | Eenheid |
 |---|---|---|
 | a | snijdiepte (insteldiepte) | mm |
-| f | voeding (aanzet per omwenteling) | mm/omw |
+| f | voeding (per omwenteling) | mm/omw |
 | b | snedebreedte | mm |
 | h | snededikte | mm |
-| κ | instelhoek (= aanzethoek) | ° |
+| κ | instelhoek (hoek tussen hoofdsnijkant en voedingsrichting) | ° |
 
-De **instelhoek κ** is de hoek tussen hoofdsnijkant en voedingsrichting. Ze bepaalt hoe f wordt "omgezet" in h en a in b: bij een **kleinere κ** wordt h kleiner en b groter (bij gelijke a, f) → **slankere snede** (slankheid δ_κ = b/h, met 3 < δ_κ < 15 voor staal).
+Een **kleinere κ** geeft (bij gelijke a, f) een kleinere h en grotere b → **slankere snede** (slankheid δ_κ = b/h, met 3 < δ_κ < 15 voor staal).
 
-**4. De afschuifhoek φ (Merchant)**
-
-De **afschuifhoek φ** bepaalt de grootte van het afschuifvlak en daarmee de snijkrachten:
+**4. Afschuifhoek φ (Merchant)**
 
 $$\varphi = 45^\circ + \frac{\gamma}{2} - \frac{\mu}{2}$$
 
-waarbij:
-- **γ** = spaanhoek van het gereedschap;
-- **µ** = wrijvingshoek, samenhangend met de wrijving tussen spaan en spaanvlak (te beïnvloeden via coating of smering).
+met **γ** = spaanhoek gereedschap, **µ** = wrijvingshoek tussen spaan en spaanvlak (verlaagd door coating/smering).
 
-**Interpretatie:**
-- φ **groter** → kleiner afschuifvlak → **kleinere snijkrachten**.
-- φ wordt groter door een **grotere γ**, of een **kleinere µ** (coating, smering met snijvloeistof).
-- Een grotere γ geeft echter een kleinere β → **zwakkere beitel** (trade-off!).
+- **Groter φ** → kleiner afschuifvlak → **kleinere snijkrachten**.
+- φ stijgt door grotere γ of kleinere µ — maar grotere γ geeft kleinere β → **zwakkere beitel** (trade-off).
 
-**5. Samenhang tussen h, s, φ en γ**
+**5. Samenhang h, s, φ, γ**
 
-De spaan verlaat het afschuifvlak onder de spaanhoek γ t.o.v. de invalsrichting van de snede, terwijl het afschuifvlak zelf een hoek φ met de snijrichting maakt. Dit geeft:
+$$s = h \cdot \frac{\cos(\varphi - \gamma)}{\sin\varphi}$$
 
-$$\frac{h}{\sin\varphi} = \frac{s}{\sin(90^\circ + \gamma - \varphi)}$$
-
-zodat:
-
-$$s = h \cdot \frac{\sin(90^\circ + \gamma - \varphi)}{\sin\varphi} = h \cdot \frac{\cos(\varphi - \gamma)}{\sin\varphi}$$
-
-**Interpretatie:**
-
-- Omdat s > h, geldt $\cos(\varphi-\gamma) > \sin\varphi$ voor de gangbare hoekcombinaties — de spaan stuikt op tijdens het afschuiven.
-- Een **grotere φ** (door grotere γ of kleinere µ) doet s dichter bij h komen → **minder opstuiking**, minder vervormingswarmte, kleinere krachten — consistent met de conclusie dat een grotere φ de snijkrachten verlaagt.
+Een **grotere φ** (door grotere γ of kleinere µ) brengt s dichter bij h → minder opstuiking, minder vervormingswarmte, kleinere krachten — consistent met punt 4.
 
 ---
 
@@ -186,12 +153,7 @@ $$s = h \cdot \frac{\sin(90^\circ + \gamma - \varphi)}{\sin\varphi} = h \cdot \f
 
 **1. Tegenstrijdige eisen aan snijmaterialen**
 
-Geen enkel snijmateriaal is "ideaal": de eisen werken elkaar tegen:
-- Slijtagebestendigheid **en** warmhardheid (hoge contacttemperaturen);
-- Breukbestendigheid (weerstand tegen stoten/impact);
-- Weerstand tegen vermoeiing en thermoshock;
-- Oxidatiebestendigheid en weerstand tegen opbouwsnijkant (BUE);
-- Goede prijs, bewerkbaarheid, constantheid van eigenschappen.
+Geen snijmateriaal is "ideaal" — de eisen werken elkaar tegen: slijtagebestendigheid **en** warmhardheid (hoge contacttemperaturen), breukbestendigheid (schokken), weerstand tegen vermoeiing en thermoshock, oxidatiebestendigheid en weerstand tegen opbouwsnijkant (BUE), en goede prijs/bewerkbaarheid.
 
 **Algemeen:** hoger in de hiërarchie van snijmaterialen → **hardheid, warmhardheid en toelaatbare v_c stijgen**, maar **taaiheid (breukvastheid) daalt**.
 
@@ -200,47 +162,31 @@ Geen enkel snijmateriaal is "ideaal": de eisen werken elkaar tegen:
 Van goedkoop/taai (lage v_c) naar duur/hard (hoge v_c):
 
 ```
-Gereedschapsstaal (koolstofstaal)
-    ↓
-HSS (snelstaal)
-    ↓
-Hardmetaal (HM / WIDIA)
-    ↓
-Gecoat HM
-    ↓
-Cermets
-    ↓
-Keramiek (Al₂O₃, Si₃N₄)
-    ↓
-CBN (kubisch boornitride)
-    ↓
-Diamant (PKD)
+Gereedschapsstaal → HSS → Hardmetaal (HM/WIDIA) → Gecoat HM → Cermets → Keramiek (Al₂O₃, Si₃N₄) → CBN → Diamant (PKD)
 ```
 
 | Snijmateriaal | Samenstelling | Vormgeving | Hardheid & warmhardheid | v_c (richtwaarde) | Toepassing |
 |---|---|---|---|---|---|
-| **Gereedschapsstaal** | Fe-C, 0.9–1.2 wt% C (+ evt. Mn/V), gehard | Gieten en smeden | 60–65 HRC, max ~200°C | 5–7 m/min | Goedkoopst; eenvoudige gereedschappen, lage snelheden, hobbygebruik |
-| **HSS** (snelstaal) | Hooggelegeerd staal: 20–30% W, Cr, V, Mo → harde wolfraamcarbiden | Vroeger gesmeed, nu ook gesinterd | ~60–65 HRC, max ~500°C | 20–40 m/min | Complex gevormde gereedschappen (boren, frezen, tappen, ruimers, profielfrezen): ductiel → betere impactweerstand → geschikt voor onderbroken snede |
-| **Hardmetaal (HM, WIDIA)** | Composiet: WC (hard) in Co-matrix (taai bindmiddel); meer Co = taaier maar minder hittebestendig | Poedermetallurgie (persen + sinteren) | ~75 HRC, max ~1000°C | 50–400 m/min | Meest gebruikt vandaag; Co/WC-verhouding afgestemd via ISO-codering |
-| **Gecoat HM** | Taaie HM-kern (hoog Co) + dunne slijtvaste coating (TiN, TiC,N, Al₂O₃, 2–20 µm, evt. multi-laags) | Substraat sinteren, dan coaten (CVD/PVD) | Substraat = taai, coating = zeer slijtvast/warmhard | Hogere v_c (of langere standtijd) dan ongecoat HM | Wanneer zowel taaiheid (schokken) als slijtvastheid (warmte/wrijving) nodig zijn |
-| **Cermets** | Keramische fase (carbiden/nitriden/oxiden) in metalen matrix (Co, Ni, Fe of Mo) | Poedermetallurgie (sinteren), zoals HM | Hoger dan HM, lager dan keramiek | Hoger dan HM | Hoge snelheden, niet-onderbroken snede, kleine snededoorsneden (finishing) |
-| **Keramiek** | Al₂O₃, TiC, Si₃N₄ | Sinteren van poeders | ~80 HRC, max ~1300°C — uitmuntende warmhardheid | 200–1000 m/min | Zeer hoge v_c bij harde materialen, niet-onderbroken snede; broos → thermoshockgevoelig |
-| **CBN/PCBN** | (Poly)kristallijn kubisch boornitride, vaak op HM-substraat | Sinteren | 2de hardste materiaal na diamant, stabiel tot ~2000°C | tot ~3000 m/min | Hardverspanen van gehard staal (55–65 HRC) — alternatief voor slijpen |
-| **Diamant (PKD)** | Polykristallijn diamant, evt. met bindmiddel | Sinteren, vaak op HM-substraat | Hardste bekende materiaal, maar slechts stabiel tot ~600–700°C | Zeer hoog (non-ferro) | Aluminium, koper, composieten, keramiek, hout — niet voor staal |
+| **Gereedschapsstaal** | Fe-C, 0.9–1.2% C, gehard | Gieten/smeden | 60–65 HRC, max ~200°C | 5–7 m/min | Goedkoopst; eenvoudige gereedschappen, lage snelheden |
+| **HSS** (snelstaal) | Hooggelegeerd staal (W, Cr, V, Mo → wolfraamcarbiden) | Gesmeed of gesinterd | ~60–65 HRC, max ~500°C | 20–40 m/min | Complexe gereedschappen (boren, frezen, tappen, ruimers): ductiel → bestand tegen onderbroken snede |
+| **Hardmetaal (HM, WIDIA)** | WC (hard) in Co-matrix (taai); meer Co = taaier, minder hittebestendig | Poedermetallurgie (persen + sinteren) | ~75 HRC, max ~1000°C | 50–400 m/min | Meest gebruikt vandaag; Co/WC-verhouding via ISO-codering |
+| **Gecoat HM** | Taaie HM-kern (hoog Co) + slijtvaste coating (TiN, TiC,N, Al₂O₃, 2–20 µm) | Sinteren + coaten (CVD/PVD) | Kern taai, coating zeer slijtvast/warmhard | Hoger dan ongecoat HM | Wanneer taaiheid (schokken) én slijtvastheid (warmte/wrijving) nodig zijn |
+| **Cermets** | Carbiden/nitriden/oxiden in metalen matrix (Co, Ni, Fe, Mo) | Poedermetallurgie | Tussen HM en keramiek | Hoger dan HM | Hoge snelheden, niet-onderbroken snede, finishing |
+| **Keramiek** | Al₂O₃, TiC, Si₃N₄ | Sinteren van poeders | ~80 HRC, max ~1300°C | 200–1000 m/min | Zeer hoge v_c bij harde materialen, niet-onderbroken snede; broos/thermoshockgevoelig |
+| **CBN/PCBN** | (Poly)kristallijn CBN, vaak op HM-substraat | Sinteren | 2de hardst na diamant, stabiel tot ~2000°C | tot ~3000 m/min | Hardverspanen van gehard staal (55–65 HRC) — alternatief voor slijpen |
+| **Diamant (PKD)** | Polykristallijn diamant | Sinteren, vaak op HM-substraat | Hardst bekend, maar stabiel tot slechts ~600–700°C | Zeer hoog (non-ferro) | Al, Cu, composieten, keramiek, hout — niet voor staal |
 
-**Waarom HSS vandaag nog gebruikt wordt:** ondanks de lagere v_c blijft HSS eerste keus voor complex gevormde gereedschappen (boren, ruimers, tappen, profielfrezen) — eenvoudiger en goedkoper te vormen tot ingewikkelde geometrieën dan brosse HM/keramiek/CBN, en **ductieler** → betere impactweerstand → beter bestand tegen de onderbroken snede bij boren en frezen.
+**Waarom HSS nog gebruikt wordt:** goedkoper/eenvoudiger te vormen tot complexe geometrieën dan brosse HM/keramiek/CBN, en **ductieler** → beter bestand tegen de onderbroken snede bij boren en frezen, ondanks lagere v_c.
 
-**Waarom diamant niet op staal:** koolstof uit diamant diffundeert/lost op in het Fe van het werkstuk bij hoge contacttemperaturen → snelle slijtage. Daarom enkel non-ferro (Al, Cu), composieten, keramiek en hout.
+**Waarom diamant niet op staal:** koolstof uit diamant diffundeert/lost op in het Fe van het werkstuk bij hoge contacttemperaturen → snelle slijtage. Daarom enkel non-ferro, composieten, keramiek en hout.
 
-**3. ISO-codering hardmetaal (HM)**
+**3. ISO-codering hardmetaal (HM)** — formaat **XX-Y##**
 
-Formaat: **XX-Y##**
-
-*Eerste deel — type snijmateriaal:*
+*Type snijmateriaal:*
 
 | Code | Betekenis |
 |---|---|
-| HW | Onbekleed hardmetaal op wolframbasis |
+| HW | Onbekleed hardmetaal (wolframbasis) |
 | HC | Gecoat hardmetaal |
 | HT | Cermets |
 | CA | Keramiek op aluminiumbasis |
@@ -249,7 +195,7 @@ Formaat: **XX-Y##**
 | BN | Kubisch boornitride (CBN) |
 | DP | Polykristallijn diamant (PKD) |
 
-*Tweede deel — te bewerken werkstukmateriaal:*
+*Werkstukmateriaal:*
 
 | Letter | Materiaal | Kleur |
 |---|---|---|
@@ -260,10 +206,7 @@ Formaat: **XX-Y##**
 | S | Hittebestendige legeringen | Oranje |
 | H | Geharde materialen | Grijs |
 
-*Derde deel — getal (10–40):*
-
-- **Klein getal** (bv. P10): bros, hard, hittebestendig → finisseren, hoge v_c.
-- **Groot getal** (bv. P40): taai → grote snijkrachten, dynamische belastingen, schrobben.
+*Getal (10–40):* klein (bv. P10) = bros/hard/hittebestendig → finisseren, hoge v_c; groot (bv. P40) = taai → grote snijkrachten, schrobben.
 
 Voorbeeld: `HC-K15` = gecoat hardmetaal, voor gietijzer, relatief hard/bros (finisseren).
 
@@ -271,24 +214,22 @@ Voorbeeld: `HC-K15` = gecoat hardmetaal, voor gietijzer, relatief hard/bros (fin
 
 In de praktijk worden **wisselplaatjes** gebruikt i.p.v. massieve beitels, geklemd of gesoldeerd op een stalen houder.
 
-- **Materiaal:** hardmetaal (wolfraamcarbiden), cermets, keramiek, PCBN, PKD — de brossere/duurdere snijmaterialen uit de hiërarchie.
-- **Voordeel t.o.v. massieve beitel:** goedkoper (enkel plaatje vervangen, niet de schacht); meerdere bruikbare snijkanten per plaatje (**indexeerbaar**); laat toe brosse/dure materialen praktisch te gebruiken.
-- **Productie:** **sinterproces (poedermetallurgie)** — poeder wordt geperst tot de gewenste vorm (beperkt door perstechniek) en gesinterd. Coatinglagen (TiN, TiC,N, Al₂O₃, evt. multi-laags) worden achteraf via CVD/PVD aangebracht.
+- **Materiaal:** hardmetaal, cermets, keramiek, PCBN, PKD — de brossere/duurdere snijmaterialen uit de hiërarchie.
+- **Voordeel t.o.v. massieve beitel:** goedkoper (enkel plaatje vervangen); meerdere bruikbare snijkanten per plaatje (**indexeerbaar**); maakt brosse/dure materialen praktisch bruikbaar.
+- **Productie:** **sinterproces (poedermetallurgie)** — poeder geperst tot vorm en gesinterd; coatinglagen (TiN, TiC,N, Al₂O₃) achteraf via CVD/PVD.
 - **Klemsystemen:** klemvinger of klemstuk.
 
 **5. Bepalen van de levensduur (standtijd)**
 
-De bepalende parameter is de **snijsnelheid v_c**, via de wet van **Taylor**:
+Bepalende parameter: snijsnelheid v_c, via de wet van **Taylor**:
 
 $$v_c \cdot T^n = C_T$$
 
-waarbij:
-
-- **T** [min] = standtijd: totale snijtijd tot het gekozen slijtagecriterium (bv. VB = 0.3 mm) bereikt is en het plaatje vervangen/geïndexeerd moet worden;
+- **T** [min] = standtijd: snijtijd tot het slijtagecriterium (bv. VB = 0.3 mm) bereikt is en het plaatje vervangen/geïndexeerd moet worden;
 - **n** = Taylor-exponent, materiaalafhankelijk (HSS: n ≈ 0.1–0.2; HM: n ≈ 0.2–0.4; keramiek: n ≈ 0.4–0.6);
 - **C_T** = constante, afhankelijk van gereedschaps-/werkstukmateriaal, slijtagecriterium en snededoorsnede.
 
-Door het machtsverband geeft een **kleine verhoging van v_c** een **sterke daling van T**: bv. bij n = 0.125 geeft een stijging van v_c met 50% een daling van T met factor $(1.5)^{1/0.125} = (1.5)^8 \approx 25$ — de standtijd wordt dan ~25× korter.
+Klein machtsverband → **kleine verhoging van v_c geeft sterke daling van T**: bij n = 0.125 geeft +50% op v_c een daling van T met factor $(1.5)^{1/0.125} \approx 25$ — T wordt dan ~25× korter.
 
 ---
 
@@ -302,53 +243,33 @@ Door het machtsverband geeft een **kleine verhoging van v_c** een **sterke dalin
 
 **1. De twee hoofdtypes slijtage**
 
-| Type | Locatie | Symbool | Typische waarden |
+| Type | Locatie | Symbool | Typische grenswaarden |
 |---|---|---|---|
-| **Vrijloopvlakslijtage** | Vrijloopvlak (flank) | VB | 0.3–0.6 mm |
-| **Kolkslijtage** (kraterslijtage) | Spaanvlak (rake face) | KT | 40–200 µm |
+| **Vrijloopvlakslijtage** | Vrijloopvlak (flank), door wrijving met het reeds bewerkte oppervlak | VB | 0.3–0.6 mm |
+| **Kolkslijtage** (kraterslijtage) | Spaanvlak, waar de afschuivende spaan onder hoge druk/temperatuur een krater uitslijt | KT | 40–200 µm |
 
-Het exacte slijtagecriterium (bv. VB = 0.3 mm) hangt af van de toepassing en wordt vooraf vastgelegd.
-
-**Vrijloopvlakslijtage (VB):**
-- Ontstaat op het **vrijloopvlak**, door wrijving tussen dit vlak en het reeds bewerkte (gesneden) oppervlak van het werkstuk.
-- VB neemt toe met de snijtijd. Het **slijtagecriterium** (bv. VB = 0.3 mm) bepaalt wanneer het gereedschap verwisseld of nageslepen moet worden.
-- De **standtijd T** [min] is de totale snijtijd waarbij dit criterium bereikt wordt — basis voor de wet van Taylor ($v_c \cdot T^n = C_T$).
-
-**Kolkslijtage (KT, kraterslijtage):**
-- Ontstaat op het **spaanvlak**, waar de afschuivende spaan onder hoge druk en temperatuur over het gereedschap glijdt en daar een kuiltje (krater) uitslijt.
-- Bij te diepe kolkslijtage verzwakt de snijkant zelf → verhoogd **breukgevaar**.
+Het slijtagecriterium (bv. VB = 0.3 mm) wordt vooraf per toepassing vastgelegd. VB neemt toe met de snijtijd; bij het bereiken van dit criterium is de **standtijd T** [min] bereikt — de basis van de wet van Taylor ($v_c \cdot T^n = C_T$). Te diepe kolkslijtage verzwakt de snijkant zelf → verhoogd **breukgevaar**.
 
 **2. Oorzaken / fysische mechanismen van slijtage**
 
-- **Mechanische slijtage (abrasie):** harde deeltjes in het werkstukmateriaal (of harde fasen in de spaan) schuren materiaal van het gereedschapsoppervlak weg — belangrijke oorzaak van zowel VB als KT.
-- **Diffusieprocessen:** materiaaluitwisseling op atomair niveau tussen werkstuk en gereedschap bij hoge contacttemperaturen — vooral relevant op het spaanvlak (KT), waar de temperatuur het hoogst is.
-- **Oxidatieprocessen:** bij hoge temperatuur en in aanwezigheid van lucht/koelvloeistof ontstaan oxidelagen die de slijtvastheid van het gereedschapsoppervlak verminderen.
-- **Thermische spanningen (thermoshock):** plotse temperatuurswisselingen (bv. bij onderbroken snede met intermitterende koeling) veroorzaken spanningen die scheurtjes/uitbrokkeling geven — vooral kritisch voor brosse snijmaterialen.
-- **Opbouwsnijkant (BUE):** zie punt 3 hieronder — apart mechanisme dat eveneens tot slijtage en kwaliteitsverlies leidt.
-
-**Adhesie vs. abrasie** (beide vallen onder "mechanische slijtage"): **adhesie** = lokaal "koud-vastlassen" van werkstuk- en gereedschapsmateriaal onder hoge druk/temperatuur, waarbij bij relatieve beweging stukjes materiaal meegesleurd worden; **abrasie** = zuiver mechanisch wegschuren door harde deeltjes.
+- **Abrasie:** harde deeltjes in werkstuk of spaan schuren gereedschapsmateriaal weg — belangrijke oorzaak van zowel VB als KT.
+- **Adhesie:** lokaal "koud-vastlassen" van werkstuk- en gereedschapsmateriaal onder hoge druk/temperatuur; bij relatieve beweging worden stukjes meegesleurd.
+- **Diffusie:** atomaire materiaaluitwisseling tussen werkstuk en gereedschap bij hoge contacttemperatuur — vooral op het spaanvlak (KT), waar T het hoogst is.
+- **Oxidatie:** bij hoge temperatuur en aanwezigheid van lucht/koelvloeistof ontstaan oxidelagen die de slijtvastheid verminderen.
+- **Thermoshock:** plotse temperatuurswisselingen (bv. onderbroken snede met intermitterende koeling) → scheurtjes/uitbrokkeling, vooral bij brosse snijmaterialen.
+- **Opbouwsnijkant (BUE):** zie punt 3.
 
 **3. Opbouwsnijkant (BUE — Build-Up Edge)**
 
-- **Mechanisme:** bij lage snijsnelheden "last" zacht, ductiel werkstukmateriaal vast aan de snijkant.
+- **Mechanisme:** bij lage snijsnelheid "last" zacht, ductiel werkstukmateriaal vast aan de snijkant.
 - **Gevolg:** verandert de effectieve snijkantgeometrie → **slechtere oppervlaktekwaliteit**.
-- **Vermijden door:**
-  - Grotere spaanhoek γ;
-  - Coating op het gereedschap;
-  - **Hogere snijsnelheid** (BUE verdwijnt bij hogere temperaturen);
-  - Hogere druk van snijvloeistoffen.
+- **Vermijden door:** grotere spaanhoek γ, coating op het gereedschap, **hogere snijsnelheid** (BUE verdwijnt bij hogere temperatuur), hogere druk van snijvloeistof.
 
-**4. Samenhang met de standtijd**
-
-VB neemt toe met de snijtijd. Wanneer VB het vooraf vastgelegde slijtagecriterium (bv. VB = 0.3 mm) bereikt, is de **standtijd T** van het gereedschap bereikt. Het verband tussen v_c en T wordt empirisch beschreven door de wet van **Taylor**:
-
-$$v_c \cdot T^n = C_T$$
-
-met n materiaalafhankelijk (HSS: n ≈ 0.1–0.2; HM: n ≈ 0.2–0.4; keramiek: n ≈ 0.4–0.6) en C_T afhankelijk van gereedschaps-/werkstukmateriaal, het gekozen slijtagecriterium (VB/KT) en de snededoorsnede.
-
-De **veralgemeende wet van Taylor** breidt dit verder uit naar afhankelijkheid van VB, h en b:
+**4. Veralgemeende wet van Taylor**
 
 $$v \cdot T^m = \frac{C_{TVB} \cdot VB^n}{h^p \cdot b^q}$$
+
+Breidt de basiswet $v_c \cdot T^n = C_T$ uit met de afhankelijkheid van het slijtagecriterium VB en van de snededoorsnede (h, b).
 
 ---
 
@@ -364,29 +285,12 @@ $$v \cdot T^m = \frac{C_{TVB} \cdot VB^n}{h^p \cdot b^q}$$
 
 De spiraalboor heeft dezelfde basishoeken als een draaibeitel (spaanhoek, vrijloophoek, wighoek), maar met extra complicaties door de 3D-vorm:
 
-```
-              Geleiderand
-                 |
-    ____________ |  Hoofdsnijkant 1
-   /             |\
-  | Spaangroef   | \   Punthoek (= 2·κ)
-  | (spiraalhoek)|  \_____________
-  |              |   /
-  |  Dwarssnijkant  /  Hoofdsnijkant 2
-   \_____________|_/
-                 |
-              Geleiderand
-```
+<div style="display: flex; gap: 16px; align-items: flex-start;">
+  <img src="../Images/borengeometrie.png" width="400" alt="geometrie" />
+  <img src="../Images/borengeometrie1.png" width="300" alt="geometrie" />
+</div>
 
-```
-Boor
-├── Spiraalhoek (helix angle) — bepaalt (mee) de spaanhoek
-├── Punthoek (= 2 × κ) — de halve punthoek is de instelhoek κ
-├── Hoofdsnijkanten (2 stuks)
-├── Dwarssnijkant (chisel edge) — aan de punt, in het centrum
-├── Geleiderand — centreert de boor in het gat
-└── Spaangroeven — afvoer van de spanen
-```
+**Onderdelen:** spiraalhoek (helix angle, bepaalt mee de spaanhoek), punthoek (= 2κ, halve punthoek = instelhoek κ), twee hoofdsnijkanten, dwarssnijkant (chisel edge, in het centrum), geleiderand (centreert de boor) en spaangroeven (spaanafvoer).
 
 **Punthoeken voor verschillende materialen:**
 
@@ -397,48 +301,37 @@ Boor
 | 118° | Staal (algemeen gebruik) |
 | 135° | Harde en taaie materialen |
 
-**Spaanafvoer:** bij een **doorlopend gat** is spaanafvoer eenvoudiger dan bij een **blind gat**. Bij een rechte spaangroef moeten de spanen omhoog (moeilijk bij blind gat); een **schroefvormige spaangroef** helpt de spaanafvoer bij een blind gat.
+**Spaanafvoer:** eenvoudiger bij een **doorlopend gat** dan bij een **blind gat** (bij een rechte spaangroef moeten spanen omhoog); een **schroefvormige spaangroef** helpt bij een blind gat.
 
 **2. Variatie van de spaanhoek over de radius (omtrek → ziel)**
 
-De effectieve spaanhoek van de spiraalboor is **niet constant** over de snijkant:
+De effectieve spaanhoek van de spiraalboor is **niet constant**:
 
-- **Aan de omtrek:** omtreksnelheid is hier het grootst; effectieve spaanhoek ≈ **spiraalhoek** — **gunstig en positief**.
-- **Aan de ziel (centrum):** omtreksnelheid daalt sterk (nul in het centrum), terwijl de voeding gelijk blijft. Hierdoor wordt de effectieve spaanhoek sterk **negatief — tot −56°!** De verspaningscondities zijn hier **zeer ongunstig**.
+- **Aan de omtrek:** omtreksnelheid is het grootst → effectieve spaanhoek ≈ **spiraalhoek** — gunstig en positief.
+- **Aan de ziel (centrum):** omtreksnelheid daalt naar nul terwijl de voeding gelijk blijft → effectieve spaanhoek wordt sterk **negatief — tot −56°!** Zeer ongunstige verspaningscondities.
 
-Deze variatie hangt samen met de **spoedhoek σ**, die de verhouding tussen voeding en omtrek (πd) uitdrukt:
+Verklaring via de **spoedhoek σ** (verhouding voeding/omtrek):
 
 $$\sigma = \frac{f}{\pi \cdot d}$$
 
 Hoe kleiner d (dichter bij de ziel), hoe groter de relatieve invloed van f op de effectieve hoeken — vandaar de sterk negatieve spaanhoek nabij de ziel.
 
-**Dwarssnijkant (chisel edge):**
-- Draagt sterk bij tot **grote snijkrachten** (vooral de voedingskracht F_f);
-- Levert slechts een **kleine bijdrage** tot het snijmoment;
-- Functioneert meer als een **duwende** dan snijdende werking (logisch gezien de sterk negatieve spaanhoek hier).
+**Dwarssnijkant (chisel edge):** draagt sterk bij tot de krachten (vooral voedingskracht F_f), maar levert slechts een kleine bijdrage tot het snijmoment — werkt meer **duwend** dan snijdend (consistent met de sterk negatieve spaanhoek hier).
 
-**Aanpunten (web thinning):** het inkorten/dunner maken van de dwarssnijkant:
-- Beperkt de voedingskracht F_f;
-- Verhoogt de standtijd;
-- Geeft een betere centreernauwkeurigheid.
+**Aanpunten (web thinning):** inkorten/verdunnen van de dwarssnijkant beperkt F_f, verhoogt de standtijd en geeft een betere centreernauwkeurigheid.
 
 **3. Waarom is correct slijpen van een boor belangrijk?**
 
-Een boor heeft **twee hoofdsnijkanten** die de belasting symmetrisch zouden moeten verdelen. Correct (symmetrisch) slijpen is belangrijk omdat:
+Een boor heeft **twee hoofdsnijkanten** die de belasting symmetrisch zouden moeten verdelen.
 
-- Bij **asymmetrisch slijpen** (ongelijke lengte, hoek of afstand tot de hartlijn van de twee snijkanten) snijdt de ene snijkant meer materiaal weg dan de andere → **onbalans** en een netto zijwaartse belasting op de boor;
-- Dit leidt tot **trillingen**, verhoogd **breukgevaar**, en een **oversized (opgeboord) gat** doordat de boor uitwijkt/slingert;
-- De **snijhoeken** (spaanhoek, vrijloophoek, punthoek/instelhoek) moeten over de **volledige snijkant correct** zijn — en omdat deze hoeken al sterk variëren van omtrek naar ziel (tot −56° aan de ziel), verstoort een fout geslepen boor deze hoeken nog verder. Dit geeft lokaal nog ongunstigere spaanhoeken, hogere krachten/temperaturen, versnelde en ongelijke slijtage, en een slechtere oppervlaktekwaliteit van het gat.
+- Bij **asymmetrisch slijpen** (ongelijke lengte/hoek/afstand tot de hartlijn) snijdt de ene snijkant meer materiaal weg dan de andere → **onbalans**, zijwaartse belasting → **trillingen**, verhoogd **breukgevaar**, en een **oversized (opgeboord) gat** doordat de boor uitwijkt/slingert.
+- De snijhoeken (spaanhoek, vrijloophoek, instelhoek) moeten over de **volledige snijkant correct** zijn — omdat deze al sterk variëren van omtrek naar ziel (tot −56°), verstoort fout slijpen deze hoeken verder: lokaal nog ongunstiger, hogere krachten/temperaturen, ongelijke slijtage, slechtere oppervlaktekwaliteit van het gat.
 
-**Kort:** correct slijpen waarborgt zowel de **geometrische nauwkeurigheid** (symmetrie, gatdiameter, centrering) als de **mechanische/thermische prestaties** (krachten, slijtage, standtijd) van de boor.
+**Kort:** correct slijpen waarborgt zowel de **geometrische nauwkeurigheid** (symmetrie, gatdiameter, centrering) als de **mechanische/thermische prestaties** (krachten, slijtage, standtijd).
 
 **4. Toepassing van de wet van Kienzle bij boren**
 
-Bij draaien geeft de wet van Kienzle de hoofdsnijkracht F_c als functie van snijdiepte a en voeding f:
-
-$$F_c = k_{c1.1} \cdot a \cdot f^{1-\varepsilon}$$
-
-Bij boren wordt, analoog, het **verspaningsmoment (koppel) M_c** en de **voedingskracht (axiale kracht) F_f** uitgedrukt als machtsfunctie van de **diameter d** en de **voeding f**:
+Bij draaien: $F_c = k_{c1.1} \cdot a \cdot f^{1-\varepsilon}$. Bij boren wordt, analoog, het **verspaningsmoment (koppel) M_c** en de **voedingskracht (axiale kracht) F_f** uitgedrukt als machtsfunctie van **diameter d** en **voeding f**:
 
 | Grootheid | Formule | Vergelijk draaien |
 |---|---|---|
@@ -446,21 +339,13 @@ Bij boren wordt, analoog, het **verspaningsmoment (koppel) M_c** en de **voeding
 | Verspaningsvermogen | $P_c = M_c \cdot \omega = M_c \cdot 2\pi \cdot n$ | $P_c = F_c \cdot v_c$ |
 | Voedingskracht | $F_f = C_f \cdot d^{x_f} \cdot f^{y_f}$ | $F_f \sim F_c$ |
 
-**Richtwaarden voor constructiestaal:**
-- C_f ≈ 1500, x_f ≈ 0.8, y_f ≈ 0.8
-- C_M ≈ 0.45, x_M ≈ 1.8, y_M ≈ 0.8
+**Richtwaarden voor constructiestaal:** C_f ≈ 1500, x_f ≈ 0.8, y_f ≈ 0.8; C_M ≈ 0.45, x_M ≈ 1.8, y_M ≈ 0.8.
 
-Het principe is identiek aan Kienzle: koppel M_c en axiale kracht F_f groeien als **machtsfunctie** van d en f, met materiaal- en geometrieafhankelijke constanten (C_M, x_M, y_M en C_f, x_f, y_f) analoog aan k_c1.1 en de invloedscoëfficiënt (1−ε) bij draaien. Het verspaningsvermogen volgt dan uit M_c en de hoeksnelheid ω = 2πn (n = toerental), analoog aan P_c = F_c · v_c bij draaien.
+Koppel M_c en axiale kracht F_f groeien als **machtsfunctie** van d en f, met constanten analoog aan k_c1.1 en (1−ε) bij draaien. Het verspaningsvermogen volgt uit M_c en ω = 2πn (n = toerental), analoog aan P_c = F_c · v_c.
 
 **5. Keuze van de voeding f bij boren**
 
-De voeding f wordt begrensd door:
-- Het **maximaal toelaatbaar torsiemoment op de boorziel** (hoofdeis → breukgrens van de boor);
-- De **vrijslijphoek** (effectieve vrijloophoek moet positief blijven);
-- De **spaanafvoer**;
-- Het **vermogen van de boormachine**;
-- De **sterkte van het werkstuk en de opspanning**;
-- "**Happen**" van de boor (bij te grote f springt de boor plots door).
+f wordt begrensd door: het **maximaal toelaatbaar torsiemoment op de boorziel** (breukgrens), de **vrijslijphoek** (effectieve vrijloophoek moet positief blijven), de **spaanafvoer**, het **vermogen van de boormachine**, de **sterkte van werkstuk en opspanning**, en "**happen**" van de boor (bij te grote f springt de boor plots door).
 
 ---
 
@@ -468,41 +353,44 @@ De voeding f wordt begrensd door:
 
 **Vragen:**
 a) Geef de wet van Kienzle. Welke kracht is dit, toon die op een figuur, en leg uit hoe deze wet opgesteld en gebruikt wordt.
-b) Wat is de betekenis van k_c1.1 in de vergelijking van Kienzle, en hoe wordt dit (en de exponent e) bepaald?
+b) Wat is de betekenis van k_c1.1 in de vergelijking van Kienzle, en hoe wordt dit (en de exponent z) bepaald?
 c) (Namiddag-bijvraag) Wat is de invloed van de snijsnelheid v_c op de snijkracht F_c volgens Kienzle?
 
 *Gesteld in: examen 2019, 17 juni 2019, 8 juni 2018 voormiddag (+ namiddag-bijvraag over invloed van de snijsnelheid)*
 
 **Antwoord:**
 
-**(a) De wet van Kienzle.** De wet van Kienzle beschrijft de **hoofdsnijkracht F_c** — de tangentiële kracht in de richting van de snijsnelheid v_c:
+**(a) De wet van Kienzle.** Beschrijft de **hoofdsnijkracht F_c** — de tangentiële kracht in de richting van v_c:
 
-$$F_c = k_{c1.1} \cdot b \cdot h^{1-e}$$
+$$F_c = k_{c1.1} \cdot b \cdot h^{1-z}$$
 
-waarbij b de snedebreedte en h de snededikte is, met $b = a/\sin\kappa$ en $h = f \cdot \sin\kappa$.
+met b = snedebreedte, h = snededikte ($b = a/\sin\kappa$, $h = f \cdot \sin\kappa$).
 
-Op een figuur van de snede (rechthoekige doorsnede A = b·h tussen beitel en werkstuk) wordt F_c getekend als de kracht **tangentieel aan de cirkelbeweging van het werkstuk**, dus in de richting van v_c — loodrecht op zowel F_f (voedingskracht, langs de voedingsrichting) als F_p (terugdrukkracht, radiaal, loodrecht op het bewerkte oppervlak). **F_c is van de drie krachten veruit de grootste** en bepaalt het snijvermogen $P_c = F_c \cdot v_c$.
+<img src="../images/verspaningkrachten.png" width="300" alt="krachten" />
 
-De wet is **empirisch**: opgesteld door op een draaibank, voor een gegeven werkstuk- en gereedschapsmateriaal, F_c te meten (met een dynamometer) voor verschillende combinaties van b en h, en daar een machtsfunctie doorheen te fitten. F_c stijgt **lineair** met b, maar met een macht (1−e) < 1 met h — d.w.z. **minder dan proportioneel**: een dikkere spaan vergt relatief minder specifieke energie (schaaleffect).
 
-**Gebruik:** Kienzle laat toe om F_c — en daarmee het benodigde vermogen $P_c = F_c \cdot v_c$, het machinekoppel, en de doorbuiging van werkstuk/gereedschap via F_p — te **voorspellen** voor nieuwe combinaties van a, f en κ, zonder telkens opnieuw te meten. Samen met de wet van Taylor (standtijd), het Kronenbergdiagram (machine- vs. beitelcapaciteit) en de toelaatbare ruwheid/nauwkeurigheid laat Kienzle toe om de **optimale snededoorsnede en snijsnelheid** te bepalen.
+**Op de figuur** (snede A = b·h tussen beitel en werkstuk): F_c staat **tangentieel** aan de cirkelbeweging van het werkstuk (richting v_c), loodrecht op zowel F_f (voedingskracht, langs voedingsrichting) als F_p (terugdrukkracht, radiaal). **F_c is van de drie krachten veruit de grootste** en bepaalt $P_c = F_c \cdot v_c$.
 
-**(b) Betekenis van k_c1.1 en e, en hun bepaling.**
+**Opstellen (empirisch):** op een draaibank wordt F_c met een dynamometer gemeten voor verschillende combinaties van b en h, waardoor een machtsfunctie gefit wordt. F_c stijgt **lineair** met b, maar met macht (1−z) < 1 met h — **minder dan proportioneel**: een dikkere spaan kost relatief minder specifieke energie (schaaleffect).
 
-- **k_c1.1** [N/mm²] = **specifieke snijkracht**: de snijkracht per mm² snededoorsnede bij een **referentiesnede van b = 1 mm en h = 1 mm**. Materiaaleigenschap (bv. St 50: k_c1.1 = 1190 N/mm², e = z = 0.253; C45: k_c1.1 = 2190 N/mm², z = 0.139).
-- **e** (ook genoteerd als z, of soms 1−z) = **materiaalconstante die de verstevigingsexponent weergeeft**: drukt uit hoe sterk F_c verandert met h.
+**Gebruik:** voorspelt F_c — en dus $P_c=F_c\cdot v_c$, machinekoppel en doorbuiging (via F_p) — voor nieuwe combinaties van a, f, κ zonder opnieuw te meten. Samen met de wet van Taylor, het Kronenbergdiagram en de toelaatbare ruwheid/nauwkeurigheid bepaalt dit de **optimale snededoorsnede en snijsnelheid**.
 
-Beide worden **experimenteel** bepaald via een reeks proefsnedes: men voert proeven uit met **variërende h** (bij vaste b) en meet telkens F_c met een dynamometer. Op een log-log-grafiek van F_c versus h geldt (bij b = 1 mm):
+**(b) Betekenis van k_c1.1 en z, en hun bepaling.**
 
-$$\log F_c = \log k_{c1.1} + (1-e) \cdot \log h$$
+- **k_c1.1** [N/mm²] = **specifieke snijkracht**: F_c per mm² snededoorsnede bij **referentiesnede b = 1 mm, h = 1 mm**. Materiaaleigenschap (St 50: k_c1.1 = 1190 N/mm², z = 0.253; C45: k_c1.1 = 2190 N/mm², z = 0.139; bij onbekende data: **default z = 0.2**).
+- **z** (formularium-notatie; ook e, of 1−z) = materiaalconstante (verstevigingsexponent): drukt uit hoe sterk F_c verandert met h.
 
-Dit is een **rechte lijn**: de **helling** is (1−e) en het **snijpunt met h = 1** (waar log h = 0) geeft direct log k_c1.1, dus k_c1.1. Met meerdere meetpunten gebeurt dit via lineaire regressie. (Bij b ≠ 1 mm normaliseert men F_c eerst door te delen door b, aangezien F_c lineair in b is.)
+**Bepaling:** reeks proefsnedes met **variërende h** bij vaste b, F_c telkens meten met een dynamometer. Op een log-log-grafiek van F_c versus h (bij b = 1 mm):
 
-**(c) Invloed van de snijsnelheid v_c op F_c.** De wet van Kienzle, $F_c = k_{c1.1} \cdot b \cdot h^{1-e}$, **bevat geen v_c-term**. In **eerste benadering is F_c dus onafhankelijk van v_c**.
+$$\log F_c = \log k_{c1.1} + (1-z) \cdot \log h$$
 
-In de praktijk daalt F_c wel **licht** (orde 10%) met toenemende v_c: hogere snelheden genereren meer warmte, waardoor het materiaal lokaal verzacht en de wrijvingscoëfficiënt µ daalt. Een kleinere µ geeft (Merchant) een grotere afschuifhoek $\varphi = 45^\circ + \gamma/2 - \mu/2$, dus een kleiner afschuifvlak en dus een iets kleinere afschuifkracht.
+Dit is een **rechte lijn**: de **helling** is (1−z) → geeft z; het **snijpunt met h = 1** (log h = 0) geeft log k_c1.1 → k_c1.1. Bij meerdere meetpunten via lineaire regressie. (Bij b ≠ 1 mm: eerst F_c/b nemen, want F_c is lineair in b.)
 
-Deze invloed is echter **klein in vergelijking met de invloed van b en h**, en wordt in de wet van Kienzle daarom **verwaarloosd**: voor praktische (examen-)doeleinden wordt F_c als **nagenoeg constant, onafhankelijk van v_c**, beschouwd.
+**(c) Invloed van v_c op F_c.** Kienzle, $F_c = k_{c1.1} \cdot b \cdot h^{1-z}$, **bevat geen v_c-term** → in eerste benadering **onafhankelijk van v_c**.
+
+In de praktijk daalt F_c licht (~10%) bij hogere v_c: meer warmte → materiaal verzacht lokaal → wrijvingscoëfficiënt µ daalt → (Merchant) $\varphi = 45^\circ + \gamma/2 - \mu/2$ stijgt → kleiner afschuifvlak → iets kleinere kracht.
+
+Dit effect is **klein t.o.v. de invloed van b en h** en wordt in de wet van Kienzle **verwaarloosd**: voor (examen-)doeleinden is F_c **nagenoeg constant, onafhankelijk van v_c**.
 
 ---
 
@@ -515,97 +403,78 @@ c) Hoe wordt de economisch optimale snijsnelheid bepaald — via minimale kost p
 d) Leg de totale verspaningskost K_V uit (de drie termen) en teken de grafiek van K_V in functie van v (en van T).
 e) Wat is de invloed van de instelhoek κ op de standtijd T en op de snijkracht F_c?
 
-*Gesteld in: examen 2021, 8 juni 2021, 25 juni 2024 namiddag, 13 juni 2023, 11 juni 2025 (uitgebreide variant), variant over de invloed van κ, en 4 juni 2026 ("leg de totale verspaningskost uit (Hoofdstuk 6, p4); teken de grafiek van K_v in functie van v en T")*
+*Gesteld in: examen 2021, 8 juni 2021, 25 juni 2024 namiddag, 13 juni 2023, 11 juni 2025 (uitgebreide variant), variant over de invloed van κ, 4 juni 2026 voormiddag ("leg de totale verspaningskost uit (Hoofdstuk 6, p4); teken de grafiek van K_v in functie van v en T"), en 4 juni 2026 namiddag (uitgebreide/veralgemeende wet van Taylor uitleggen + invloed van de instelhoek κ)*
 
 **Antwoord:**
 
-**(a) Standtijd T [min].** Tijdens het verspanen neemt de vrijloopvlakslijtage VB (en de kolkslijtage KT) van het gereedschap toe met de snijtijd. Men spreekt een **slijtagecriterium** af (bv. VB = 0.3 mm). De **standtijd T** is de totale effectieve snijtijd waarna dit criterium bereikt wordt en het gereedschap vervangen of bijgeslepen moet worden.
+**(a) Standtijd T [min].** Tijdens het verspanen neemt VB (en KT) toe met de snijtijd. Bij een vooraf afgesproken **slijtagecriterium** (bv. VB = 0.3 mm) is de **standtijd T** de totale effectieve snijtijd waarna dit criterium bereikt wordt en het gereedschap vervangen of bijgeslepen moet worden.
 
 **(b) Wet van Taylor.**
 
 $$v_c \cdot T^n = C_T$$
 
-- **v_c** = snijsnelheid [m/min]
-- **T** = standtijd [min]
-- **n** = Taylor-exponent: materiaalconstante van het **gereedschapsmateriaal** (HSS: n ≈ 0.1-0.2; HM: n ≈ 0.2-0.4; keramiek: n ≈ 0.4-0.6) — hoe groter n, hoe minder T daalt bij stijgende v_c, dus hoe "warmhardiger"/beter het gereedschapsmateriaal
-- **C_T** = constante, afhankelijk van werkstuk-/gereedschapsmateriaal, slijtagecriterium en de gebruikte snededoorsnede (b, h) — numeriek gelijk aan de v_c die T = 1 min oplevert
+- **v_c** = snijsnelheid [m/min]; **T** = standtijd [min]
+- **n** = Taylor-exponent, materiaalconstante van het **gereedschapsmateriaal** (HSS: n ≈ 0.1-0.2; HM: n ≈ 0.2-0.4; keramiek: n ≈ 0.4-0.6) — hoe groter n, hoe minder T daalt bij stijgende v_c, hoe "warmhardiger" het gereedschapsmateriaal
+- **C_T** = constante (werkstuk-/gereedschapsmateriaal, slijtagecriterium, snededoorsnede b, h) — numeriek gelijk aan de v_c die T = 1 min geeft
 
-**Interpretatie:** een **kleine** verhoging van v_c geeft een **sterke** daling van T (machtsverband). Voorbeeld: als n = 0.125 en v_c stijgt met 50%, dan daalt T met een factor $(1.5)^{1/0.125} = (1.5)^8 \approx 25$ — de standtijd wordt dus ~25× korter.
+**Interpretatie:** een **kleine** verhoging van v_c geeft een **sterke** daling van T (machtsverband). Bv. n = 0.125, v_c +50% → T daalt met factor $(1.5)^{1/0.125} \approx 25$ — ~25× korter.
 
-In werkelijkheid is C_T niet constant maar hangt af van VB, h en b — dit geeft de **veralgemeende wet van Taylor**:
+In werkelijkheid hangt C_T ook af van VB, h en b — de **veralgemeende wet van Taylor**:
 
 $$v \cdot T^m = \frac{C_{TVB} \cdot VB^n}{h^p \cdot b^q}$$
 
-met richtwaarden m ≈ 0.25-0.34, n ≈ 0.42-0.47, p ≈ 0.16-0.26 (invloed van h), q ≈ 0.05-0.1 (invloed van b, vaak verwaarloosbaar).
+met richtwaarden m ≈ 0.25-0.34, n ≈ 0.42-0.47, p ≈ 0.16-0.26 (invloed h), q ≈ 0.05-0.1 (invloed b, vaak verwaarloosbaar).
 
-**(c) Bepaling van de economisch optimale snijsnelheid.** Men kan optimaliseren naar **twee verschillende doelstellingen**, elk met een eigen "economische" standtijd:
+**(c) Economisch optimale snijsnelheid — twee doelstellingen, elk met eigen "economische" standtijd:**
 
-- **Minimale kost per stuk (K_V minimaal)** → **economische standtijd T_e**:
+- **Minimale kost per stuk (K_V min.)** → **economische standtijd T_e**:
 
-$$T_e = \left(\frac{1}{m} - 1\right) \cdot \frac{K_G}{K_U}$$
+$$T_e = \left(\frac{1}{m} - 1\right) \cdot \frac{K_G}{K_U}, \qquad K_U = K_M+K_L \text{ (machine- + loonkost/tijd)}$$
 
-  Deze volgt uit het minimaliseren van K_V (zie (d)) naar T: men drukt t_h en T (via de veralgemeende Taylor) uit in functie van v, stelt dK_V/dv = 0 (of equivalent dK_V/dT = 0) en lost op naar T. Het resultaat T_e is de standtijd waarbij de **marginale winst** op de directe kost K_Vh (door hogere v, kortere t_h) precies gelijk is aan het **marginale verlies** op de gereedschapskost K_VG (door meer gereedschapswissels, kortere T). Met T_e levert de veralgemeende wet van Taylor de bijbehorende **economische snijsnelheid v_e**.
+  Volgt uit $dK_V/dT = 0$ (zie (d)): T_e is het punt waar de **marginale besparing** op K_Vh (hogere v, kortere t_h) precies het **marginale verlies** op K_VG (meer wissels, kortere T) compenseert. Via T_e en de veralgemeende Taylor volgt de **economische snijsnelheid v_e**.
 
 - **Minimale productietijd per stuk** → **productiestandtijd T_p**:
 
-$$T_p = \left(\frac{1}{m} - 1\right) \cdot T_{CT}$$
+$$T_p = \left(\frac{1}{m} - 1\right) \cdot T_{cT}$$
 
-  met T_CT de gereedschapswisseltijd [min]. T_p volgt analoog uit het minimaliseren van de **totale productietijd per stuk** (i.p.v. de kost) naar T.
+  met T_{cT} = gereedschapswisseltijd [min]. Volgt analoog uit het minimaliseren van de **totale productietijd per stuk** (i.p.v. de kost) naar T.
 
-**Steeds geldt T_e > T_p**: minimale kost vereist een **langere** standtijd (dus lagere v_c) dan maximale productiviteit (hogere v_c, kortere T, vaker wisselen — maar elk stuk sneller af). Betere gereedschapsmaterialen (hogere K_G, maar ook hogere toelaatbare v_c en kortere T_CT relatief gezien) geven **lagere T_e en T_p**: hogere snijsnelheden worden dan economisch verantwoord. Voorbeelden: draaien met HSS-beitel: T_e ≈ 23.3 min, T_p ≈ 5.7 min; draaien met indexeerbare HM-plaat: T_e ≈ 11.1 min, T_p ≈ 2.0 min.
+**Steeds T_e > T_p**: minimale kost vereist een **langere** standtijd (lagere v_c) dan maximale productiviteit (hogere v_c, kortere T, vaker wisselen — maar elk stuk sneller af). Betere gereedschapsmaterialen geven **lagere T_e en T_p**, zodat hogere snijsnelheden economisch verantwoord worden. (Voorbeeld: HSS-beitel T_e ≈ 23.3 min, T_p ≈ 5.7 min; indexeerbare HM-plaat T_e ≈ 11.1 min, T_p ≈ 2.0 min.)
 
-**(d) Totale verspaningskost K_V en de grafiek.** De totale kost per werkstuk bestaat uit drie termen:
+**(d) Totale verspaningskost K_V.**
 
-$$K_V = t_h \cdot K_U + \frac{t_h}{T} \cdot K_G + t_a \cdot K_U$$
+$$K_V = \underbrace{t_h \cdot K_U}_{K_{Vh}} + \underbrace{\frac{t_h}{T} \cdot K_G}_{K_{VG}} + \underbrace{t_a \cdot K_U}_{K_{Va}}$$
 
-| Term | Symbool | Betekenis | Gedrag i.f.v. v |
-|---|---|---|---|
-| Directe verspaningskost | K_Vh = t_h · K_U | Machine- + loonkost tijdens de effectieve snijtijd t_h | **Daalt** met v (hogere v → kortere t_h) |
-| Gereedschapskost | K_VG = (t_h/T) · K_G | Kost van het aantal gereedschapswissels nodig tijdens t_h | **Stijgt** met v (T daalt sneller dan t_h volgens Taylor) |
-| Vaste neventijdkost | K_Va = t_a · K_U | Opspannen, nameten, ... | **Onafhankelijk** van v (constant) |
+| Term | Betekenis | Gedrag i.f.v. v |
+|---|---|---|
+| K_Vh = t_h·K_U | Machine- + loonkost tijdens hoofdtijd t_h | **Daalt** (hogere v → kortere t_h) |
+| K_VG = (t_h/T)·K_G | Kost van gereedschapswissels tijdens t_h | **Stijgt** (T daalt sneller dan t_h, Taylor) |
+| K_Va = t_a·K_U | Neventijd: opspannen, nameten, ... | **Constant**, onafhankelijk van v |
 
-waarbij t_h = hoofdtijd (eigenlijke verspaningstijd), t_a = neventijd, T = standtijd, K_U = K_M + K_L (machine- + loonkost per tijdseenheid), K_G = gereedschapskost per gereedschapsleven (aanschaf + wisselkost).
+met t_h = hoofdtijd, t_a = neventijd, T = standtijd, K_U = K_M+K_L, K_G = gereedschapskost per gereedschapsleven.
 
 **Grafiek van K_V in functie van v:**
 
-```
-K_V
- |
- |\                                          ___ K_VG = (t_h/T)·K_G  (stijgend)
- | \                                    ___/
- |  \                              ___/
- |   \                        ___/
- |    \__________________ ___/             ........ K_Va = t_a·K_U  (horizontaal, constant)
- |     \________      __/   
- |              \____/         ____________________ K_Vh = t_h·K_U  (dalend)
- |               \__/
- |                ^
- |              v_e  (minimum van K_V = K_Vh + K_VG + K_Va)
- |________________________________________________ v
-```
+<img src="../Images/kvdiagram.png" width="300" alt="diagram" />
 
-Op de horizontale as staat v (of equivalent, via Taylor, T — met T dalend naarmate v stijgt, dus de assen lopen in omgekeerde richting van elkaar). Men tekent drie afzonderlijke curven:
-- **K_Va**: horizontale rechte (constant, onafhankelijk van v).
-- **K_Vh = t_h·K_U**: een **dalende** curve — voor lage v is t_h groot (lange snijtijd), voor hoge v is t_h klein.
-- **K_VG = (t_h/T)·K_G**: een **stijgende** curve — voor lage v is T groot (lange standtijd, weinig wissels per stuk), voor hoge v daalt T sterk (Taylor) sneller dan t_h, zodat het aantal wissels per stuk en dus K_VG sterk toeneemt.
 
-**K_V is de som van deze drie curven** en heeft daardoor een **minimum**: voor kleine v domineert K_Vh (machine staat lang aan per stuk), voor grote v domineert K_VG (gereedschap moet zeer vaak gewisseld worden). Het **minimum van K_V(v)** ligt bij de **economische snijsnelheid v_e**, met bijbehorende standtijd **T_e**. Equivalent kan men K_V ook tekenen in functie van **T** (via de wet van Taylor wordt elke v omgezet naar een T): ook K_V(T) heeft dan een minimum, exact bij T = T_e — voor kleine T (hoge v) domineert opnieuw K_VG, voor grote T (lage v) domineert K_Vh.
+**K_V is de som van de drie curven** en heeft daardoor een **minimum**: voor kleine v domineert K_Vh, voor grote v domineert K_VG. Dit minimum ligt bij de **economische snijsnelheid v_e** met standtijd **T_e**. Equivalent kan K_V ook in functie van **T** getekend worden (via Taylor wordt elke v omgezet naar T): ook K_V(T) heeft een minimum, exact bij T = T_e — voor kleine T (hoge v) domineert K_VG, voor grote T (lage v) domineert K_Vh.
 
 **(e) Invloed van de instelhoek κ op standtijd en snijkracht.**
 
-*Op de snijkracht (via Kienzle):* bij **gelijke insteldiepte a en voeding f** geldt h = f·sinκ en b = a/sinκ. F_c invullen:
+*Snijkracht (Kienzle):* bij gelijke a en f geldt h = f·sinκ, b = a/sinκ, dus:
 
-$$F_c = k_{c1.1} \cdot a \cdot f^{1-e} \cdot (\sin\kappa)^{-e}$$
+$$F_c = k_{c1.1} \cdot a \cdot f^{1-z} \cdot (\sin\kappa)^{-z}$$
 
-Een **grotere κ** geeft een **grotere h** (dikkere spaan, sinκ groter) en een **kleinere b** (smallere snede). Omdat F_c afhangt van b lineair maar van h met exponent (1-e) < 1, en (sinκ)^(-e) daalt als κ stijgt (voor e > 0), neemt F_c **licht af** bij toenemende κ (bij gelijke a, f) — het netto-effect is doorgaans klein, maar de **verdeling** van de snededoorsnede over b en h verandert sterk: grotere κ → "dikkere, smallere" snede; kleinere κ → "dunnere, brede" snede.
+Grotere κ → grotere h (dikkere spaan) en kleinere b (smallere snede). Omdat (sinκ)^(-z) daalt bij stijgende κ (z>0), neemt F_c **licht af** bij grotere κ — het netto-effect is klein, maar de **verdeling** van A=b·h verandert sterk: grotere κ → dikkere, smallere snede; kleinere κ → dunnere, bredere snede.
 
-*Op de standtijd (via de veralgemeende wet van Taylor):* met h = f·sinκ en b = a/sinκ ingevuld in $v \cdot T^m = \frac{C_{TVB} \cdot VB^n}{h^p \cdot b^q}$:
+*Standtijd (veralgemeende Taylor):* met h = f·sinκ, b = a/sinκ ingevuld:
 
 $$T = \left[ \frac{C_{TVB} \cdot VB^n}{f^p \cdot a^q \cdot (\sin\kappa)^{p-q} \cdot v} \right]^{1/m}$$
 
-Omdat p > q (p ≈ 0.16-0.26, q ≈ 0.05-0.1), is de exponent (p-q) > 0. Dus T ~ (sinκ)^(-(p-q)/m): **hoe groter κ, hoe groter sinκ, hoe lager de standtijd T**. Omgekeerd geeft een **kleinere instelhoek κ** (schuinere snijkant) — bij gelijke a en f — een **groter b en kleiner h** (slankere snede), wat een **hogere standtijd T** oplevert (of, bij gelijke T, een hogere toelaatbare snijsnelheid v).
+Omdat p > q (p≈0.16-0.26, q≈0.05-0.1) is (p−q)>0, dus T ~ (sinκ)^{-(p-q)/m}: **hoe groter κ, hoe lager de standtijd T**.
 
-**Samengevat:** een kleinere κ verdeelt dezelfde snededoorsnede A = b·h over een breder, dunner profiel, wat gunstig is voor de standtijd (langere T) maar de snijkracht F_c nagenoeg gelijk of licht hoger laat. Een grotere κ geeft een dikkere, smallere snede met een lagere standtijd maar nagenoeg gelijke of licht lagere F_c.
+**Samengevat:** een kleinere κ verdeelt A=b·h over een breder, dunner profiel → hogere T, F_c nagenoeg gelijk of licht hoger. Een grotere κ geeft een dikkere, smallere snede → lagere T, F_c nagenoeg gelijk of licht lager.
 
 ---
 
@@ -620,16 +489,18 @@ d) Hoe kan je verder optimaliseren?
 *Gesteld in: examen 2019, 20 juni 2019, 27 juni 2018, 8 juni 2018 namiddag, 5 juni 2025*
 
 **Antwoord:**
+<img src="../Images/kronenbergdiagram.png" width="400" alt="diagram" />
 
-**(a) Waarvoor dient het Kronenbergdiagram?** Het Kronenbergdiagram wordt gebruikt om de **capaciteit van het gereedschap (beitel)** gelijk te stellen aan de **capaciteit van de machine**, als functie van de snededoorsnede A = b·h. Het houdt **geen rekening met de nauwkeurigheid** van het werkstuk (doorbuiging, oppervlakteruwheid) en leidt dus **niet noodzakelijk tot de economisch optimale snijvoorwaarden** — het geeft vooral **inzicht in de krachten, vermogens, snelheden, debieten en standtijden** als functie van A, en hun onderlinge beperkingen.
 
-**Opbouw van de assen:** horizontaal de snededoorsnede A = b·h [mm²], op **logaritmische** schaal. Verticaal een **bilogaritmische** gecombineerde schaal voor v, F_c, P, Q en T — omdat elke grootheid een **machtsfunctie** van A is, wordt elk verband een **rechte lijn** op deze schaal.
+**(a) Doel.** Het Kronenbergdiagram stelt de **capaciteit van het gereedschap (beitel)** gelijk aan de **capaciteit van de machine**, in functie van de snededoorsnede A = b·h. Het houdt **geen rekening met de nauwkeurigheid** van het werkstuk (doorbuiging, oppervlakteruwheid) en geeft dus **niet automatisch de economisch optimale snijvoorwaarden** — het toont vooral hoe **F_c, P, v, Q en T** van A afhangen en waar hun grenzen elkaar kruisen.
+
+**Assen:** horizontaal A = b·h [mm²] op **logaritmische** schaal; verticaal een **bilogaritmische** schaal voor v, F_c, P, Q en T — elke grootheid is een **machtsfunctie** van A, dus wordt elk verband een **rechte lijn**.
 
 **(b) De lijnen — betekenis en opstelvolgorde.** De lijnen worden in deze volgorde afgeleid, telkens steunend op de vorige:
 
 | # | Lijn (kleur) | Formule | Betekenis |
 |---|---|---|---|
-| 1 | **F_c** (blauw) | $F_c = k_{c1.1} \cdot A^{1-e}$ (Kienzle) | Snijkracht als functie van A — de basis van het diagram |
+| 1 | **F_c** (blauw) | $F_c = k_{c1.1} \cdot A^{1-z}$ (Kienzle) | Snijkracht als functie van A — de basis van het diagram |
 | 2 | **P_m** (geel, horizontaal) | constant | Beschikbaar **motorvermogen** — vastgelegd door de machine, onafhankelijk van A |
 | 3 | **v_m** | $v_m = P_m / F_c$ | Maximale snijsnelheid die de motor (qua vermogen) toelaat bij die A |
 | 4 | **v_e** (paars) | uit veralgemeende Taylor bij T = T_e | Economische snijsnelheid: snelheid die de gekozen economische standtijd T_e oplevert |
@@ -673,60 +544,40 @@ d) Wat is het verschil tussen T_e (economische standtijd) en T_p (standtijd bij 
 
 **Antwoord:**
 
-**(b) Waarvoor dient het COPTURN-diagram?** Het COPTURN-diagram (Cutting Optimisation Program voor TURNen) gaat een stap verder dan het Kronenberg- en TNO-diagram: het bakent een **volume af in de 3D-ruimte opgespannen door b (snedebreedte), h (snededikte) en v (snijsnelheid)**, door **alle** verspaningswetten en beperkingen tegelijk in rekening te brengen. Binnen dit volume is verspanen zowel **mogelijk** (technisch haalbaar) als **toelaatbaar** (binnen alle grenzen). Vervolgens optimaliseert een computerprogramma (COP/COPTURN) naar **minimale kost** of **maximale productiviteit**, met behulp van **Lagrange-multiplicatoren** — dit komt overeen met het zoeken van het punt in (of op de rand van) het toelaatbare volume waar de doelfunctie (kost of productiviteit) extremaal is, onder de nevenvoorwaarden gevormd door de 10 grenzen.
+<img src="../Images/COPTURNdiagram.png" width="400" alt="TNO-diagram (draaidiagram, d=100mm): f vs. Fc, Mc, Pc, vc, Q" />
+
 
 **(a) Assen en opbouw — de 10 grenzen van het b-h-v-volume.** De assen zijn **b** (snedebreedte), **h** (snededikte) en **v** (snijsnelheid). Het toelaatbare volume wordt afgebakend door (minstens) 10 grenzen:
 
 | # | Grens | Verklaring |
 |---|---|---|
-| 1 | **h_min** | Door de **neusafronding r_ε**: de snijkant is niet onbeperkt scherp; bij te kleine h "glijdt" de beitel over het werkstuk i.p.v. te snijden |
+| 1 | **h_min** | Door de **neusafronding r_ε**: bij te kleine h "glijdt" de beitel i.p.v. te snijden |
 | 2 | **h_max** | Door de **toelaatbare oppervlakteruwheid**: $R_t = f^2/(8 \cdot r_\varepsilon)$, met h = f·sinκ |
 | 3 | **b_min** | Door de **afronding van de beitelpunt** (neusradius) |
-| 4 | **b_max** | b ≤ 3/4 van de totale lengte van de snijkant (voor een stabiel proces) |
+| 4 | **b_max** | b ≤ 3/4 van de totale lengte van de snijkant (stabiel proces) |
 | 5 | **δ_min ≈ 3** (δ = b/h) | Te kleine slankheid → spanen te "vierkant"/dik → te grote krachten |
 | 6 | **δ_max ≈ 15** (≈ 30 voor gietijzer) | Te grote slankheid → gevaarlijke lintspanen |
-| 7 | **Wet van Kienzle (max. kracht)** | F_c mag de toelaatbare kracht niet overschrijden (bepaald door machinekoppel of nauwkeurigheid) |
-| 8 | **Strengere Kienzle bij laag toerental** | Elektromotoren halen hun nominaal koppel niet bij laag toerental → strengere krachtgrens dan grens 7 |
+| 7 | **Wet van Kienzle (max. kracht)** | F_c mag toelaatbare kracht niet overschrijden (machinekoppel of nauwkeurigheid) |
+| 8 | **Strengere Kienzle bij laag toerental** | Elektromotoren halen nominaal koppel niet bij laag toerental → strengere krachtgrens dan grens 7 |
 | 9 | **v_min** | Minimale snijsnelheid om **opbouwsnijkant (BUE)** te vermijden |
 | 10 | **v_max** | Maximale snijsnelheid, bepaald door maximaal toerental/vermogen van de machine |
 
-Daarnaast spelen mee:
+Daarnaast:
 
-- de **veralgemeende wet van Taylor** ($v \cdot T^m = \frac{C_{TVB} \cdot VB^n}{h^p \cdot b^q}$) — bepaalt, bij een gekozen standtijd T (= T_e of T_p, zie (d)), het v-grensvlak als functie van b en h
-- **Kienzle uitgedrukt t.o.v. het motorvermogen**: $P = P_m = F_c \cdot v_c$ — hierin is v een **vrije variabele** (i.p.v. vastgelegd zoals bij grens 7-8), wat een echt **3D-grensoppervlak** geeft i.p.v. een grens die op het b-h-vlak te projecteren is
+- **Veralgemeende wet van Taylor** ($v \cdot T^m = \frac{C_{TVB} \cdot VB^n}{h^p \cdot b^q}$): bepaalt bij een gekozen standtijd T (= T_e of T_p, zie (d)) het v-grensvlak als functie van b, h
+- **Kienzle t.o.v. het motorvermogen**: $P = P_m = F_c \cdot v_c$ — hier is v een **vrije variabele** (i.p.v. vastgelegd zoals grens 7-8), wat een echt **3D-grensoppervlak** geeft i.p.v. een grens op het b-h-vlak
 
-**Resultaat:** binnen het resulterende 3D-volume liggen alle **toelaatbare combinaties (b, h, v)**. Het COP/COPTURN-programma zoekt hierin, via Lagrange-multiplicatoren, het punt dat de **kost K_V minimaliseert** of de **productiviteit (debiet Q = v·A, met A = b·h) maximaliseert**.
+**(b) Doel en optimalisatie (Lagrange).** Het COPTURN-diagram (Cutting Optimisation Program voor TURNen) gaat een stap verder dan Kronenberg/TNO: het bakent een **volume af in de 3D-ruimte (b, h, v)** door **alle** verspaningswetten en beperkingen tegelijk in rekening te brengen. Binnen dit volume is verspanen zowel **mogelijk** (technisch haalbaar) als **toelaatbaar** (binnen alle grenzen). Een computerprogramma (COP/COPTURN) zoekt hierin, via **Lagrange-multiplicatoren**, het punt dat de **kost K_V minimaliseert** of de **productiviteit (debiet Q = v·A, A = b·h) maximaliseert**, onder de 10 grenzen als nevenvoorwaarden.
 
-**(c) Hoofdsnijlijn en vrijloopvlak op een schets van het draaigereedschap.** Teken een draaibeitel (of snijplaatje) in bovenaanzicht, snijdend in een cilindrisch werkstuk. De **hoofdsnijlijn (hoofdsnijkant, S)** is de rechte snijkant die het grootste deel van het materiaal afneemt — ze maakt de **instelhoek κ** met de voedingsrichting (de richting waarin het gereedschap langs het werkstuk beweegt). Onder de hoofdsnijkant, aan de zijde die in contact staat met het **net bewerkte (gesneden) oppervlak** van het werkstuk, ligt het **eerste vrijloopvlak (Aα1)** — dit vlak maakt de **vrijloophoek α** met het gesneden oppervlak en mag dit oppervlak niet raken/schuren (anders ontstaat vrijloopvlakslijtage VB). Boven de hoofdsnijkant ligt het **spaanvlak (Aγ1)**, waarover de afgesneden spaan wegloopt, met spaanhoek γ. De **neus** (met neusafronding r_ε) verbindt de hoofdsnijkant met de hulpsnijkant (S').
+**(c) Hoofdsnijlijn en vrijloopvlak op een schets van het draaigereedschap.** Teken een draaibeitel in bovenaanzicht, snijdend in een cilindrisch werkstuk. De **hoofdsnijlijn (S)** is de snijkant die het grootste deel van het materiaal afneemt — ze maakt de **instelhoek κ** met de voedingsrichting. Onder de hoofdsnijkant, aan de zijde van het **net gesneden oppervlak**, ligt het **eerste vrijloopvlak (Aα1)**: het maakt de **vrijloophoek α** met dit oppervlak en mag het niet raken/schuren (anders VB). Boven de hoofdsnijkant ligt het **spaanvlak (Aγ1)** met spaanhoek γ. De **neus** (r_ε) verbindt de hoofdsnijkant met de hulpsnijkant (S').
 
-**(d) Verschil tussen T_e en T_p.** Beide zijn "economische" standtijden, maar voor een **verschillend optimalisatiedoel**:
+**(d) Verschil tussen T_e en T_p.** Beide zijn "economische" standtijden, maar voor een **verschillend doel** (afleiding: zie Wet van Taylor en kosten):
 
-- **T_e (economische standtijd)** minimaliseert de **kost per stuk K_V**:
+$$T_e = \left(\frac{1}{m} - 1\right) \cdot \frac{K_G}{K_U} \quad\text{(minimale kost } K_V\text{)} \qquad\qquad T_p = \left(\frac{1}{m} - 1\right) \cdot T_{cT} \quad\text{(minimale productietijd)}$$
 
-$$T_e = \left(\frac{1}{m} - 1\right) \cdot \frac{K_G}{K_U}$$
+met K_U = K_M+K_L en T_{cT} = gereedschapswisseltijd. **Steeds T_e > T_p**: minimale kost vereist een lagere v_c (langere T) dan minimale productietijd per stuk. In het COPTURN-volume geeft de keuze T = T_e of T = T_p dus een **ander v-grensvlak**: met T_p (< T_e) ligt dit grensvlak **hoger** — hogere snelheden toegelaten.
 
-  Hierin is K_G de gereedschapskost per gereedschapsleven en K_U = K_M + K_L de machine- + loonkost per tijdseenheid. T_e volgt uit dK_V/dT = 0, met K_V = t_h·K_U + (t_h/T)·K_G + t_a·K_U.
-
-- **T_p (productiestandtijd)** minimaliseert de **productietijd per stuk**:
-
-$$T_p = \left(\frac{1}{m} - 1\right) \cdot T_{CT}$$
-
-  Hierin is T_CT de gereedschapswisseltijd [min]. T_p volgt analoog uit het minimaliseren van de totale tijd per stuk (i.p.v. de kost).
-
-**Steeds geldt T_e > T_p**: de snelheid die de **kost** minimaliseert is **lager** dan de snelheid die de **productietijd** minimaliseert (hogere v_c geeft kortere t_h, dus kortere productietijd, ook al stijgen de gereedschapskosten — voor productietijd telt enkel de tijd, niet de kost van het gereedschap zelf, enkel de tijd verloren aan wisselen via T_CT). In het COPTURN-volume bepaalt de keuze T = T_e of T = T_p dus een **ander v-grensvlak**: met T_p (< T_e) ligt het toelaatbare v-grensvlak **hoger** (hogere snelheden toegelaten).
-
-**De doorbuigingsgrens van het werkstuk (balktekening).** De doorbuiging y (of y_w) van het werkstuk, opgevat als balk, wordt veroorzaakt door de terugdrukkracht F_p:
-
-$$y_w = (s_m + s_w) \cdot F_p$$
-
-waarbij s_m de soepelheid (inverse stijfheid) van de machine [µm/N] is en s_w de soepelheid van het werkstuk, afhankelijk van de **opspanwijze** (balkconfiguratie) en het **traagheidsmoment** $I = \pi D^4/64$ van de (cilindrische) doorsnede van het werkstuk:
-
-- Opspanning **tussen twee punten** (steunpunten aan beide zijden): $s_w = \frac{L^3}{48 \cdot E \cdot I}$, overeenkomend met een doorbuiging $y = \frac{F_p \cdot L^3}{48 \cdot E \cdot I}$ in het midden van de balk
-- Opspanning **in de klauwplaat** (ingeklemde balk, vrij uiteinde): $s_w = \frac{L^3}{3 \cdot E \cdot I}$, overeenkomend met $y = \frac{F_p \cdot L^3}{3 \cdot E \cdot I}$ aan het vrije uiteinde
-
-Met L = lengte (uitstekende lengte) van het werkstuk, E = elasticiteitsmodulus, D = diameter van het werkstuk. De klauwplaat-opspanning geeft **16× meer doorbuiging** dan tussen twee punten bij gelijke L (factor 48 versus 3 in de noemer).
-
-Deze doorbuigingsgrens is precies wat **grens 7-8** (Kienzle-krachtgrens) en, onrechtstreeks, **grens 2** (h_max) van het COPTURN-volume mee bepaalt: hoe groter de soepelheid van het werkstuk (slanker, langer, ongunstiger opgespannen), hoe **strenger** de toelaatbare F_c (en dus F_p, met F_p ≈ 0.4·F_c) moet zijn om y_w ≤ y_w,max te garanderen — en dus hoe kleiner het toelaatbare (b,h)-gebied binnen het COPTURN-volume.
+**Link met de nauwkeurigheidsgrens:** de toelaatbare F_c (grenzen 7-8, en via h ook grens 2) wordt mee bepaald door de toelaatbare doorbuiging $y_w=(s_m+s_w)\cdot F_p$ van het werkstuk, met $F_c=2.5\cdot F_p$ (zie Oppervlakteruwheid en nauwkeurigheid, vraag (b), voor de s_w-formules). Hoe soepeler/slanker het werkstuk, hoe strenger F_c begrensd moet zijn → hoe kleiner het toelaatbare (b,h)-gebied.
 
 ---
 
@@ -735,7 +586,7 @@ Deze doorbuigingsgrens is precies wat **grens 7-8** (Kienzle-krachtgrens) en, on
 **Vraag:**
 a) Hoe wordt de oppervlakteruwheid R_t bepaald bij draaien, in functie van de voeding f en de neusradius r_ε?
 b) Wat is de invloed van de zijwaartse snijkracht F_p op de nauwkeurigheid (doorbuiging) van het werkstuk?
-c) Hoe worden de Kienzle-parameters k_c1.1 en e experimenteel bepaald?
+c) Hoe worden de Kienzle-parameters k_c1.1 en z experimenteel bepaald?
 
 *Gesteld in: examen 2019, en een uitgebreide variant 5 juni 2025 met extra deel (c) over experimentele bepaling van Kienzle-parameters*
 
@@ -755,31 +606,26 @@ $$f_{max} = \sqrt{8 \cdot r_\varepsilon \cdot R_{t,max}}$$
 
 Naast deze "geometrische" (kinematische) ruwheid bestaat ook een **langsruwheid**, veroorzaakt door **trillingen** en **opbouwsnijkant (BUE)**. Deze wordt tegengegaan door: een grotere spaanhoek γ, een hogere snijsnelheid v_c (BUE verdwijnt bij hogere temperatuur), coatings, en snijvloeistoffen onder hogere druk.
 
-**(b) Invloed van F_p op de nauwkeurigheid (doorbuiging).** Van de drie krachtcomponenten — F_c (hoofdsnijkracht, tangentieel), F_f (voedingskracht) en F_p (terugdrukkracht, radiaal, loodrecht op het bewerkte oppervlak) — is het vooral **F_p die de doorbuiging en dus de nauwkeurigheid** van het werkstuk bepaalt. Als **vuistregel** geldt:
+**(b) Invloed van F_p op de nauwkeurigheid (doorbuiging).** Van de drie krachtcomponenten — F_c (hoofdsnijkracht, tangentieel), F_f (voedingskracht) en F_p (terugdrukkracht, radiaal, loodrecht op het bewerkte oppervlak) — is het vooral **F_p die de doorbuiging en dus de nauwkeurigheid** van het werkstuk bepaalt. Als **vuistregel** geldt (formularium):
 
-$$F_p \approx 0.4 \cdot F_c$$
+$$F_c = 2.5 \cdot F_p$$
 
-(met $F_c = k_{c1.1} \cdot b \cdot h^{1-e}$ volgens Kienzle). De doorbuiging y van het werkstuk onder deze kracht is:
+(d.w.z. $F_p \approx 0.4 \cdot F_c$, equivalent want $1/0.4 = 2.5$). (met $F_c = k_{c1.1} \cdot b \cdot h^{1-z}$ volgens Kienzle). De doorbuiging y van het werkstuk onder deze kracht is:
 
 $$y = (s_w + s_m) \cdot F_p$$
 
-waarbij s_w en s_m de **soepelheden** (inverse stijfheden, [µm/N]) zijn van respectievelijk het werkstuk en de machine. Voor het werkstuk, opgevat als balk met traagheidsmoment $I = \pi D^4/64$:
+waarbij s_w en s_m de **soepelheden** (inverse stijfheden, [µm/N]) zijn van respectievelijk het werkstuk en de machine. Voor het werkstuk, opgevat als balk met traagheidsmoment $I_O = \frac{\pi \cdot d^4}{64}$:
 
 - tussen twee punten opgespannen: $s_w = \frac{L^3}{48 \cdot E \cdot I}$
 - in de klauwplaat opgespannen (ingeklemde balk): $s_w = \frac{L^3}{3 \cdot E \cdot I}$ — 16× meer doorbuiging dan tussen twee punten bij gelijke L
 
 **Hoe groter F_p (dus hoe groter F_c, dus hoe groter b en h), hoe groter y, hoe slechter de nauwkeurigheid** — dit kan leiden tot vormafwijkingen (bv. een conische vorm over de lengte van een slank werkstuk, omdat de doorbuiging varieert met de positie langs de balk). Deze doorbuigingsgrens beperkt mee de toelaatbare snededoorsnede A = b·h (zie Kronenbergdiagram, "van k₃ naar k₂", en COPTURN-grenzen 7-8).
 
-**(c) Experimentele bepaling van k_c1.1 en e.** k_c1.1 en e (= z) worden bepaald via een **reeks proefsnedes** op een draaibank, waarbij de hoofdsnijkracht F_c gemeten wordt met een **dynamometer** (krachtopnemer onder de beitelhouder):
+**(c) Experimentele bepaling van k_c1.1 en z.** Analoog aan Wet van Kienzle (b): een **reeks proefsnedes** op een draaibank met **variërende snededikte h** (via f, bij vaste b, dus vaste a en κ), waarbij F_c telkens gemeten wordt met een **dynamometer**. Voor vaste b geldt $F_c/b = k_{c1.1}\cdot h^{1-z}$, of in logvorm:
 
-1. Voer een reeks proeven uit met **variërende snededikte h** (bv. via variërende voeding f, bij vaste b — dus vaste a en κ), en meet telkens de bijbehorende F_c.
-2. Volgens Kienzle geldt $F_c = k_{c1.1} \cdot b \cdot h^{1-e}$. Voor vaste b kan men dit herschrijven als $F_c/b = k_{c1.1} \cdot h^{1-e}$, of in logvorm:
-   $$\log(F_c/b) = \log k_{c1.1} + (1-e) \cdot \log h$$
-3. Zet de meetpunten uit op een **log-log-grafiek** van F_c/b (of F_c bij b = 1 mm) versus h. Dit verband is een **rechte lijn**.
-4. De **helling** van deze rechte is **(1-e)**, waaruit e volgt.
-5. Het **snijpunt** van de rechte met h = 1 mm (waar log h = 0) geeft direct log k_c1.1, dus **k_c1.1**.
+$$\log(F_c/b) = \log k_{c1.1} + (1-z) \cdot \log h$$
 
-Met meerdere meetpunten gebeurt stap 4-5 via **lineaire regressie** op $\log(F_c/b) = \log k_{c1.1} + (1-e)\log h$. Deze methode is volledig analoog aan de bepaling van de Taylor-exponent n (of m) en constante C_T: ook daar wordt een machtsverband gelineariseerd door logaritmes te nemen, waarna helling en snijpunt de constanten opleveren.
+Op een **log-log-grafiek** van F_c/b versus h geeft dit een **rechte lijn**: de **helling** is (1−z) → levert z; het **snijpunt** met h = 1 (log h = 0) geeft log k_c1.1 → k_c1.1. Bij meerdere meetpunten via **lineaire regressie**. Zelfde methode als bij de Taylor-constanten (C_T, n/m).
 
 ---
 
@@ -793,7 +639,7 @@ Bereken de snijkracht F_c, het snijvermogen P_c, het benodigde motorvermogen P_m
 
 **Antwoord:**
 
-**Aannames:** Kienzle-parameters voor St 50: **k_c1.1 = 1190 N/mm²** en **e = z = 0.253**. De "snedediepte van 10 mm" wordt geïnterpreteerd als de **insteldiepte (radiale ingrijping) a = 10 mm** — rechtstreeks in te vullen in Kienzle. Dit betekent dat de **diameter** met 2a = 20 mm afneemt (Ø150 → Ø130).
+**Aannames:** Kienzle-parameters voor St 50: **k_c1.1 = 1190 N/mm²** en **z = 0.253**. De "snedediepte van 10 mm" wordt geïnterpreteerd als de **insteldiepte (radiale ingrijping) a = 10 mm** — rechtstreeks in te vullen in Kienzle. Dit betekent dat de **diameter** met 2a = 20 mm afneemt (Ø150 → Ø130).
 
 **1. Snedegrootheden b en h:**
 
@@ -803,7 +649,7 @@ $$b = \frac{a}{\sin\kappa} = \frac{10}{\sin 60^\circ} = 11.55 \text{ mm}$$
 
 **2. Snijkracht F_c (Kienzle):**
 
-$$F_c = k_{c1.1} \cdot b \cdot h^{1-e} = 1190 \cdot 11.55 \cdot (0.866)^{1-0.253} = 1190 \cdot 11.55 \cdot (0.866)^{0.747}$$
+$$F_c = k_{c1.1} \cdot b \cdot h^{1-z} = 1190 \cdot 11.55 \cdot (0.866)^{1-0.253} = 1190 \cdot 11.55 \cdot (0.866)^{0.747}$$
 
 Met $(0.866)^{0.747} \approx 0.897$:
 
@@ -827,7 +673,7 @@ $$P_m = \frac{P_c}{\eta} = \frac{36.1}{0.80} \approx \mathbf{45.2\ kW}$$
 
 $$\omega_{spil} = 2\pi \cdot \frac{400}{60} \approx 41.9 \text{ rad/s}$$
 
-De reductiekast (i = 10) laat de motor **sneller** draaien dan de spil — fysisch zinvol omdat elektromotoren hun nominaal vermogen typisch bij hoge toerentallen leveren, en de reductie dit toerental verlaagt naar de spilsnelheid terwijl het koppel verhoogd wordt:
+De reductiekast (i = 10) laat de motor **sneller** draaien dan de spil — typisch voor elektromotoren, die hun nominaal vermogen bij hoog toerental leveren:
 
 $$\omega_{motor} = i \cdot \omega_{spil} = 10 \cdot 41.9 \approx 419 \text{ rad/s}$$
 
@@ -863,74 +709,59 @@ $$T_m = \frac{P_m}{\omega_{motor}} = \frac{45\,200}{419} \approx \mathbf{108\ Nm
 
 **1. Wat is slijpen?**
 
-Slijpen is een **materiaalafnameproces** waarbij kleine, harde **abrasieve korrels** het oppervlak van een werkstuk wegnemen bij **hoge snijsnelheid** en zeer kleine indringdiepten. De korrels zijn samengebonden in een slijpschijf die met hoge rotatiesnelheid draait.
+Slijpen is een **materiaalafnameproces** waarbij kleine, harde **abrasieve korrels**, gebonden in een snel ronddraaiende slijpschijf, het werkstukoppervlak wegnemen bij **hoge snijsnelheid** en zeer kleine indringdiepten.
 
-Volgens **DIN 8589** is slijpen een bewerking met **geometrisch ongedefinieerde snijkanten**: het aantal snijkanten, hun spaanhoeken en hun positie op het werkstukoppervlak liggen niet vast — in tegenstelling tot draaien/frezen, waar voor elke snijkant (beitel, frees-tand) gekend is hoeveel er zijn, hoe ze georiënteerd zijn en wat hun spaanhoek is. Bij slijpen is dit alles willekeurig: elke korrel heeft een andere vorm, oriëntatie en positie op het schijfoppervlak.
+Volgens **DIN 8589** heeft slijpen **geometrisch ongedefinieerde snijkanten**: bij draaien/frezen zijn aantal, oriëntatie en spaanhoek van elke snijkant gekend; bij slijpen heeft elke korrel een willekeurige vorm, oriëntatie en positie op het schijfoppervlak.
 
-Afhankelijk van hoe de korrels samengebonden zijn:
-- **Vrije korrels** — los gemengd in vloeistof of pasta (lappen, polijsten)
-- **Korrels gebonden op een riem** — kunsthars op een band (bandslijpen)
-- **Korrels dicht verpakt in een schijf of steen** — samengehouden door een bindmiddel (de klassieke slijpschijf)
+(Korrels kunnen ook **vrij** — lappen/polijsten — of **op een band** — bandslijpen — voorkomen; de klassieke slijpschijf bindt ze dicht samen, zie punt 3.)
 
 **2. Principe: vergelijking met frezen**
 
-Een slijpschijf is op te vatten als een soort frees met **enorm veel, willekeurig gevormde snijkanten** (elke korrel ≈ één tand): in plaats van een beperkt aantal goed gepositioneerde, getande snijkanten heeft de schijf duizenden kleine korrels verspreid over het oppervlak, elk een potentiële snijkant.
+Een slijpschijf ≈ een frees met **enorm veel, willekeurig gevormde snijkanten** (elke korrel ≈ één tand). Twee fundamentele verschillen:
+- de **spaanhoek** van de korrels is **bijna altijd sterk negatief** → de korrel schaaft eerder dan dat hij efficiënt snijdt;
+- de **snijsnelheid** v_s is veel hoger: typisch **20-100 m/s**, tegenover enkele m/s bij frezen.
 
-Twee fundamentele verschillen met frezen/draaien:
-- De **spaanhoek** van de korrels is **bijna altijd sterk negatief** — de korrel snijdt dus niet efficiënt, maar werkt eerder als een bottige schaver.
-- De **snijsnelheid** v_s is veel hoger: typisch **20-100 m/s**, tegenover slechts enkele m/s bij frezen.
-
-**Bewegingsparameters bij slijpen:**
-- **v_s (of v_c)** = snijsnelheid = omtreksnelheid van de slijpschijf
-- **v_w** = snelheid van het werkstuk (een stuk lager dan v_s)
-- **v_fa, v_fr, v_ft** = voedingssnelheden in axiale, radiale of tangentiële richting
-- **a_e** = snedediepte (depth of cut)
-- **a_p** = verspaningsbreedte
-- **b_s** = breedte van de slijpschijf
+**Bewegingsparameters:** **v_s** (omtreksnelheid schijf), **v_w** (werkstuksnelheid, << v_s), **v_fa/v_fr/v_ft** (voedingssnelheden axiaal/radiaal/tangentieel), **a_e** (snedediepte), **a_p** (verspaningsbreedte), **b_s** (breedte van de schijf).
 
 **3. Samenstelling van de slijpschijf**
 
-Een slijpschijf bestaat uit drie volumefracties die samen het gedrag van de schijf bepalen:
-
 $$V_K + V_B + V_P = 1$$
 
-- **V_K** = volumefractie korrels (het eigenlijke snijmateriaal — moet harder zijn dan het werkstuk; bv. korund Al2O3, SiC, BC, CBN, diamant)
-- **V_B** = volumefractie bindmiddel (houdt de korrels vast aan elkaar; bv. keramisch/vitrified, silicaat, elastisch, metaal)
-- **V_P** = volumefractie poriën (luchtspleten/holtes — ruimte voor spaanafvoer)
+- **V_K** = korrels (het snijmateriaal, harder dan het werkstuk: korund Al2O3, SiC, BC, CBN, diamant)
+- **V_B** = bindmiddel (houdt de korrels vast: keramisch/vitrified, silicaat, elastisch, metaal)
+- **V_P** = poriën (ruimte voor spaanafvoer)
 
-Deze fracties bepalen samen:
-- de **hardheid van de schijf** (bepaald door V_B: hoog V_B = harde schijf die korrels sterk vasthoudt);
-- de **structuur van de schijf** (bepaald door de verhouding V_P/V_K: open structuur met veel poriën voor spaanafvoer, of dichte structuur voor een betere afwerking).
+→ **hardheid van de schijf**: hoog V_B = harde schijf die korrels sterk vasthoudt. **Structuur**: bepaald door V_P/V_K — open (veel poriën) voor goede spaanafvoer, dicht voor een betere afwerking.
 
 **4. De drie snijmechanismen: cutting, plowing, rubbing**
 
-Niet elke korrel die het werkstuk raakt, snijdt effectief materiaal weg. Afhankelijk van de indringdiepte van een korrel (t.o.v. een kritische spaandikte) zijn er drie mogelijke interacties:
+Afhankelijk van de indringdiepte van een korrel (t.o.v. een kritische spaandikte):
 
-- **Cutting (snijden):** de korrel dringt diep genoeg in om werkelijk een spaan te genereren — het gewenste mechanisme, er wordt effectief materiaal weggenomen.
-- **Plowing (ploegen):** de korrel dringt iets in, maar genereert geen spaan — het materiaal wordt plastisch opzijgeduwd (vervormd) zonder te breken. Geen materiaalverwijdering, wel energieverbruik en oppervlaktedeformatie.
-- **Rubbing (wrijven):** de korrel raakt het oppervlak, maar dringt er niet (voldoende) in en wrijft enkel over het oppervlak. Geen snijden, geen omvormen — vooral **warmteproductie**.
+- **Cutting (snijden):** korrel dringt diep genoeg in → genereert een spaan, effectieve materiaalafname (gewenst).
+- **Plowing (ploegen):** korrel dringt iets in maar genereert geen spaan → materiaal wordt plastisch opzijgeduwd zonder te breken. Geen afname, wel energieverbruik en oppervlaktedeformatie.
+- **Rubbing (wrijven):** korrel raakt het oppervlak zonder voldoende indringing → enkel wrijving, vooral **warmteproductie**, geen snijden of vervormen.
 
-**Welk mechanisme domineert wanneer?** Dit hangt af van het specifiek spaandebiet Q'w (zie punt 5):
-- Bij **lage Q'w**: rubbing en plowing domineren → weinig effectieve materiaalafname, veel warmte.
-- Bij **hogere Q'w**: het aandeel echte cutting neemt toe → efficiëntere materiaalverwijdering.
+**Welk mechanisme domineert wanneer?** Hangt af van Q'w (zie punt 5): bij **lage Q'w** domineren rubbing/plowing (weinig afname, veel warmte); bij **hogere Q'w** neemt het aandeel cutting toe (efficiënter).
 
 **5. Afleiding van het specifiek spaandebiet Q'w**
 
-Het **specifiek spaandebiet** (specifieke materiaalafnamesnelheid) is het verspaand volume per tijdseenheid, gedeeld door de actieve breedte van de schijf:
+Het **specifiek spaandebiet** is het verspaand volume per tijdseenheid, gedeeld door de actieve breedte van de schijf:
 
 $$Q'_w = \frac{\text{verspaand volume per tijdseenheid}}{\text{actieve schijfbreedte}} \quad \left[\frac{\text{mm}^3/\text{s}}{\text{mm}}\right]$$
 
-**Afleiding:** beschouw een schijf met actieve breedte $b_s$ die met snedediepte $a_e$ in het werkstuk snijdt, terwijl het werkstuk zich relatief t.o.v. de schijf verplaatst met snelheid $v_w$. Per tijdseenheid wordt een laagje materiaal van dikte $a_e$, over breedte $b_s$, en over een lengte $v_w$ (afgelegde weg per tijdseenheid) weggenomen. Het verspaand volume per tijdseenheid is dus:
+**Afleiding:** een schijf met actieve breedte $b_s$ snijdt met snedediepte $a_e$ terwijl het werkstuk zich relatief t.o.v. de schijf verplaatst met snelheid $v_w$. Per tijdseenheid wordt een laagje materiaal van dikte $a_e$, breedte $b_s$ en lengte $v_w$ weggenomen:
 
 $$\dot{V} = a_e \cdot b_s \cdot v_w$$
 
-Delen door de actieve schijfbreedte $b_s$ (= de definitie van $Q'_w$) laat $b_s$ wegvallen:
+Delen door de actieve schijfbreedte $b_s$ laat $b_s$ wegvallen:
 
 $$Q'_w = a_e \cdot v_w$$
 
-Dit is de **algemene uitdrukking**, geldig voor elke slijpconfiguratie — enkel de invulling van $a_e$ (snedediepte, radiaal of axiaal ingesteld via $v_{fr}$ of $v_{fa}$) en $v_w$ (relatieve snelheid werkstuk t.o.v. schijf) verschilt per configuratie (vlakslijpen, uitwendig/inwendig rondslijpen).
+Dit is **algemeen geldig** — enkel de invulling van $a_e$ (radiaal of axiaal ingesteld via $v_{fr}$/$v_{fa}$) en $v_w$ (relatieve snelheid werkstuk t.o.v. schijf) verschilt per configuratie (vlakslijpen, uitwendig/inwendig rondslijpen).
 
-**Q'_w is de centrale parameter** in het slijpproces: een hogere Q'w betekent productiever werken (meer materiaal weg per tijdseenheid en per mm schijfbreedte), maar ook **hogere temperaturen** in de contactzone en **meer slijtage** van de schijf.
+> **Notatie formularium:** in twee stappen: totaal spaandebiet $Q_w = a_e \cdot a_p \cdot v_w$ ($a_p$ = verspaningsbreedte), dan $Q'_w = Q_w/b_{s,eff}$ (effectieve schijfbreedte). Komt overeen met $Q'_w=a_e \cdot v_w$ wanneer $a_p=b_{s,eff}=b_s$. Op het examen kunnen dus $Q_w$ en $b_{s,eff}$ opduiken — herken dit als hetzelfde principe in twee stappen.
+
+**Q'_w is de centrale parameter** in het slijpproces: hoger Q'w = productiever (meer materiaal weg per tijdseenheid en per mm schijfbreedte), maar ook **hogere temperaturen** en **meer slijtage** van de schijf.
 
 ---
 
@@ -977,19 +808,19 @@ ruw staal → draaien/frezen (grove bewerking, snel) → harden (warmtebehandeli
 
 **2. Slijpconfiguraties en -machines**
 
-Slijpmachines zijn qua opbouw vergelijkbaar met frees- en draaibanken: een **spil** drijft de slijpschijf aan, een **werkstukopspanning** (tafel, centers of klemming) en **bewegingsassen** voor voedings- en snijbewegingen. Door de zeer hoge toerentallen van de schijf moet de machine zeer **stijf en trillingsvrij** zijn.
+Slijpmachines zijn opgebouwd zoals frees-/draaibanken (spil + slijpschijf, werkstukopspanning, voedingsassen), maar moeten door de hoge schijftoerentallen zeer **stijf en trillingsvrij** zijn.
 
-- **Vlakslijpen (surface grinding):** het werkstuk ligt op een (magnetische) tafel of in een kleminrichting en beweegt heen en terug onder de draaiende schijf — voor platte oppervlakken. Kan met de omtrek van een cilindrische schijf (**omtrekvlakslijpen**) of met een komsteen (**frontvlakslijpen**, het pendant van frontfrezen).
+- **Vlakslijpen (surface grinding):** het werkstuk ligt op een (magnetische) tafel of in een kleminrichting en beweegt heen en terug onder de draaiende schijf — voor platte oppervlakken. Met de omtrek van een cilindrische schijf (**omtrekvlakslijpen**) of met een komsteen (**frontvlakslijpen**, pendant van frontfrezen).
 
-- **Rondslijpen (cylindrical grinding):** het werkstuk draait om zijn eigen as (zoals bij draaien) terwijl de slijpschijf eveneens draait en het oppervlak bewerkt. Werkstuk opgespannen tussen centers of in een klauwplaat. Twee varianten:
-  - **Uitwendig rondslijpen** — de buitendiameter van een as wordt geslepen.
-  - **Inwendig rondslijpen** — de binnendiameter van een boring wordt geslepen, met een kleine slijpschijf aan het uiteinde van een spindel.
+- **Rondslijpen (cylindrical grinding):** werkstuk en slijpschijf draaien elk om hun eigen as, werkstuk opgespannen tussen centers of in een klauwplaat. Twee varianten:
+  - **Uitwendig** — de buitendiameter van een as wordt geslepen.
+  - **Inwendig** — de binnendiameter van een boring, met een kleine slijpschijf aan het uiteinde van een spindel.
 
-- **Centerloos slijpen (centerless grinding):** industrieel veelgebruikte variant waarbij het werkstuk **niet** tussen centers wordt opgespannen, maar rust op een steunliniaal en wordt aangedreven door een tweede, kleinere schijf: de **regelschijf** (regulating wheel). Deze draait trager en heeft een hogere wrijvingscoëfficiënt dan de slijpschijf, en bepaalt zo de omtreksnelheid van het werkstuk. Twee modi:
-  - **Doorvoerslijpen (through-feed grinding):** de regelschijf staat onder een kleine hoek $\alpha$, waardoor het werkstuk een axiale voedingscomponent krijgt en in lengterichting langs de schijven beweegt — ideaal voor continuproductie van lange cilindrische stukken (assen, pennen).
-  - **Insteekslijpen (plunge grinding):** de regelschijf beweegt radiaal naar het werkstuk toe tot de gewenste diameter bereikt is, zonder axiale beweging — voor kortere onderdelen of onderdelen met schouders.
+- **Centerloos slijpen (centerless grinding):** het werkstuk wordt **niet** tussen centers opgespannen, maar rust op een steunliniaal en wordt aangedreven door een tragere, sterker wrijvende **regelschijf** die de omtreksnelheid v_w bepaalt. Twee modi:
+  - **Doorvoerslijpen:** regelschijf onder kleine hoek α → axiale voedingscomponent, werkstuk beweegt door de schijven — voor continuproductie van lange cilindrische stukken (assen, pennen).
+  - **Insteekslijpen:** regelschijf beweegt enkel radiaal in tot de gewenste diameter — voor kortere onderdelen of onderdelen met schouders.
 
-  **Voordeel van centerloos slijpen:** geen opspanning nodig → snelle cyclustijden, geschikt voor massaproductie.
+  **Voordeel:** geen opspanning nodig → snelle cyclustijden, geschikt voor massaproductie.
 
 **3. Thermische effecten en gevolgen van warmte bij slijpen**
 
@@ -1035,119 +866,59 @@ Micro-scheuren treden vooral op bij **harde slijpstenen** (bindmiddel houdt korr
 
 **Vlakslijpen (surface grinding):**
 
-```
-              v_s (rotatie schijf)
-                 ____
-                /    \
-               | schijf |   a_e (snedediepte, radiaal ingesteld)
-                \____/
-        ----------------------------->
-        |   werkstuk   v_w (= v_ft, tafelsnelheid, heen-en-weer)  |
-        ============================== (tafel)
-```
-
-De slijpschijf draait rond zijn as met omtreksnelheid **v_s**. Het werkstuk ligt vast op een (magnetische) tafel en beweegt heen en weer onder de schijf met tafelsnelheid **v_w (= v_ft)**. De radiale toevoer **v_fr** bepaalt de snedediepte **a_e** per passage. De breedte van de schijf **b_s** is de actieve breedte waarover gesneden wordt.
+De slijpschijf draait met omtreksnelheid **v_s**; het werkstuk ligt op een (magnetische) tafel en beweegt heen en weer met tafelsnelheid **v_w (= v_ft)**. De radiale toevoer **v_fr** bepaalt de snedediepte **a_e** per passage, over de actieve schijfbreedte **b_s**.
 
 **Rondslijpen (cylindrical grinding, uitwendig):**
 
-```
-        v_s (rotatie slijpschijf, snel)
-           ____
-          /    \
-         | schijf |--> a_e (radiale instelling, snedediepte)
-          \____/
-              |
-          (werkstuk, diameter d_w)
-           ___
-          (   )  <-- v_w (rotatie werkstuk, traag), opgespannen tussen centers
-           ---
-```
+Slijpschijf en werkstuk draaien elk om hun eigen as: de schijf met hoge omtreksnelheid **v_s** (20-100 m/s), het werkstuk veel trager met **v_w**, de schijf radiaal ingesteld op snedediepte **a_e**. Bij inwendig rondslijpen brengt een kleine schijf aan het uiteinde van een spindel hetzelfde principe in de boring.
 
-Zowel slijpschijf als werkstuk draaien elk om hun eigen as. De slijpschijf draait met hoge omtreksnelheid **v_s** (20-100 m/s), het werkstuk draait veel trager met omtreksnelheid **v_w**. De schijf wordt radiaal ingesteld op snedediepte **a_e**. Bij inwendig rondslijpen wordt een kleine schijf aan het uiteinde van een spindel in de boring van het werkstuk gebracht, met hetzelfde principe.
+<div style="display: flex; gap: 16px; align-items: flex-start;">
+  <img src="../Images/vlakslijpen.png" width="300" alt="geometrie" />
+  <img src="../Images/rondslijpen.png" width="400" alt="geometrie" />
+</div>
 
-**Belangrijkste grootheden** in beide schetsen: v_s (snijsnelheid, omtreksnelheid schijf), v_w (snelheid werkstuk), a_e (snedediepte), b_s (breedte van de schijf), en eventueel v_fa, v_fr, v_ft (axiale, radiale, tangentiële voedingssnelheden) en a_p (verspaningsbreedte).
+**Belangrijkste grootheden** in beide schetsen: v_s, v_w, a_e, b_s, en eventueel v_fa/v_fr/v_ft en a_p (verspaningsbreedte).
 
 **2. Principe van het spaandebiet**
 
-Het **specifiek spaandebiet Q'w** is het verspaand volume per tijdseenheid, gedeeld door de actieve schijfbreedte:
+$$Q'_w = a_e \cdot v_w \quad \left[\frac{\text{mm}^3/\text{s}}{\text{mm}}\right]$$
 
-$$Q'_w = \frac{\text{verspaand volume per tijdseenheid}}{\text{actieve schijfbreedte } b_s} \quad \left[\frac{\text{mm}^3/\text{s}}{\text{mm}}\right]$$
+Zelfde afleiding als bij "Definitie, principe en spaandebiet bij slijpen" (punt 5): per tijdseenheid wordt een laagje van dikte $a_e$, breedte $b_s$, lengte $v_w$ weggenomen ($\dot V=a_e\cdot b_s\cdot v_w$), gedeeld door $b_s$. Dit principe verandert niet tussen vlak- en rondslijpen — enkel de invulling van $a_e$ (radiale insteekdiepte / $v_{fr}$-instelling) en $v_w$ (omtreksnelheid werkstuk / tafelsnelheid $v_{ft}$) is configuratie-specifiek.
 
-In elke configuratie geldt dezelfde afleiding: per tijdseenheid wordt een laagje materiaal van dikte $a_e$, over breedte $b_s$, weggenomen terwijl het werkstuk zich relatief t.o.v. de schijf verplaatst met snelheid $v_w$. Het verspaand volume per tijdseenheid is dus $\dot{V} = a_e \cdot b_s \cdot v_w$. Gedeeld door $b_s$ (= de definitie van $Q'_w$) volgt:
-
-$$Q'_w = a_e \cdot v_w$$
-
-Dit principe verandert niet tussen vlakslijpen en rondslijpen — enkel de invulling van $a_e$ (radiale insteekdiepte bij rondslijpen, of de instelling via $v_{fr}$ bij vlakslijpen) en $v_w$ (omtreksnelheid van het werkstuk bij rondslijpen, tafelsnelheid $v_{ft}$ bij vlakslijpen) is configuratie-specifiek.
-
-**Q'w is de centrale productiviteitsparameter:** hoger Q'w betekent sneller materiaal wegnemen, maar ook hogere temperaturen en meer slijtage van de schijf.
+**Q'w is de centrale productiviteitsparameter:** hoger Q'w = sneller materiaal weg, maar ook hogere temperaturen en meer slijtage van de schijf.
 
 **3. Effecten van de slijpschijf op het slijpproces**
 
-De schijf bestaat uit $V_K + V_B + V_P = 1$ (korrels, bindmiddel, poriën). Elk element heeft een duidelijk effect op het proces:
+De schijf bestaat uit $V_K + V_B + V_P = 1$ (korrels, bindmiddel, poriën) — elk element stuurt het proces:
 
-**a) Korrelmateriaal (V_K).** De korrels moeten harder zijn dan het werkstuk. Gangbare materialen, in toenemende hardheid:
-- **Korund (Al2O3)** — taai, breed inzetbaar voor staal en RVS.
-- **Siliciumcarbide (SiC)** — harder dan korund maar brozer, voor gietijzer, non-ferrometalen en keramiek.
-- **Borcarbide (BC)** — zeer hard, voor harde materialen.
-- **CBN (kubisch bornitride)** — extreem hard en warmtestabiel, voor geharde staalsoorten.
-- **Diamant (D)** — hardste materiaal, voor keramiek, glas en hardmetaal.
+**a) Korrelmateriaal (V_K).** Moet harder zijn dan het werkstuk, in toenemende hardheid:
+- **Korund (Al2O3)** — taai, voor staal/RVS
+- **SiC** — harder maar brozer, voor gietijzer/non-ferro/keramiek
+- **Borcarbide (BC)** — zeer hard
+- **CBN** — extreem hard en warmtestabiel, voor geharde staalsoorten
+- **Diamant** — hardst, voor keramiek/glas/hardmetaal
 
-**Friability:** de neiging van een korrel om te breken bij overbelasting.
-- **Friabele korrel** → breekt, stelt een nieuw scherp snijvlak bloot (**zelfscherpend effect**) — gunstig.
-- **Niet-friabele korrel** → wordt stomp en blijft stomp → meer rubbing en warmte.
+**Friability** (neiging om te breken bij overbelasting): **friabel** → breekt af, stelt nieuw scherp snijvlak bloot (**zelfscherpend**, gunstig); **niet-friabel** → wordt en blijft stomp → meer rubbing/warmte. Algemeen: harder werkstuk → hardere korrels, maar tegelijk een **zachter wiel** (zie c).
 
-Algemeen: **harder werkstukmateriaal vereist hardere korrels**, maar tegelijk een **zachter wiel** (zie c).
+**b) Korrelgrootte.** **Grotere korrels** → hogere afnamesnelheid, ruwer oppervlak; **kleinere korrels** → betere Ra, lagere afnamesnelheid. Bereik: slijpen 80-380 µm (honen 30-280 µm, lappen 5-60 µm). Let op: hoger **grit number** = kleinere korrel.
 
-**b) Korrelgrootte.** Bepaalt de verhouding tussen ruwheid en afnamesnelheid:
-- **Grotere korrels** → hogere afnamesnelheid, maar ruwer oppervlak.
-- **Kleinere korrels** → betere oppervlaktekwaliteit (lagere Ra), maar lagere afnamesnelheid.
+**c) Hardheidsgraad van de schijf** = hoe sterk het bindmiddel (V_B) de korrels vasthoudt (niet de hardheid van de korrels zelf). **Harde schijf** (hoog V_B) houdt korrels sterk vast; **zachte schijf** (laag V_B) laat ze sneller los. Keuzeregel: **zacht werkstuk → harde schijf** (anders slijt de schijf snel op); **hard werkstuk → zachte schijf** (stompe korrels laten sneller los, nieuwe scherpe korrels vrij).
 
-Voor standaard slijpen ligt de korrelgrootte tussen **80 en 380 µm** (ter vergelijking: honen 30-280 µm, lappen 5-60 µm). Let op: het **grit number** werkt omgekeerd — een hoger grit number betekent een kleinere korrel (fijner "schuurpapier").
-
-**c) Hardheidsgraad van de schijf.** Dit is *niet* de hardheid van de korrels zelf, maar een maat voor hoe sterk het bindmiddel (V_B) de korrels vasthoudt:
-- **Harde schijf** = hoog V_B → korrels worden sterk vastgehouden.
-- **Zachte schijf** = laag V_B → korrels breken sneller los.
-
-Keuzeregel:
-- **Zacht werkstukmateriaal → harde schijf.** Zachte materialen slijpen de schijf anders snel op; een harde binding houdt de korrels langer vast.
-- **Hard werkstukmateriaal → zachte schijf.** Harde materialen maken de korrels snel stomp; een zachte binding laat stompe korrels sneller los, zodat nieuwe scherpe korrels vrijkomen.
-
-Harde schijven → hoge verspaningsvolumes en zachte werkstukken; zachte schijven → harde werkstukken en lage afnamesnelheid.
-
-**d) Structuur van de schijf (poriënvolume).** De verhouding V_P/V_K bepaalt of de schijf "open" of "dicht" is:
-- **Open structuur** (V_P groot, V_K klein): veel ruimte voor spaanafvoer — aanbevolen bij grote verspaande volumes of spaanopstapeling.
-- **Dichte structuur** (V_K groot, V_P klein): betere oppervlakteafwerking en maatcontrole — voor fijne bewerkingen.
+**d) Structuur (V_P/V_K).** **Open** (V_P groot): veel ruimte voor spaanafvoer — grote verspaande volumes. **Dicht** (V_K groot): betere oppervlakteafwerking en maatcontrole — fijne bewerkingen.
 
 **4. Mechanismen: cutting, plowing, rubbing**
 
-Elke korrel interageert op een van drie manieren met het werkstuk, afhankelijk van de indringdiepte (en dus de lokale spaandikte) ten opzichte van een kritische waarde:
+Zelfde drie mechanismen als bij "Definitie, principe en spaandebiet bij slijpen" (punt 4) — **cutting** (voldoende diepe indringing → spaan, effectieve afname), **plowing** (te weinig diepte voor een spaan → plastische vervorming zonder afname) en **rubbing** (geen/onvoldoende indringing → enkel wrijving/warmte) — bepaald door de indringdiepte t.o.v. een kritische spaandikte.
 
-- **Cutting (snijden):** de korrel dringt voldoende diep in om effectief een spaan te vormen — materiaal wordt weggenomen. Gewenste mechanisme.
-- **Plowing (ploegen):** de korrel dringt iets in, maar te weinig om een spaan te vormen; het materiaal wordt plastisch opzijgeduwd zonder te breken. Geen materiaalverwijdering, wel energieverbruik en oppervlaktevervorming.
-- **Rubbing (wrijven):** de korrel raakt het oppervlak maar dringt er niet (genoeg) in; ze wrijft enkel over het oppervlak. Geen snijden, geen vervorming — vooral warmteproductie.
-
-**Waarom treden deze op?** Door de **sterk negatieve spaanhoek** van de korrels en de **zeer kleine, variabele indringdiepten** per korrel (afhankelijk van korrelvorm, -positie en -hoogte op de schijf) snijdt niet elke korrel effectief.
-- Bij **lage Q'w** (kleine spaandikte per korrel): rubbing en plowing domineren — weinig effectieve afname, veel warmte.
-- Bij **hogere Q'w** (grotere spaandikte per korrel): het aandeel cutting neemt toe, proces wordt efficiënter.
+**Waarom treden deze op?** Door de **sterk negatieve spaanhoek** van de korrels en de **zeer kleine, variabele indringdiepte** per korrel (afhankelijk van korrelvorm, -positie en -hoogte op de schijf) snijdt niet elke korrel effectief. Bij **lage Q'w** domineren rubbing/plowing (weinig afname, veel warmte); bij **hogere Q'w** neemt het aandeel cutting toe (efficiënter).
 
 **5. Warmte-effecten bij slijpen — kan warmte ook gunstig zijn?**
 
-**Waarom is warmte een probleem?** Slijpen genereert meer warmte per mm³ verspaand materiaal dan elk ander proces, door: hoge snijsnelheid, negatieve spaanhoek (minder efficiënt snijden), lang afschuifvlak, hoge normaalkrachten (sterke wrijving), en het simultaan optreden van rubbing en plowing (energie die als warmte in het werkstuk terechtkomt in plaats van in spaanvorming). De contactzonetemperatuur kan **600-1000 °C** bereiken, en zelfs hoger.
+**Oorzaken en gevolgen:** zie "Slijpen versus draaien" (punt 3) — hoge v_s, negatieve spaanhoek, lang afschuifvlak, hoge normaalkrachten, rubbing/plowing → contactzone tot **600-1000°C** → vonken, temperen (HAZ), verbranden/oxidatie, micro-scheurtjes, restspanningen. Micro-scheuren vooral bij **harde schijven** en **minder friabele korrels**.
 
-**Gevolgen van overmatige warmte:**
-- **Vonken** (verbrandende spanen)
-- **Temperen/structuurverandering** — geharde stalen onderdelen verliezen lokaal hardheid door heruitgloeien in de HAZ
-- **Verbranden/oxidatie** van het oppervlak (verkleuring)
-- **Micro-scheurtjes** — thermische spanning door snel op- en afkoelen
-- **Restspanningen** — trekspanningen in het oppervlak, slechter voor vermoeiing
+**Grind hardening.** Normaal wordt warmte met koelvloeistof onderdrukt. Bij grind hardening wordt ze net **bewust en gecontroleerd** ingezet: met hoge Q'w en weinig/geen koeling warmt de contactzone razendsnel en lokaal op tot **austenitisatie**-temperatuur; zodra de schijf voorbij is, koelt dit dunne laagje **zelf razendsnel af** (de koude kern werkt als quench — zelfde principe als laserharden) → **martensitische omzetting** → **harde oppervlaaglaag**, terwijl de kern zacht/taai blijft.
 
-Micro-scheuren treden meer op bij **harde slijpstenen** en bij **minder friabele korrels** (botte korrels blijven langer werken → meer warmte).
-
-**Kan warmte ook gunstig zijn? — Grind hardening.** In de regel is warmte bij slijpen **ongewenst** en wordt ze met koelvloeistof onderdrukt (afvoer van warmte, minder wrijving, spaanafvoer, langere standtijd van de schijf). Toch bestaat er een toepassing waarbij de warmte-inbreng **bewust en gecontroleerd** gebruikt wordt om het werkstukoppervlak te verbeteren: **grind hardening**.
-
-Het principe steunt rechtstreeks op de thermische mechanismen hierboven: door met een (relatief) hoge Q'w en weinig of geen koeling te slijpen, wordt de contactzone zeer snel en zeer lokaal opgewarmd tot temperaturen die voldoende hoog zijn om het oppervlaktemateriaal te **austenitiseren** (vergelijkbaar met de eerste stap van een hardingsproces). Zodra de slijpschijf voorbij is, koelt dit dunne, opgewarmde oppervlaagje **razendsnel zelf af**: de omringende koude massa van het werkstuk werkt als een ingebouwde "quench" (zelfafschrikking, zelfde principe als bij laserharden). Door deze snelle afkoeling ondergaat het opgewarmde oppervlak een **martensitische omzetting**, wat resulteert in een **harde, geharde oppervlaaglaag**, terwijl de kern van het werkstuk zacht en taai blijft.
-
-Met andere woorden: hetzelfde mechanisme dat normaal **ongewenste** gevolgen heeft (snelle lokale opwarming gevolgd door snelle afkoeling → micro-scheuren en restspanningen) kan, indien gecontroleerd toegepast, **gewenst** zijn — in één bewerkingsstap zowel de gewenste vorm/maat realiseren als een geharde oppervlaaglaag creëren, zonder afzonderlijke warmtebehandeling. Het blijft een uitzondering: normaal wil men de warmte-inbreng net minimaliseren, omdat de nadelen (verbranden, temperen, restspanningen, micro-scheuren) doorgaans groter zijn dan dit potentiële voordeel, en omdat het proces (temperatuur, afkoelsnelheid) zeer precies gecontroleerd moet worden om effectief een gewenste hardingslaag — en geen schade — te bekomen.
+Hetzelfde mechanisme dat normaal schade veroorzaakt (snelle op-/afkoeling → micro-scheuren, restspanningen) levert hier dus, **gecontroleerd toegepast**, in één stap zowel de gewenste vorm/maat als een geharde oppervlaaglaag — zonder afzonderlijke warmtebehandeling. Het blijft een uitzondering: de nadelen wegen normaal op tegen dit voordeel, en het proces moet zeer precies gestuurd worden om enkel harding (en geen schade) te bekomen.
 
 ---
 
@@ -1161,17 +932,13 @@ Met andere woorden: hetzelfde mechanisme dat normaal **ongewenste** gevolgen hee
 
 **1. Opbouw van de slijpschijf**
 
-Een slijpschijf bestaat uit drie volumefracties:
-
 $$V_K + V_B + V_P = 1$$
 
-- **V_K** = volumefractie korrels — het eigenlijke snijmateriaal, harder dan het werkstuk (korund, SiC, BC, CBN, diamant).
-- **V_B** = volumefractie bindmiddel — houdt de korrels vast (keramisch/vitrified ≈ 75% van alle schijven, silicaat, elastisch/rubber-hars, of metaalbinding voor diamant/CBN).
-- **V_P** = volumefractie poriën — ruimte voor spaanafvoer en warmteafvoer.
+- **V_K** = korrels — snijmateriaal, harder dan het werkstuk (korund, SiC, BC, CBN, diamant)
+- **V_B** = bindmiddel — houdt de korrels vast: **keramisch/vitrified** (≈75% van alle schijven), silicaat, elastisch/rubber-hars, of metaalbinding (diamant/CBN)
+- **V_P** = poriën — ruimte voor spaan- en warmteafvoer
 
-De verhouding van deze fracties bepaalt:
-- de **hardheidsgraad** (hoog V_B → harde schijf die korrels lang vasthoudt, geschikt voor zachte werkstukken; laag V_B → zachte schijf waarbij stompe korrels snel loslaten, geschikt voor harde werkstukken);
-- de **structuur** (V_P/V_K groot → open structuur, veel spaanruimte, voor grote afnamevolumes; V_P/V_K klein → dichte structuur, betere afwerking en maatcontrole, voor fijne bewerkingen).
+→ **hardheidsgraad**: hoog V_B = harde schijf (korrels lang vast, voor zachte werkstukken); laag V_B = zachte schijf (stompe korrels laten snel los, voor harde werkstukken). **Structuur**: V_P/V_K groot = open (veel spaanruimte, grote afnamevolumes); V_P/V_K klein = dicht (betere afwerking/maatcontrole).
 
 **2. Equivalente spaandikte h_eq en slijpverhouding G**
 
@@ -1179,43 +946,39 @@ De verhouding van deze fracties bepaalt:
 
 $$h_{eq} = \frac{Q'_w}{v_s}$$
 
-waarbij $Q'_w$ het specifiek spaandebiet is (verspaand volume per tijdseenheid per eenheid schijfbreedte) en $v_s$ de omtreksnelheid (snijsnelheid) van de slijpschijf. $h_{eq}$ is de dikte van een theoretische spaan die je zou krijgen als al het verspaande materiaal in één keer, gelijk verdeeld over alle korrelcontacten, werd weggenomen. In werkelijkheid zijn de individuele spanen veel dunner en talrijker, maar $h_{eq}$ laat toe verschillende processen onderling te vergelijken.
+$h_{eq}$ = dikte van de theoretische spaan als al het verspaande volume gelijk verdeeld over alle korrelcontacten zou worden weggenomen (in werkelijkheid dunnere, talrijkere spanen) — laat toe processen onderling te vergelijken. **Intuïtie:** hoog Q'w + hoog v_s → h_eq blijft beperkt (elke korrel snijdt dun); laag v_s + hoog Q'w → korrels snijden dikker → meer belasting/slijtage per korrel.
 
-**Intuïtie:** als Q'w hoog is maar v_s ook hoog, blijft h_eq beperkt — de schijf draait zo snel dat elke korrel maar een dun laagje snijdt. Als v_s laag is maar Q'w hoog, moeten de korrels dikker snijden → meer belasting per korrel → meer slijtage.
-
-**Slijpverhouding (spaanverhouding) G:**
+**Slijpverhouding G:**
 
 $$G = \frac{V_w}{V_s} = \frac{\text{verspaand volume werkstuk}}{\text{versleten volume slijpschijf}}$$
 
-G is een maat voor de **efficiëntie van de schijf**: hoeveel werkstukmateriaal wordt weggenomen per eenheid schijfslijtage. Een **hoge G is wenselijk** — de schijf slijt traag terwijl het werkstuk snel verspaand wordt.
+Maat voor de **efficiëntie van de schijf**: hoeveel werkstukmateriaal per eenheid schijfslijtage. **Hoge G is wenselijk** — schijf slijt traag, werkstuk wordt snel verspaand.
 
 **3. Profileren en africhten (dressing) van de slijpschijf**
 
-Na verloop van tijd raken de korrels aan het oppervlak van de schijf **stomp** (slijtplateaus, "worn flat") of **verstopt** (spaanders vastgeklemd in de poriën). De schijf snijdt dan minder goed, genereert meer warmte en verliest haar geometrische nauwkeurigheid.
+Na verloop van tijd raken de korrels **stomp** (slijtplateaus, "worn flat") of **verstopt** (spaanders in de poriën): de schijf snijdt minder goed, genereert meer warmte en verliest haar geometrische nauwkeurigheid.
 
-**Dressing** (richten/africhten) is het opnieuw conditioneren van het schijfoppervlak, in twee stappen:
-1. **Profileren (truing):** de schijf wordt terug op de juiste geometrie gebracht (cirkelvormig, vlak, of een specifiek profiel) — corrigeert ook onbalans of vormafwijkingen door slijtage.
-2. **Africhten (sharpening/dressing):** het schijfoppervlak wordt scherpgesteld — stompe korrels worden actief weggebroken zodat scherpe, nieuwe korrels en vrije poriën voor spaanafvoer vrijkomen.
+**Dressing** (richten/africhten), in twee stappen:
+1. **Profileren (truing):** schijf terug op de juiste geometrie (cirkelvormig, vlak of specifiek profiel) — corrigeert ook onbalans/vormafwijkingen door slijtage.
+2. **Africhten (sharpening/dressing):** schijfoppervlak scherpstellen — stompe korrels worden actief weggebroken zodat scherpe korrels en vrije poriën (spaanafvoer) vrijkomen.
 
-Dit vereist gespecialiseerd gereedschap (bv. diamantrollen, single-point diamond dresser).
+Vereist gespecialiseerd gereedschap (bv. diamantrollen, single-point diamond dresser).
 
-**Waarom is dressing nodig?** Zonder dressing blijft de schijf met stompe, verstopte korrels werken: dit verhoogt de wrijving (meer rubbing) en de warmte-inbreng (met alle gevolgen: verbranden, temperen, micro-scheuren, restspanningen), verslechtert de oppervlaktekwaliteit en doet de schijf haar geometrische nauwkeurigheid (en dus de maatnauwkeurigheid van het werkstuk) verliezen.
+**Waarom nodig?** Zonder dressing: meer wrijving (rubbing) en warmte-inbreng (verbranden, temperen, micro-scheuren, restspanningen), slechtere oppervlaktekwaliteit, en verlies van geometrische — dus maat — nauwkeurigheid.
 
-Daarnaast hoort bij het onderhoud ook **balanceren**: een slijpschijf is een grote roterende massa die nooit volledig homogeen is. Bij de zeer hoge toerentallen die nodig zijn voor de vereiste snijsnelheid v_s, leidt elke onbalans tot trillingen. Deze trillingen veroorzaken **oppervlaktegolven (waviness)** op het werkstuk, **lagerslijtage** op de machine, en vormen een **veiligheidsrisico** bij eventueel brekende schijven. Balanceren van de spil met de gemonteerde slijpschijf is dan ook een standaardprocedure bij elke opspanning.
+**Balanceren.** Een slijpschijf is een grote, nooit volledig homogene roterende massa. Bij de hoge toerentallen voor v_s leidt elke onbalans tot trillingen → **oppervlaktegolven (waviness)** op het werkstuk, **lagerslijtage**, en een **veiligheidsrisico** bij eventueel brekende schijven. Balanceren van spil + schijf is standaard bij elke opspanning.
 
 **4. De drie nabewerkingsprocessen: honen, superfijnen, lappen**
 
-Wanneer na het slijpen een nóg fijner oppervlak nodig is, worden nabewerkingsprocessen toegepast. Deze werken met kleinere korrels en verwijderen slechts heel weinig materiaal — ze verbeteren enkel de oppervlaktekwaliteit van een reeds nauwkeurig bewerkt vlak.
+Nabewerkingsprocessen gebruiken **kleinere korrels** en verwijderen zeer weinig materiaal — ze verbeteren enkel de oppervlaktekwaliteit van een reeds nauwkeurig bewerkt vlak. **Korrelgrootte:** slijpen 80-380 µm, honen 30-280 µm, lappen 5-60 µm (fijnst).
 
-**Korrelgroottevergelijking:** slijpen 80-380 µm, honen 30-280 µm, lappen 5-60 µm (fijnst).
+**a) Honen.** Nabewerking van **boringen** (of uitwendige cilindrische vlakken) na slijpen/fijnboren — bv. cilinderlopers, versnellingsbaklagers, hydraulische cilinders. Een hoongereedschap met abrasieve stenen (honing stones) in een houder voert een **roterende hoofdbeweging** + **axiale (heen-en-weer) voedingsbeweging** uit → **kruisgestreept patroon** ("hatch pattern") dat smeermiddel vasthoudt.
 
-**a) Honen.** Doel: nabewerken van **boringen** (cilindrische inwendige vlakken) of uitwendige cilindrische vlakken — typisch na slijpen of fijnboren, bv. cilinderlopers, versnellingsbaklagers, hydraulische cilinders. Principe: een hoongereedschap met meerdere abrasieve stenen (honing stones) in een cilindrische houder wordt in de boring geplaatst en voert een **roterende hoofdbeweging** en een **axiale (heen-en-weer) voedingsbeweging** uit. De combinatie creëert een **kruisgestreept patroon** ("hatch pattern") dat helpt om smeermiddel vast te houden.
+**b) Superfijnen (superfinishing/microhoning).** Nabewerking van **uitwendige cilindrische vlakken** (assen, rollagers) — verwijdert de laatste ruwheidstopjes. Een slijpsteentje, vorm aangepast aan de diameter, beweegt met lichte oscillatie en zeer lage druk over het draaiende werkstuk. Cilindrisch (werkstuk draait) of centerloos.
 
-**b) Superfijnen (superfinishing / microhoning).** Doel: nabewerken van **uitwendige cilindrische vlakken**, typisch assen en rollagers — verwijdert de allerlaatste ruwheidstopjes. Principe: een slijpsteentje, met een vorm aangepast aan de diameter van het cilindervlak, wordt met een lichte oscillerende beweging en zeer lage druk over het draaiende werkstuk geleid. Bestaat als cilindrisch microhonen (werkstuk draait) of centerloze microhoning.
+**c) Lappen.** Extreme oppervlaktekwaliteit/vlakheid op vlakke of cilindrische oppervlakken — precisie-optiek, afdichtingsvlakken, pompcomponenten. Abrasieve korrels in vloeistof/pasta (lapmiddel) tussen werkstuk en een zachte lepschijf; de relatieve beweging wrijft de korrels over het werkstuk (werkstukken tussen twee roterende lepschijven, positie bepaald door een kooi). Verwijdert slechts enkele µm — enkel kwaliteitsverbetering, geen materiaalafname.
 
-**c) Lappen.** Doel: extreme oppervlaktekwaliteit en vlakheid op vlakke of cilindrische oppervlakken — precisie-optiek, vlakke afdichtingsvlakken, pompcomponenten. Principe: abrasieve korrels gemengd in een vloeistof of pasta (het lapmiddel) zitten tussen het werkstuk en een zachte tegenplaat (lepschijf). De relatieve beweging tussen werkstuk en lepschijf wrijft de korrels over het werkstuk. Werkstukken worden tussen twee roterende lepschijven geplaatst, en een kooi controleert hun positie en beweging. Lappen verwijdert slechts enkele µm en wordt uitsluitend gebruikt om de oppervlaktekwaliteit te verbeteren, niet om materiaal weg te halen.
-
-**Toepassingsgebied samengevat:** honen → boringen (kruisgestreept patroon); superfijnen → uitwendige cilinders; lappen → vlakke/cilindrische oppervlakken met extreme kwaliteitsvereisten.
+**Samengevat:** honen → boringen (kruisgestreept patroon); superfijnen → uitwendige cilinders; lappen → vlakke/cilindrische oppervlakken met extreme kwaliteitsvereisten.
 
 ---
 
@@ -1301,6 +1064,11 @@ Hoe hoger het CE, hoe groter het risico en hoe meer voorzorgen nodig.
 *Puntlassen:* twee elektroden (boven en onder de samen te voegen platen) klemmen de platen onder elektrodekracht $F$ samen. Door beide elektroden en de platen loopt een korte stroompuls $I$. De contactweerstand tussen de platen — op hun grensvlak — is initieel het grootst, waardoor daar de meeste Joule-warmte ontstaat en een **laslens** smelt, die onder druk stolt bij uitschakelen van de stroom. Schematisch: twee platen tussen twee tegenoverstaande, ronde/cilindrische elektroden, met de laslens als lensvormig gesmolten gebied op het grensvlak, ter hoogte van de elektrode-as.
 
 *Projectielassen:* dezelfde basisopstelling (twee platte, brede elektroden boven en onder), maar één werkstuk heeft vooraf aangebrachte **uitstulpingen (projecties)**. Bij het samenklemmen raken alleen de projecties het andere werkstuk — daar is het contactoppervlak klein en de stroomdichtheid (warmteontwikkeling) hoog. De projecties smelten/vervormen plastisch onder de elektrodedruk en versmelten met het andere werkstuk. Omdat meerdere projecties tegelijk aangebracht kunnen zijn, ontstaan er in **één stroompuls meerdere lasverbindingen** tegelijk, met een door de werkstukgeometrie vooraf bepaalde stroomverdeling — in tegenstelling tot puntlassen, waar de elektrodepositie de laslocatie bepaalt.
+
+<div style="display: flex; gap: 16px; align-items: flex-start;">
+  <img src="../Images/puntlassen.png" width="300" alt="geometrie" />
+  <img src="../Images/projectielassen.png" width="400" alt="geometrie" />
+</div>
 
 **3) Functies van de bekleding bij BMBE.**
 
@@ -1439,7 +1207,7 @@ De snijspleet wordt altijd zo aangebracht dat het **gewenste eindproduct** zijn 
 
 De maximale theoretische ponskracht is de kracht om de volledige snijcontour in één keer door de plaatdikte af te schuiven:
 
-$$F = \tau \cdot L \cdot t$$
+$$F_{th} = \tau \cdot L \cdot t$$
 
 waarbij:
 
@@ -1455,15 +1223,15 @@ waarbij $L_i$ de lengte is van elk deelsegment van de snijcontour en $(x_i, y_i)
 
 **4) Afgeschuind ponsgereedschap (shear on tools) — wiskundig bewijs**
 
-**Probleem**: wanneer de pons de volledige contour **gelijktijdig** doorsnijdt, treedt de maximale kracht $F$ plots en piekvormig op (schokbelasting) → trillingen, schokken op de pers en versnelde slijtage van het gereedschap.
+**Probleem**: wanneer de pons de volledige contour **gelijktijdig** doorsnijdt, treedt de maximale kracht $F_{th}$ plots en piekvormig op (schokbelasting) → trillingen, schokken op de pers en versnelde slijtage van het gereedschap.
 
 **Oplossing**: door de snijkant van de pons (of matrijs) een **hoek (afschuining/shear)** te geven, snijdt het gereedschap niet de volledige omtrek tegelijk, maar **progressief** (stuk voor stuk) over een **langere slag**.
 
 **Wiskundig bewijs (stappenplan):**
 
-1. **Zonder afschuining**: de arbeid wordt geleverd door de maximale (piek)kracht $F$, werkend over de penetratiediepte $t_p$ die nodig is om de plaat te breken ($t_p = p \cdot t$, met $p$ het penetratiepercentage, typisch 30–60 % van de plaatdikte $t$):
+1. **Zonder afschuining**: de arbeid wordt geleverd door de maximale (piek)kracht $F_{th}$, werkend over de penetratiediepte $t_p$ die nodig is om de plaat te breken ($t_p = p \cdot t$, met $p$ het penetratiepercentage, typisch 30–60 % van de plaatdikte $t$):
 
-   $$W = F \cdot t_p$$
+   $$W = F_{th} \cdot t_p$$
 
 2. **Met afschuining**: dezelfde arbeid wordt geleverd door een (lagere) kracht $F_s$, werkend over een **grotere verplaatsing $s$** — de afschuifafstand, groter dan $t_p$ doordat de pons door zijn hellingshoek een langere weg moet afleggen vooraleer de volledige contour doorsneden is:
 
@@ -1471,17 +1239,17 @@ waarbij $L_i$ de lengte is van elk deelsegment van de snijcontour en $(x_i, y_i)
 
 3. **De totale arbeid** (om hetzelfde materiaalvolume te scheiden) blijft gelijk, dus:
 
-   $$F \cdot t_p = F_s \cdot s$$
+   $$F_{th} \cdot t_p = F_s \cdot s$$
 
 4. **Hieruit volgt:**
 
-   $$\frac{F_s}{F} = \frac{t_p}{s}$$
+   $$\frac{F_s}{F_{th}} = \frac{t_p}{s}$$
 
-5. **Voorwaarde voor verlaging** van de piekkracht ($F_s < F$):
+5. **Voorwaarde voor verlaging** van de piekkracht ($F_s < F_{th}$):
 
-   $$\frac{F_s}{F} = \frac{t_p}{s} < 1 \quad \Longleftrightarrow \quad s > t_p$$
+   $$\frac{F_s}{F_{th}} = \frac{t_p}{s} < 1 \quad \Longleftrightarrow \quad s > t_p$$
 
-6. **Conclusie**: dit is precies wat een afgeschuind gereedschap realiseert — door de hellingshoek wordt de effectieve snijweg $s$ **groter** dan de penetratiediepte $t_p$ die zonder afschuining nodig zou zijn. Bijgevolg is $F_s/F < 1$, dus de benodigde **piekkracht $F_s$ is kleiner dan $F$** — bij gelijke totale arbeid $W$, maar gespreid over een langere slag.
+6. **Conclusie**: dit is precies wat een afgeschuind gereedschap realiseert — door de hellingshoek wordt de effectieve snijweg $s$ **groter** dan de penetratiediepte $t_p$ die zonder afschuining nodig zou zijn. Bijgevolg is $F_s/F_{th} < 1$, dus de benodigde **piekkracht $F_s$ is kleiner dan $F_{th}$** — bij gelijke totale arbeid $W$, maar gespreid over een langere slag.
 
 **Voordelen van afgeschuind gereedschap:**
 
@@ -1580,7 +1348,7 @@ De combinatie van deze drie elementen verhoogt de **hydrostatische druk** in de 
 | Scheurvrij | Nee — breukzone is per definitie aanwezig | Ja — geen breukinitiatie dankzij hoge hydrostatische druk |
 | Toleranties | Matig | Nauw — engere toleranties mogelijk |
 | Snijspleet | Groter (typisch 2–10 % van $t$) | Veel kleiner ($\approx 1\%$ van $t$) |
-| Benodigde kracht | "Normale" stanskracht $F = \tau \cdot L \cdot t$ | Hoger — bijkomende klem- en tegendrukkrachten nodig (klemring + tegendrukplaat) |
+| Benodigde kracht | "Normale" stanskracht $F_{th} = \tau \cdot L \cdot t$ | Hoger — bijkomende klem- en tegendrukkrachten nodig (klemring + tegendrukplaat) |
 | Gereedschap | Pons + matrijs | Pons + matrijs + klemring met V-ring + tegendrukplaat (complexer) |
 
 **Kortom**: fijnstansen levert dankzij de hogere hydrostatische druk (door klemring + tegendrukplaat + kleine snijspleet) een product met een veel betere, volledig scheurvrije randkwaliteit en nauwere toleranties dan conventioneel stansen — vaak zonder verdere nabewerking (ontbramen) — maar ten koste van een complexer gereedschap en hogere benodigde krachten.
@@ -1732,21 +1500,27 @@ Bij **gerichte stolling (DS)** wordt de stollingsrichting gecontroleerd: de kera
 
 **(a) Energiebalans en berekening van L**
 
-**Conductie (Fourier)** — warmteflux langsheen het blad over lengte $L$, met temperatuursverschil $(T-T_0)$ (lineair profiel veronderstelt):
+**Conductie (Fourier)** — uit het formularium is de conductiecoëfficiënt $h_c = \dfrac{\kappa_s}{X}$, met $\kappa_s$ de warmtegeleidingscoëfficiënt van het vaste materiaal en $X$ de afstand waarover geleid wordt. Hier is die afstand precies de bladlengte ($X=L$), en $\kappa_s$ neemt de plaats in van het in de vraag gegeven $K_s$. De warmteflux langsheen het blad over lengte $L$, met temperatuursverschil $(T-T_0)$ (lineair profiel veronderstelt), wordt dan $q_{cond}=h_c(T-T_0)$:
 
-$$q_{cond} = K_s \cdot \frac{T - T_0}{L}$$
+$$q_{cond} = h_c (T-T_0) = \kappa_s \frac{T - T_0}{L}, \qquad \kappa_s = 15 \text{ W/(m}\cdot\text{K)}$$
 
-**Radiatie (Stefan-Boltzmann)** — warmteflux uitgestraald vanaf het oppervlak naar de omgeving (op $T_0$), emissiviteit $\varepsilon$:
+**Radiatie (Stefan-Boltzmann)** — uit het formularium is de radiatiecoëfficiënt $h_R = \dfrac{\sigma(\varepsilon T^4 - \alpha T_0^4)}{T-T_0}$, met $\sigma$ de Stefan-Boltzmann-constante, $\varepsilon$ de emissiviteit (uitstraling vanaf het bladoppervlak) en $\alpha$ de absorptiecoëfficiënt (opname van straling vanuit de omgeving op $T_0$). De warmteflux uitgestraald vanaf het oppervlak naar de omgeving is dan $q_{rad}=h_R(T-T_0)$:
 
-$$q_{rad} = \varepsilon \cdot \sigma \cdot (T^4 - T_0^4)$$
+$$q_{rad} = h_R (T-T_0) = \sigma\left(\varepsilon T^4 - \alpha T_0^4\right)$$
+
+In deze opgave wordt de vereenvoudigende aanname $\alpha=\varepsilon$ gemaakt (het oppervlak absorbeert even goed als het uitstraalt). Dan herleidt dit tot:
+
+$$h_R(T-T_0) = \sigma\varepsilon\,\frac{T^4-T_0^4}{T-T_0}(T-T_0) = \varepsilon\sigma(T^4-T_0^4) \quad \Rightarrow \quad q_{rad} = \varepsilon \sigma (T^4 - T_0^4)$$
+
+wat de vertrouwde radiatieformule oplevert (zie ook de nota over $\varepsilon$ versus $\alpha$ onderaan).
 
 **Energiebalans:** om een stabiele, voldoende steile gradiënt te handhaven moet de via geleiding aangevoerde warmte minstens gelijk zijn aan het stralingsverlies. $L$ is de lengte waarbij beide warmtestromen **gelijk** zijn:
 
-$$q_{cond} = q_{rad} \quad \Rightarrow \quad K_s \cdot \frac{T-T_0}{L} = \varepsilon \cdot \sigma \cdot (T^4 - T_0^4) \quad \Rightarrow \quad L = \frac{K_s \cdot (T - T_0)}{\varepsilon \cdot \sigma \cdot (T^4 - T_0^4)}$$
+$$q_{cond} = q_{rad} \quad \Rightarrow \quad \kappa_s \cdot \frac{T-T_0}{L} = \varepsilon \cdot \sigma \cdot (T^4 - T_0^4) \quad \Rightarrow \quad L = \frac{\kappa_s \cdot (T - T_0)}{\varepsilon \cdot \sigma \cdot (T^4 - T_0^4)}$$
 
 **Numerieke uitwerking:**
 
-Teller: $K_s \cdot (T - T_0) = 15 \cdot (1500 - 300) = 15 \cdot 1200 = 18\,000$ W/m
+Teller: $\kappa_s \cdot (T - T_0) = 15 \cdot (1500 - 300) = 15 \cdot 1200 = 18\,000$ W/m
 
 Noemer — eerst $T^4 - T_0^4$:
 
@@ -1771,7 +1545,7 @@ $L$ is dus een **grenswaarde**: tot welke bladlengte het DS-proces, gebaseerd op
 
 Bij $L = 0{,}5$ m herberekenen we de conductieve flux ($q_{rad}$ blijft **onveranderd** — hangt niet af van $L$):
 
-$$q_{cond}(L=0{,}5) = \frac{K_s\cdot(T-T_0)}{L} = \frac{18\,000}{0{,}5} = 36\,000 \text{ W/m}^2 = 3{,}6 \times 10^4 \text{ W/m}^2$$
+$$q_{cond}(L=0{,}5) = \frac{\kappa_s\cdot(T-T_0)}{L} = \frac{18\,000}{0{,}5} = 36\,000 \text{ W/m}^2 = 3{,}6 \times 10^4 \text{ W/m}^2$$
 
 $$q_{rad} = 1{,}4329 \times 10^5 \text{ W/m}^2 \quad (\text{ongewijzigd})$$
 
@@ -1781,7 +1555,7 @@ $$q_{rad} \approx 1{,}43\times10^5 \text{ W/m}^2 \;\gg\; q_{cond} \approx 3{,}6\
 
 **Betekenis voor het DS-proces bij grotere bladlengtes:** omdat $q_{cond} \propto 1/L$ (omgekeerd evenredig met $L$) terwijl $q_{rad}$ **constant** blijft (oppervlakte-effect, onafhankelijk van de bladlengte), wordt geleiding steeds minder belangrijk naarmate het blad langer wordt, terwijl het stralingsverlies even groot blijft. Voor lange bladen (zoals moderne hogedruk-turbinebladen van ~500 mm) volstaat geleiding alleen niet meer om de axiale gradiënt te handhaven tegen de stralingsverliezen. Dit vormt een **fundamentele beperking** op de maximale bladlengte (of minimale terugtreksnelheid) haalbaar met zuiver geleidingsgedreven DS, en verklaart waarom lange bladen extra maatregelen nodig hebben — bv. **actieve koeling, stralingsschermen** rond het blad, of een **aangepast (vertraagd) terugtrekprofiel** — om toch een voldoende steile, gerichte gradiënt en dus een goede kolomvormige (of single-crystal) korrelstructuur te garanderen.
 
-**Nota over ε versus α:** $\varepsilon=0{,}5$ is de **emissiviteit** van het bladoppervlak, gebruikt in de uitgaande stralingsflux $q_{rad}=\varepsilon\cdot\sigma\cdot(T^4-T_0^4)$. Vermeldt de vraagstelling daarnaast een coëfficiënt $\alpha=0{,}5$ voor **absorptie** van invallende straling (bv. straling die het blad aan het hete uiteinde ontvangt vanuit de ovenwand, $Q_{in}=\alpha\cdot\sigma\cdot T_{oven}^4$), dan is dit een **afzonderlijke term**: deze bepaalt mee hoeveel warmte het hete uiteinde opneemt (en draagt zo bij aan het handhaven van $T=1500K$ aan dat uiteinde), maar komt niet voor in de balans $q_{cond}=q_{rad}$ zelf, die enkel geleiding langsheen het blad vergelijkt met het stralingsverlies van het bladoppervlak naar de omgeving op $T_0$.
+**Nota over ε versus α (formularium-notatie $h_R$):** in de algemene formule $h_R=\dfrac{\sigma(\varepsilon T^4-\alpha T_0^4)}{T-T_0}$ staat $\varepsilon$ voor de **emissiviteit** (uitstraling van het bladoppervlak op temperatuur $T$) en $\alpha$ voor de **absorptiecoëfficiënt** (opname van straling die vanuit de omgeving op $T_0$ inkomt). Hierboven is $\alpha=\varepsilon=0{,}5$ gesteld, wat $h_R(T-T_0)$ herleidt tot $\varepsilon\cdot\sigma\cdot(T^4-T_0^4)$, gebruikt in de uitgaande stralingsflux $q_{rad}$. Vermeldt de vraagstelling daarnaast een **afzonderlijke** absorptiecoëfficiënt $\alpha=0{,}5$ voor invallende straling (bv. straling die het blad aan het hete uiteinde ontvangt vanuit de ovenwand, $Q_{in}=\alpha\cdot\sigma\cdot T_{oven}^4$), dan is dit een **afzonderlijke term**: deze bepaalt mee hoeveel warmte het hete uiteinde opneemt (en draagt zo bij aan het handhaven van $T=1500K$ aan dat uiteinde), maar komt niet voor in de balans $q_{cond}=q_{rad}$ zelf, die enkel geleiding langsheen het blad vergelijkt met het stralingsverlies van het bladoppervlak naar de omgeving op $T_0$.
 
 
 ---
@@ -1792,33 +1566,36 @@ $$q_{rad} \approx 1{,}43\times10^5 \text{ W/m}^2 \;\gg\; q_{cond} \approx 3{,}6\
 
 ### Cluster 1 — Walsen: theoretische afleidingen (gemiddelde vloeispanning, meeneemhoek, maximale diktereductie)
 
-*Gesteld in: examen 2021, herhaald op 4 juni 2021.*
+*Gesteld in: examen 2021, herhaald op 4 juni 2021, en 4 juni 2026 namiddag (afleiding van de gemiddelde-vloeispanningsformule voor de verstevigingskromme + oefening hierover).*
 
-**Vraag:** "(i) Leid, uitgaande van de wet van Hollomon σ = K·ε^n, een formule af voor de gemiddelde vloeispanning σ̄ tijdens een vervorming tot rek ε. (ii) Leid de maximale meeneemhoek θ_max af in functie van de wrijvingscoëfficiënt µ bij walsen. (iii) Leid de maximale diktereductie d_max per wals-stap af."
+**Vraag:** "(i) Leid, uitgaande van de wet van Hollomon σ = K·ε^n, een formule af voor de gemiddelde vloeispanning $\bar{Y}_f$ tijdens een vervorming tot rek ε. (ii) Leid de maximale meeneemhoek θ_max af in functie van de wrijvingscoëfficiënt µ bij walsen. (iii) Leid de maximale diktereductie d_max per wals-stap af."
 
 **Modelantwoord.**
 
-**(i) Gemiddelde vloeispanning σ̄**
+**(i) Gemiddelde vloeispanning $\bar{Y}_f$**
 
 De **verstevigingskromme (wet van Hollomon)** beschrijft de ware vloeispanning σ in functie van de ware rek ε, met **K** de sterkteconstante (MPa) en **n** de verstevigingsexponent (0 < n < 1):
 
 $$\sigma = K \cdot \varepsilon^n$$
 
+<img src="../Images/verstevigingscurve.png" width="300" alt="walsen" />
+
+
 Tijdens een vervorming van ε = 0 tot ε = ε (eindrek) varieert σ voortdurend volgens deze wet. **Stappenplan:**
 
-1. **Definitie** — de gemiddelde vloeispanning σ̄ is de gemiddelde waarde van σ over het rek-interval [0, ε]:
-$$\bar{\sigma} = \frac{1}{\varepsilon} \int_0^{\varepsilon} \sigma(\varepsilon') \, d\varepsilon' = \frac{1}{\varepsilon} \int_0^{\varepsilon} K \cdot \varepsilon'^n \, d\varepsilon'$$
+1. **Definitie** — de gemiddelde vloeispanning $\bar{Y}_f$ is de gemiddelde waarde van σ over het rek-interval [0, ε]:
+$$\bar{Y}_f = \frac{1}{\varepsilon} \int_0^{\varepsilon} \sigma(\varepsilon') \, d\varepsilon' = \frac{1}{\varepsilon} \int_0^{\varepsilon} K \cdot \varepsilon'^n \, d\varepsilon'$$
 
 2. **Integraal uitwerken:**
 $$\int_0^{\varepsilon} K \cdot \varepsilon'^n \, d\varepsilon' = K \cdot \left[\frac{\varepsilon'^{n+1}}{n+1}\right]_0^{\varepsilon} = \frac{K \cdot \varepsilon^{n+1}}{n+1}$$
 
 3. **Delen door ε:**
-$$\bar{\sigma} = \frac{1}{\varepsilon} \cdot \frac{K \cdot \varepsilon^{n+1}}{n+1} = \frac{K \cdot \varepsilon^{n+1}}{\varepsilon \cdot (n+1)} = \frac{K \cdot \varepsilon^n}{n+1}$$
+$$\bar{Y}_f = \frac{1}{\varepsilon} \cdot \frac{K \cdot \varepsilon^{n+1}}{n+1} = \frac{K \cdot \varepsilon^{n+1}}{\varepsilon \cdot (n+1)} = \frac{K \cdot \varepsilon^n}{n+1}$$
 
 4. **Resultaat:**
-$$\bar{\sigma} = \frac{K \cdot \varepsilon^n}{n+1}$$
+$$\bar{Y}_f = \frac{K \cdot \varepsilon^n}{n+1}$$
 
-**Interpretatie:** σ̄ is steeds **kleiner dan de eindwaarde** σ(ε) = K·ε^n, omdat de spanning tijdens het hele proces opbouwt vanaf 0 (bij ε=0 is σ=0) tot de eindwaarde — de gemiddelde waarde wordt "gedeeld" door (n+1) > 1. Deze σ̄ is precies de grootheid die je nodig hebt om de **arbeid per volume-eenheid** te berekenen (u = σ̄·ε) en die je gebruikt in de **walskrachtformule** F ≈ w·L·σ̄_f.
+**Interpretatie:** $\bar{Y}_f$ is steeds **kleiner dan de eindwaarde** σ(ε) = K·ε^n, omdat de spanning tijdens het hele proces opbouwt vanaf 0 (bij ε=0 is σ=0) tot de eindwaarde — de gemiddelde waarde wordt "gedeeld" door (n+1) > 1. Deze $\bar{Y}_f$ is precies de grootheid die je nodig hebt om de **arbeid per volume-eenheid** te berekenen (u = $\bar{Y}_f$·ε) en die je gebruikt in de **walskrachtformule** $F = wL\left(\dfrac{2}{\sqrt3}\bar{Y}_f\right)\left(1+\dfrac{\mu L}{2h_{av}}\right)$.
 
 ---
 
@@ -1827,6 +1604,8 @@ $$\bar{\sigma} = \frac{K \cdot \varepsilon^n}{n+1}$$
 Bij walsen wordt het werkstuk tussen twee tegenroterende rollen door getrokken. Op het contactvlak tussen rol en werkstuk, ter hoogte van de **invoerzijde** (waar het materiaal de wals "binnenkomt"), maakt het contactoppervlak een hoek θ met de horizontale (walsings-)richting.
 
 In dat contactpunt werken twee krachten op het werkstuk in:
+
+<img src="../Images/walsen.png" width="400" alt="walsen" />
 
 - **Normaalkracht N** (loodrecht op het rol-oppervlak): heeft een **horizontale component N·sinθ** die het materiaal **uit** de wals duwt (tegen de walsrichting in), omdat het rol-oppervlak schuin staat t.o.v. de invoerrichting.
 - **Wrijvingskracht F_w = µ·N** (tangentieel aan het rol-oppervlak, in de bewegingsrichting van het rol-oppervlak t.o.v. het werkstuk): heeft een **horizontale component F_w·cosθ = µ·N·cosθ** die het materiaal de wals **in** trekt (in de walsrichting).
@@ -1840,7 +1619,7 @@ $$F_w \cdot \cos\theta \geq N \cdot \sin\theta$$
 $$\mu \cdot N \cdot \cos\theta \geq N \cdot \sin\theta \quad\Rightarrow\quad \mu \geq \tan\theta$$
 
 3. De **maximale** contacthoek waarvoor het materiaal nog net wordt meegenomen, volgt uit de gelijkheid (grensgeval µ = tanθ):
-$$\tan(\theta_{max}) = \mu \quad\Rightarrow\quad \theta_{max} = \arctan(\mu)$$
+$$\tan(\theta_{max}) = \mu \quad\Rightarrow\quad \theta_{max} = \tan^{-1}(\mu)$$
 
 **Interpretatie:** hoe groter de wrijvingscoëfficiënt µ, hoe groter de hoek θ_max waarbij het materiaal nog wordt aangegrepen door de rol — een **ruwer rol-oppervlak (hoger µ)** laat dus toe om met een **grotere contacthoek** (en dus grotere diktereductie per stap, zie (iii)) te walsen.
 
@@ -1855,7 +1634,7 @@ De contacthoek θ tussen rol en werkstuk is rechtstreeks gekoppeld aan de dikter
 1. **Cirkelgeometrie van de rol** — de verticale indringing (hoogte waarover de rol "inzakt" in het materiaal over de hoek θ):
 $$\Delta h = R \cdot (1 - \cos\theta)$$
 
-2. **Kleine-hoekbenaderingen** (in radialen), toegepast op de maximale toelaatbare contacthoek θ_max = arctan(µ) uit deel (ii):
+2. **Kleine-hoekbenaderingen** (in radialen), toegepast op de maximale toelaatbare contacthoek θ_max = tan⁻¹(µ) uit deel (ii):
 $$1 - \cos\theta \approx \frac{\theta^2}{2} \qquad \text{en} \qquad \tan\theta \approx \theta \;\Rightarrow\; \theta_{max} \approx \mu$$
 
 3. **Substitueren** in de uitdrukking voor Δh:
@@ -1904,7 +1683,7 @@ $$D_{min} \approx 1.11 \text{ m} > D_{max} = 0.6 \text{ m}$$
 
 De minimaal benodigde diameter (≈ 1.11 m) is **groter** dan de beschikbare maximale walsdiameter (0.6 m).
 
-**Conclusie:** de beschikbare wals is **niet voldoende** om de volledige reductie van 24 mm naar 16 mm in één enkele stap te realiseren. Bij een poging hiertoe is de meeneemvoorwaarde (θ ≤ θ_max = arctan(µ)) niet vervuld: het werkstuk zou onder de rol **doorslippen** in plaats van ingetrokken te worden — het walsproces start gewoon niet (de rol "pakt" het materiaal niet).
+**Conclusie:** de beschikbare wals is **niet voldoende** om de volledige reductie van 24 mm naar 16 mm in één enkele stap te realiseren. Bij een poging hiertoe is de meeneemvoorwaarde (θ ≤ θ_max = tan⁻¹(µ)) niet vervuld: het werkstuk zou onder de rol **doorslippen** in plaats van ingetrokken te worden — het walsproces start gewoon niet (de rol "pakt" het materiaal niet).
 
 **Stap 3: Alternatief — verdeel de reductie over meerdere stappen**
 
@@ -1930,12 +1709,12 @@ Voor een vermogensberekening (P = F·v) is ook de **omtreksnelheid** van de wals
 
 $$v = \pi \cdot D \cdot n = \pi \cdot 0.6 \cdot 50 \approx 94.2 \text{ m/min} \approx 1.57 \text{ m/s}$$
 
-Deze v vul je in de vermogensformule P = 2π·N·F·L (N = toerental in toeren/s of rad/s), samen met de walskracht F ≈ w·L·σ̄_f·(1 + µw/2h_av) en de contactlengte L = √(R·Δh), om het benodigde aandrijfvermogen van de wals te bepalen.
+Deze v vul je in de vermogensformule P = 2π·N·F·L (N = toerental in toeren/s of rad/s; merk op dat dit overeenkomt met de formularium-vorm $P = 2\omega T$ met $T = \dfrac{FL}{2}$ het walskoppel en $\omega = 2\pi N$ de hoeksnelheid), samen met de walskracht $F = wL\left(\dfrac{2}{\sqrt3}\bar{Y}_f\right)\left(1+\dfrac{\mu L}{2h_{av}}\right)$ (met $h_{av}=\dfrac{h_0+h_f}{2}$) en de contactlengte $L=\sqrt{R\cdot\Delta h}=\sqrt{Rd}$ (met $d=\Delta h=h_0-h_f$), om het benodigde aandrijfvermogen van de wals te bepalen.
 
 **Voordeel van een kleinere walsstraal R:**
 
-- **Contactlengte** L = √(R·Δh) is kleiner bij een kleinere R (voor gegeven Δh).
-- **Walskracht** F ≈ w·L·σ̄_f·(1 + µw/2h_av) is bijgevolg ook kleiner (F is rechtstreeks proportioneel met L).
+- **Contactlengte** $L=\sqrt{R\cdot\Delta h}=\sqrt{Rd}$ is kleiner bij een kleinere R (voor gegeven Δh).
+- **Walskracht** $F = wL\left(\dfrac{2}{\sqrt3}\bar{Y}_f\right)\left(1+\dfrac{\mu L}{2h_{av}}\right)$ is bijgevolg ook kleiner (F is rechtstreeks proportioneel met L).
 - **Vermogen** P = 2π·N·F·L neemt eveneens af, omdat zowel F als L kleiner worden.
 
 Een kleinere wals — of het opdelen van de reductie in meerdere stappen met kleinere Δh per stap — **vermindert dus de belasting (kracht en vermogen) op de wals en de aandrijving per stap**, ook al blijft de **totale arbeid** over alle stappen samen ongeveer gelijk: arbeid is een toestandsfunctie die afhangt van de totale vervorming (rek), niet van het aantal stappen waarin die vervorming wordt opgedeeld.
@@ -1944,9 +1723,9 @@ Een kleinere wals — of het opdelen van de reductie in meerdere stappen met kle
 
 ### Cluster 3 — Verstevigingskromme, arbeid, terugvering en warm vs. koud omvormen
 
-*Gesteld in: 5 juni 2025 (tweede examenvariant van die dag).*
+*Gesteld in: 5 juni 2025 (tweede examenvariant van die dag), en 4 juni 2026 namiddag (vergelijking warm vs. koud omvormen).*
 
-**Vraag:** "Leg de verstevigingskromme (vloeispanning vs. rek) uit, en hoe hangt de arbeid bij plastische vervorming samen met de gemiddelde vloeispanning σ̄? Wat is terugvering (springback) bij buigen, en hoe wordt dit gecompenseerd? Vergelijk warm en koud omvormen (invloed van temperatuur op de materiaalwet, krachten, microstructuur, nauwkeurigheid)."
+**Vraag:** "Leg de verstevigingskromme (vloeispanning vs. rek) uit, en hoe hangt de arbeid bij plastische vervorming samen met de gemiddelde vloeispanning $\bar{Y}_f$? Wat is terugvering (springback) bij buigen, en hoe wordt dit gecompenseerd? Vergelijk warm en koud omvormen (invloed van temperatuur op de materiaalwet, krachten, microstructuur, nauwkeurigheid)."
 
 **Modelantwoord.**
 
@@ -1964,7 +1743,7 @@ De kromme is **stijgend**: naarmate het materiaal al meer vervormd is, is meer s
 
 **Versteviging — mechanisme**: bij plastische vervorming bewegen **dislocaties** door het kristalrooster. Bij toenemende vervorming blokkeren deze dislocaties elkaar steeds meer (ophoping/verstrengeling), waardoor verdere vervorming meer spanning vereist. Gevolg: het materiaal wordt **harder en sterker**, maar **brosser** (minder ductiel). Na voldoende koudverstevigen is verdere vervorming bijna onmogelijk zonder scheurvorming. Dit kan ongedaan gemaakt worden door **gloeien (annealing)**: verwarmen boven de rekristallisatietemperatuur, waardoor de dislocatiedichtheid daalt en de ductiliteit terugkeert.
 
-**2. Arbeid bij plastische vervorming en het verband met σ̄**
+**2. Arbeid bij plastische vervorming en het verband met $\bar{Y}_f$**
 
 De **arbeid per volume-eenheid** om het materiaal van rek 0 tot $\varepsilon_f$ plastisch te vervormen, is de oppervlakte onder de σ-ε-curve:
 
@@ -1974,11 +1753,11 @@ Met de Hollomon-wet $\sigma = K \cdot \varepsilon^n$ ingevuld:
 
 $$u = \int_0^{\varepsilon_f} K \cdot \varepsilon^n \, d\varepsilon = \frac{K \cdot \varepsilon_f^{\,n+1}}{n+1}$$
 
-Met de **gemiddelde vloeispanning** $\bar{\sigma} = \dfrac{K \cdot \varepsilon_f^{\,n}}{n+1}$ herschrijft dit tot:
+Met de **gemiddelde vloeispanning** $\bar{Y}_f = \dfrac{K \cdot \varepsilon_f^{\,n}}{n+1}$ herschrijft dit tot:
 
-$$u = \bar{\sigma} \cdot \varepsilon_f$$
+$$u = \bar{Y}_f \cdot \varepsilon_f$$
 
-**Interpretatie**: de arbeid per volume-eenheid is het product van de **gemiddelde vloeispanning** $\bar{\sigma}$ tijdens het hele proces en de **totale ware rek** $\varepsilon_f$. $\bar{\sigma}$ vertegenwoordigt de "gemiddelde weerstand" van het materiaal: vermenigvuldigd met de totale rek levert dit dezelfde oppervlakte/energie als de exacte integraal onder de variërende σ-ε-kromme. Deze $\bar{\sigma}$ wordt ook gebruikt in krachtberekeningen, zoals de walskracht ($F \approx w \cdot L \cdot \bar{\sigma}_f$).
+**Interpretatie**: de arbeid per volume-eenheid is het product van de **gemiddelde vloeispanning** $\bar{Y}_f$ tijdens het hele proces en de **totale ware rek** $\varepsilon_f$. $\bar{Y}_f$ vertegenwoordigt de "gemiddelde weerstand" van het materiaal: vermenigvuldigd met de totale rek levert dit dezelfde oppervlakte/energie als de exacte integraal onder de variërende σ-ε-kromme. Deze $\bar{Y}_f$ wordt ook gebruikt in krachtberekeningen, zoals de walskracht ($F = wL\left(\dfrac{2}{\sqrt3}\bar{Y}_f\right)\left(1+\dfrac{\mu L}{2h_{av}}\right)$).
 
 **3. Terugvering (springback) bij buigen**
 
@@ -1988,19 +1767,19 @@ Gevolg: de **werkelijke buighoek na het lossen van de stempel is kleiner** dan d
 
 De **terugveerhoek** wordt gegeven door:
 
-$$\alpha_t = 3 \cdot \frac{R_e}{E} \cdot \frac{\alpha_i}{r_i + C_a \cdot s}$$
+$$\alpha_t = 3 \cdot \frac{R_e}{E} \cdot \frac{r_b + C_a \cdot s_0}{s_0} \cdot \alpha_b$$
 
 waarbij:
 
 - $R_e$ = rekgrens (vloeigrens),
 - $E$ = elasticiteitsmodulus,
-- $\alpha_i$ = opgelegde (initiële) buighoek,
-- $r_i$ = binnenste buigradius,
-- $s$ = plaatdikte, $C_a$ = correctiefactor voor de neutrale-aspositie.
+- $\alpha_b$ = opgelegde (initiële) buighoek,
+- $r_b$ = binnenste buigradius,
+- $s_0$ = plaatdikte, $C_a$ = correctiefactor voor de neutrale-aspositie.
 
 De **resulterende hoek** na terugvering:
 
-$$\alpha_{res} = \alpha_i - \alpha_t$$
+$$\alpha_{res} = \alpha_b - \alpha_t$$
 
 **Interpretatie**: hoe groter de rekgrens $R_e$ (of hoe kleiner $E$), hoe groter $\alpha_t$. **Aluminium** (lage E) veert daarom doorgaans **meer** terug dan **staal** (hoge E, ~3× groter dan aluminium) bij eenzelfde rekgrens.
 
@@ -2018,8 +1797,8 @@ De omvormtemperatuur beïnvloedt de materiaalwet, de benodigde krachten, de micr
 - **Koud omvormen (kamertemperatuur)**: de **rek** is dominant, Hollomon-wet geldt:
 $$\sigma = K \cdot \varepsilon^n$$
 - **Warm omvormen (hoge temperatuur)**: de **reksnelheid** wordt dominant:
-$$\sigma = C \cdot \dot{\varepsilon}^m$$
-waarbij $\dot{\varepsilon} = \dfrac{d\varepsilon}{dt}$ de reksnelheid is en $m$ de reksnelheidsexponent.
+$$\sigma = C^* \cdot \dot{\varepsilon}^m$$
+waarbij $\dot{\varepsilon} = \dfrac{d\varepsilon}{dt}$ de reksnelheid is, $m$ de reksnelheidsexponent en $C^*$ de materiaalconstante (notatie van het formularium: $\dot\sigma = C^*\dot\varepsilon^m$).
 
 **Koud omvormen (cold forming)**, rond kamertemperatuur:
 
@@ -2056,6 +1835,9 @@ Elk materiaal heeft een **maximale toelaatbare rek (breukrek = maat voor ductili
 **STAPPENPLAN — Afleiding van $R_{min}$**
 
 **1. Geometrie opstellen.** Beschouw een plaat met dikte $t$, gebogen tot binnenstraal $R$ (gemeten tot de binnenkant/drukzijde). De **neutrale laag** ligt bij benadering op de halve dikte, dus op afstand $R + t/2$ van het krommingscentrum. De **buitenvezel** (trekzijde) ligt op afstand $R + t$.
+
+<img src="../Images/krommingradius.png" width="500" alt="walsen" />
+
 
 **2. Lengtes vóór en na het buigen.** Vóór het buigen hadden alle vezels (binnen-, neutrale en buitenvezel) dezelfde lengte, namelijk die van de neutrale vezel (de neutrale laag verandert per definitie niet van lengte). Voor een hoeksegment met openingshoek $\theta$ (rad):
 

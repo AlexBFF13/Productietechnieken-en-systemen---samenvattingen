@@ -161,7 +161,7 @@ De temperatuur waarbij je omvormt, heeft een enorme invloed op het proces.
 ```
 Koud          Halfwarm        Warm
 |-------------|----------------|-------------|
-Tk         0.3Tsm          0.5Tsm       Tsm
+Tk          0.3Tsm           0.5Tsm         Tsm
 ```
 
 (Tsm = smelttemperatuur in Kelvin)
@@ -318,7 +318,6 @@ waarbij N het toerental is (toeren/min of rad/s).
 
 ---
 
----
 
 # Deel 5 – Omvormen van plaat: Buigen (Les 11)
 
