@@ -44,12 +44,12 @@ Dit is in de praktijk **niet altijd volledig haalbaar** — de warmte-inbreng wi
 ### Anatomie van een lasverbinding
 
 ```
-┌─────────────────────────────────────────────────────────┐
+┌───────────────────────────────────────────────────────────────┐
 │  Base metal │   HAZ   │  Las (filler)  │   HAZ   │ Base metal │
 │             │         │                │         │            │
-│         Fusion line               Fusion line               │
-│                    ← seam preparation →                    │
-└─────────────────────────────────────────────────────────┘
+│                 Fusion line       Fusion line                 │
+│                      ← seam preparation →                     │
+└───────────────────────────────────────────────────────────────┘
 ```
 
 - **Base metal (BM):** Basismateriaal — ongewijzigde microstructuur
@@ -380,6 +380,9 @@ Las-dwarsdoorsnede (scheurtypes genummerd):
 8) Edge crack               — langs de rand
 ```
 
+<img src="Images/scheuren.png" width="500" alt="scheuren" />
+
+
 **Koud-** vs. **warmscheuren** — zie sectie 9.
 
 ---
@@ -579,8 +582,6 @@ Bredere hoek bij aluminium en nikkel vanwege hogere viscositeit van het smeltbad
 | $Q = I^2 \cdot R \cdot t$ | I [A], R [Ω], t [s] | Warmteontwikkeling weerstandslassen |
 | $\sqrt{\sigma_\perp^2 + 3(\tau_\parallel^2 + \tau_\perp^2)} \leq \dfrac{f_u}{\beta \cdot \gamma_{M2}}$ | σ [N/mm²], f_u = treksterkte | Hoeklas sterktecondite (EC3) |
 | $\sigma_\perp \leq \dfrac{0{,}9 \cdot f_u}{\gamma_{M2}}$ | γ_M2 = 1,25 | Aanvullende hoeklas-conditie |
-
----
 
 ---
 

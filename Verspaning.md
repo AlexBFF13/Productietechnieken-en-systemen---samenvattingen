@@ -298,7 +298,7 @@ Let op: spilvermogen ≠ motorvermogen (er zijn verliezen in reductiekast, lager
 
 ### 6.1 Hiërarchie van snijmaterialen
 
-Van goedkoop/taai naar duur/hard:
+Van goedkoop/taai naar duur/hard — dit is ook de volgorde van **toenemende snijsnelheid, hardheid en warmhardheid**, en **afnemende taaiheid**:
 
 ```
 Gereedschapsstaal (koolstofstaal)
@@ -318,53 +318,45 @@ CBN (kubisch boornitride)
 Diamant (PKD)
 ```
 
-> **Examenrelevant:** ken de hiërarchie, de eigenschappen per type, en de ISO-codering.
+> **Examenrelevant:** een veelgestelde vraag is "rangschik deze snijmaterialen van lage naar hoge snijsnelheid en beschrijf samenstelling + manier van vormgeven" — zie de tabel in §6.2.
 
-### 6.2 Eigenschappen per type
+---
 
-| Snijmateriaal | Hardheid (HRC) | Max. temp. (°C) | V_max (m/min) |
-|---|---|---|---|
-| Koolstofstaal | 60–65 | 200 | 5–7 |
-| HSS | 60–65 | 500 | 20–40 |
-| Hardmetaal (HM) | 75 | 1000 | 50–400 |
-| Keramiek | 80 | 1300 | 200–1000 |
-| CBN | — | 2000 | ~3000 |
-| Diamant | — | — | hoog |
+### 6.2 Overzichtstabel: samenstelling, eigenschappen en toepassing
 
-**Tegenstrijdige eisen aan snijmaterialen:**
+**Tegenstrijdige eisen aan snijmaterialen** (waarom geen enkel materiaal "ideaal" is):
 - Slijtagebestendig + warmhardheid (want hoge temperaturen)
 - Breukbestendigheid (weerstand tegen stoten en impactbelasting)
 - Weerstand tegen vermoeiing en thermoshock
 - Oxidatiebestendigheid, weerstand tegen opbouwsnijkant
 - Goede prijs, bewerkbaarheid, constantheid van eigenschappen
 
-### 6.3 Gereedschapsstaal (koolstofstaal)
+| Snijmateriaal | Samenstelling | Vormgeving (productie) | Hardheid & warmhardheid | v_c richtwaarde | Wanneer & waarom gebruikt | Belangrijkste beperking |
+|---|---|---|---|---|---|---|
+| **Gereedschapsstaal** (koolstofstaal) | Fe-C, 0.9–1.2 wt% C (+ soms Mn/V voor extra hardheid), gehard | Gieten en smeden | 60–65 HRC, **lage** warmhardheid (max ~200°C) | 5–7 m/min | Goedkoopste optie; eenvoudige gereedschappen, lage snelheden, hobbygebruik | Verliest snel hardheid bij opwarming → ongeschikt voor industriële v_c |
+| **HSS** (snelstaal) | Hooggelegeerd staal: 20–30% W, Cr, V, Mo → vormen harde wolfraamcarbiden | Vroeger gesmeed, vandaag ook steeds meer gesinterd | ~60–65 HRC (iets lager dan koolstofstaal), maar veel betere warmhardheid (max ~500°C) | 20–40 m/min | **Complex gevormde gereedschappen** (boren, frezen, tappen, ruimers, profielfrezen): makkelijker te vormen, ductieler → betere impactweerstand → geschikt voor **onderbroken snede** | Lagere v_c dan HM/keramiek/CBN |
+| **Hardmetaal** (HM, WIDIA) | Composiet: wolfraamcarbiden WC (hard) in kobaltmatrix Co (taai, bindmiddel). Meer Co = taaier maar minder hittebestendig | Poedermetallurgie (persen + sinteren) | ~75 HRC, max ~1000°C | 50–400 m/min | Meest gebruikte snijmateriaal vandaag; Co/WC-verhouding af te stemmen op toepassing via **ISO-codering** (zie §6.3) | Weinig taai → gevoelig voor stoten/schokken |
+| **Gecoat HM** | Taaie HM-kern (hoog Co-aandeel) + dunne slijtvaste coating(s): TiN, TiC,N, Al₂O₃ (2–20 µm, eventueel multi-laags) | Substraat sinteren, daarna coating (CVD/PVD) | Substraat = taai, coating = zeer slijtvast/warmhard → combinatie van beide | Hoger v_c (of langere standtijd) dan ongecoat HM | Wanneer **zowel taaiheid (schokken) als slijtvastheid (warmte/wrijving)** nodig zijn | Coating kan afspringen bij extreme schokken/thermoshock |
+| **Cermets** | Keramische fase (metaalcarbiden/-nitriden/-oxiden) in metalen matrix (Co, Ni, Fe of Mo) | Poedermetallurgie (sinteren), zoals HM | Hoger dan HM, lager dan keramiek | Hoger dan HM | Hoge snelheden/temperaturen, **niet-onderbroken snede**, kleine snededoorsneden (finishing) | Brozer dan HM → minder geschikt voor onderbroken snede/grote krachten |
+| **Keramiek** | Al₂O₃ (aluminiumoxide), TiC, Si₃N₄ (siliciumnitride) | Sinteren van poeders | ~80 HRC, max ~1300°C — uitmuntende warmhardheid | 200–1000 m/min | Zeer hoge v_c bij harde materialen, niet-onderbroken snede | **Broos** → thermoshock-gevoelig → ongeschikt voor onderbroken snede |
+| **CBN / PCBN** | (Poly)kristallijn kubisch boornitride, vaak met bindmiddel op HM-substraat | Sinteren | Tweede hardste materiaal na diamant, stabiel tot ~2000°C | tot ~3000 m/min | **Hardverspanen** van gehard staal (55–65 HRC) — alternatief voor slijpen | Duur |
+| **Diamant** (PKD) | Polykristallijn diamant, eventueel met bindmiddel | Sinteren, vaak op HM-substraat | Hardste bekende materiaal, maar slechts stabiel tot ~600–700°C | Zeer hoog (non-ferro) | Aluminium, koper, composieten, keramiek, hout — zeer goede oppervlaktekwaliteit | **Niet bruikbaar voor staal**: koolstof diffundeert/lost op in het Fe van het werkstuk (zie §6.3) |
 
-- **Samenstelling:** 0.9–1.2% C, gehard
-- **v_c:** zeer laag (0.1–0.2 m/s)
-- **Toepassing:** eenvoudige gereedschappen, lage snelheden, hobbygebruik
+---
 
-### 6.4 HSS — High Speed Steel (snelstaal)
+### 6.3 Extra informatie (examenrelevant)
 
-- **Samenstelling:** hooggelegeerd met W, Cr, V, Mo (totaal 20–30% legeringselementen)
-- W en C vormen harde wolfraamcarbiden
-- **v_c:** 0.3–1 m/s
-- **Voordeel t.o.v. HM:** beter bestand tegen stoten → geschikter voor **onderbroken snede** (boren, frezen)
-- **Toepassing vandaag:** ingewikkeld gevormde gereedschappen (tappen, ruimers, profielfrezen)
+#### Waarom wordt HSS vandaag nog gebruikt?
 
-### 6.5 Hardmetaal (HM) — WIDIA
+Ondanks de lagere v_c blijft HSS de eerste keus voor **complex gevormde gereedschappen** (boren, ruimers, tappen, profielfrezen):
+- Eenvoudiger en goedkoper te vormen tot ingewikkelde geometrieën dan brosse HM/keramiek/CBN
+- Ductieler → betere **impactweerstand** → beter bestand tegen de **onderbroken snede** bij boren en frezen
 
-- **Samenstelling:** composiet — kobaltmatrix (taai) + wolfraamcarbiden (hard)
-  - Kobalt (Co): geeft taaiheid en bindmiddel
-  - Carbiden (WC): geven hardheid en hittebestendigheid
-- **v_c:** 1–10 m/s
-- **Nadeel:** weinig taai → gevoelig voor stoten
-
-#### ISO-codering HM snijmaterialen
+#### ISO-codering hardmetaal (HM)
 
 **Format: XX-Y##**
 
-**Eerste deel** (type gereedschap):
+**Eerste deel** (type snijmateriaal):
 | Code | Betekenis |
 |---|---|
 | HW | Onbekleed hardmetaal op wolframbasis |
@@ -376,7 +368,7 @@ Diamant (PKD)
 | BN | Kubisch boriumnitride (CBN) |
 | DP | Polykristallijn diamant (PKD) |
 
-**Tweede deel** (te bewerken materiaal):
+**Tweede deel** (te bewerken werkstukmateriaal):
 | Letter | Materiaal | Kleur |
 |---|---|---|
 | P | Staal (behalve RVS) | Blauw |
@@ -390,47 +382,32 @@ Diamant (PKD)
 - **Klein getal** (bijv. P10): **bros, hard, hittebestendig** → finisseren, hoge snijsnelheid
 - **Groot getal** (bijv. P40): **taai** → grote snijkrachten, dynamische belastingen, schrobben
 
-**Voorbeeld:** `HC-K15` = gecoat hardmetaal, voor gietijzer, relatief hard/bros (finisseren)
+> **Voorbeeld:** `HC-K15` = gecoat hardmetaal, voor gietijzer, relatief hard/bros (finisseren)
 
-### 6.6 Gecoate hardmetalen
+#### Gecoate hardmetalen — coatinglagen
 
-- **Principe:** taaie hardmetaalsoort als substraat + dunne slijtbestendige coating (2–20 µm)
-- **Coatinglagen:** TiN, TiC,N, Al₂O₃ (meerdere lagen mogelijk = multi-coating)
-- **Voordeel:** combinatie van taaiheid (substraat) en slijtvastheid (coating)
+- **Coatinglagen:** TiN, TiC,N, Al₂O₃ — meerdere lagen mogelijk (**multi-coating**)
+- **Principe:** taaie HM-soort als substraat + dunne slijtbestendige coating (2–20 µm)
 - Gecoat HM heeft een **langere standtijd** dan ongecoat HM bij dezelfde snijsnelheid
 
-### 6.7 Cermets
+#### Diamant — waarom niet op staal?
 
-- **Keramiek in metallieke matrix** (cf. hardmetaal, maar met andere samenstelling)
-- Matrix: Co, Ni, Fe of Mo
-- Keramische fase: metaalcarbides, -nitrides of -oxides
-- **Toepassingen:** hoge snelheden (hoge temperaturen), niet-onderbroken snede, kleine snededoorsneden
+Het **koolstof** uit diamant **diffundeert/lost op** in het **ijzer (Fe)** van het werkstuk bij de hoge contacttemperaturen → snelle slijtage van het gereedschap. Daarom enkel gebruikt voor **non-ferro** materialen (Al, Cu), composieten, keramiek en hout.
 
-### 6.8 Keramiek
+---
 
-- **Materialen:** Al₂O₃ (aluminiumoxide), TiC, Si₃N₄ (siliciumnitride)
-- **Productie:** sintering
-- Hoge hardheid, uitmuntende warmhardheid
-- **Nadeel:** broos, gevoelig voor thermoshock → niet geschikt voor onderbroken snede
+### 6.4 Snijplaatjes (inserts)
 
-### 6.9 CBN — Kubisch Boornitride
+In de praktijk worden **wisselplaatjes** gebruikt i.p.v. massieve beitels.
 
-- Tweede hardste materiaal na diamant
-- **Toepassing:** hardverspanen (gehard staal, 55–65 HRC)
-- Kan worden toegepast als alternatief voor slijpen bij geharde staalonderdelen
-
-### 6.10 Diamant (PKD — Polykristallijn Diamant)
-
-- Hardste bekend materiaal
-- **Beperking:** koolstof uit diamant lost op in ijzer (Fe) van werkstuk → **niet bruikbaar voor staal**
-- **Toepassingen:** aluminium, koper, composieten, keramiek, hout
-
-### 6.11 Snijplaatjes (inserts)
-
-In de praktijk worden **wisselplaatjes** gebruikt i.p.v. massieve beitels:
-- Goedkoper (alleen het plaatje vervangen, niet de schacht)
-- Meerdere bruikbare snijkanten per plaatje (indexeerbaar)
-- Klemsystemen: klemvinger of klemstuk (zie cursus)
+| Aspect | Uitleg |
+|---|---|
+| **Wat?** | Vervangbare plaatjes, op een stalen houder gesoldeerd of geklemd |
+| **Materiaal** | Hardmetaal (wolfraamcarbiden), cermets, keramiek, PCBN, PKD — net de **brossere/duurdere** snijmaterialen uit §6.2 |
+| **Voordeel t.o.v. massieve beitel** | Goedkoper (enkel plaatje vervangen, niet de schacht); meerdere bruikbare snijkanten per plaatje (**indexeerbaar**); laat toe brosse/dure materialen toch te gebruiken |
+| **Productie** | **Sinterproces** (poedermetallurgie) — vorm beperkt door perstechniek; coatinglagen kunnen achteraf aangebracht worden |
+| **Bepalende parameter voor gebruiksduur** | **Snijsnelheid v_c**, via de wet van **Taylor**: $v_c \cdot T^m = C_T$ |
+| **Klemsystemen** | Klemvinger of klemstuk (zie cursus) |
 
 ---
 
@@ -545,35 +522,127 @@ $$v \cdot T^m = \frac{C_{TVB} \cdot VB^n}{f^p \cdot a^q \cdot (\sin \kappa)^{p-q
 - **Dwarsslede** — beweging loodrecht op de rotatieas (x-richting)
 - **Beitelslede** — instelbeweging onder hoek (voor konische oppervlakken)
 
-### 9.2 Kronenberg-diagram
+### 9.2 Kronenbergdiagram
 
-Het **Kronenbergdiagram** toont in dubbellogaritmische schaal hoe snededoorsnede A samenhangt met snijkracht F_c, vermogen P, snijsnelheid v, debiet Q en standtijd T.
+#### Waarvoor dient het Kronenbergdiagram?
 
-**Twee randvoorwaarden om het optimum te vinden:**
+Het Kronenbergdiagram wordt gebruikt om de **capaciteit van het gereedschap (beitel) gelijk te stellen aan de capaciteit van de machine**. Het houdt **geen rekening met de nauwkeurigheid** van het werkstuk (doorbuiging, ruwheid) en leidt dus **niet noodzakelijk tot de economisch optimale snijvoorwaarden** — het geeft vooral **inzicht in de krachten, vermogens, snelheden en beperkingen** als functie van de snededoorsnede A.
 
-1. T = T_e → v_e = v_m (economische standtijd bereikt bij maximale snijsnelheid van machine)
-2. P_e = P_m (snijvermogen = machinaal beschikbaar vermogen)
+#### Opbouw van de assen
 
-**Werkingspunt:** als A > A_crit (kritische snededoorsnede), kan men van k3 naar k2 verschuiven:
-- v_c daalt → T stijgt → minder gereedschapskosten (K_G daalt)
-- Debiet Q stijgt → kortere bewerkingstijd → minder bewerkingskosten
+- **Horizontale as:** snededoorsnede $A = b \cdot h$ [mm²], op logaritmische schaal
+- **Verticale as:** **bilogaritmische** gecombineerde schaal voor v, F_c, P, Q en T — omdat elke grootheid een machtsfunctie is van A, wordt elk verband een **rechte lijn** op deze schaal.
+
+#### De lijnen — betekenis én volgorde van opstellen
+
+De lijnen worden in deze volgorde afgeleid, telkens steunend op de vorige:
+
+| # | Lijn (kleur) | Formule | Betekenis |
+|---|---|---|---|
+| 1 | **F_c** (blauw) | $F_c = k_{c1.1}\cdot A^{(1-e)}$ (Kienzle) | Snijkracht als functie van A — de basis van het diagram |
+| 2 | **P_m** (geel, horizontaal) | constant | Beschikbaar **motorvermogen** — vastgelegd door de machine, onafhankelijk van A |
+| 3 | **v_m** | $v_m = P_m / F_c$ | Maximale snijsnelheid die de motor (qua vermogen) toelaat bij die A |
+| 4 | **v_e** (paars) | uit veralgemeende Taylor bij $T = T_e$ | Economische snijsnelheid: snelheid die de gekozen economische standtijd oplevert |
+| 5 | **P_e** | $P_e = F_c \cdot v_e$ | Vermogen nodig bij de economische snelheid |
+| 6 | **Q_m** (rood) | $Q_m = v_m \cdot A$ | Spaandebiet bij maximale snelheid |
+| 7 | **Q_e** (oranje) | $Q_e = v_e \cdot A$ | Spaandebiet bij economische snelheid |
+
+#### Het optimale punt volgens Kronenberg
+
+Er zijn **twee voorwaarden**, elk noodzakelijk maar **niet voldoende** afzonderlijk:
+
+1. $T = T_e \;\Leftrightarrow\; v_e = v_m$ — de machine draait net aan de snelheid die de economische standtijd oplevert
+2. $P_e = P_m$ — het vermogen bij die snelheid is exact het beschikbare motorvermogen
+
+Het punt waar **beide voorwaarden samen** gelden, is het kritische punt **k₃** bij de **kritische snededoorsnede $A_{crit}$**. Dit is *het* Kronenberg-optimum: de machine draait op vol vermogen, terwijl het gereedschap precies zijn economische standtijd haalt.
+
+#### Verder optimaliseren: van k₃ naar k₂ (A > A_crit)
+
+Als de werkstukgeometrie een grotere snededoorsnede toelaat ($A > A_{crit}$), kan men van k₃ naar k₂ verschuiven:
+
+- $F_c$ stijgt mee met A → om $P_m$ niet te overschrijden moet $v_c$ **dalen**
+- Een lagere $v_c$ geeft (Taylor) een **hogere standtijd T** → **lagere gereedschapskost** $K_G/T$
+- Het debiet $Q = v_c \cdot A$ blijft **stijgen** (A stijgt sneller dan $v_c$ daalt) → kortere hoofdtijd → **lagere bewerkingskost**
+- We werken dus niet meer op de "economische" snelheid $v_e$, maar het resultaat is **toch goedkoper**
+
+> **Beperking:** A kan niet onbeperkt stijgen. Het wordt begrensd door de **toelaatbare nauwkeurigheid** van het werkstuk (doorbuiging $y_w$, zie §12.4) en het **maximaal koppel** van de machine. → Voor verdere optimalisatie is het **TNO-diagram** nodig.
+
+<img src="Images/kronenbergdiagram.png" width="400" alt="Kronenbergdiagram: bilogschaal met v, F, P, Q t.o.v. snededoorsnede A" />
+
+> **Examenvraag (2019):** *"Bespreek het Kronenbergdiagram: (a) waarvoor dient het, (b) wat is de betekenis van de lijnen en in welke volgorde worden ze opgesteld, (c) wat is het optimale punt, (d) hoe kan je verder optimaliseren?"* — zie de tabel en uitleg hierboven voor het volledige antwoord.
+
+---
 
 ### 9.3 TNO-diagram
 
-Het **TNO-diagram** toont voor een gegeven draaistuk (diameter d) het verband tussen voeding f [mm/omw] en:
-- Snijkracht F_c [kN]
-- Koppel M_c [Nm]
-- Maximaal machinevermogen P_max
-- Optimale snijsnelheid v_c,opt (= v_e)
-- Maximale snijsnelheid v_c,max (= v_m)
-- Debiet Q [mm³/s]
+#### Waarvoor dient het TNO-diagram?
 
-**Hoe aflezen:**
-- Stel f in op x-as
-- Lees F_c en M_c af (blauwe en oranje lijnen)
-- Controleer dat P ≤ P_max (rode lijn)
-- Lees v_c af (paarse lijn = optimaal, rode lijn = maximum)
-- Lees debiet Q af (groen = maximaal, geel = economisch)
+Het Kronenberg- en TNO-diagram werken met een **vaste verhouding tussen b en h** (vaste instelhoek κ). Het TNO-diagram werkt de **verdere optimalisatie van het spaandebiet** uit voor een **gegeven draaistuk** (vaste diameter d, bv. d = 100 mm). Het toont hoe de **voeding f** [mm/omw] alle andere grootheden beïnvloedt, en laat toe om binnen de machinecapaciteit het debiet te maximaliseren.
+
+#### Assen
+
+- **Horizontaal:** voeding f [mm/omw]
+- **Verticaal (meerdere gecombineerde schalen):** F_c [kN], M_c [Nm], P_c [kW], v_c [m/s], Q [mm³/s]
+
+#### Kleurcode van de lijnen
+
+| Kleur | Grootheid | Betekenis |
+|---|---|---|
+| Blauw | F_c | Snijkracht (Kienzle), stijgt met f |
+| Oranje | M_c | Koppel $= F_c \cdot d/2$ |
+| Rood (horizontaal) | P_max | Maximaal motorvermogen (vast, bv. 15 kW) |
+| Paars | v_c,opt = v_e | Economische (optimale) snijsnelheid |
+| Rood (schuin) | v_c,max = v_m | Maximale snijsnelheid die de motor toelaat |
+| Roze | P_e | Vermogen bij economische snelheid |
+| Groen | Q_max = Q_m | Spaandebiet bij maximale snelheid |
+| Geel | Q_e | Spaandebiet bij economische snelheid |
+
+#### Hoe lees je het diagram af?
+
+1. **Kies f** op de x-as — in de praktijk vaak begrensd door de toelaatbare ruwheid (§12.4: $f_{max} = \sqrt{8 r_\varepsilon R_{t,max}}$)
+2. **Lees F_c en M_c af** (blauwe/oranje lijn) bij die f
+3. **Controleer het vermogen**: ligt $P_e \leq P_{max}$? Zo niet, dan kan de machine $v_e$ niet leveren en is $v_m$ bindend
+4. **Lees v_c af**: paarse lijn = $v_e$ (economisch), rode schuine lijn = $v_m$ (machinegrens) — de kleinste van beide is bindend
+5. **Lees het debiet Q af**: groen ($Q_m$) of geel ($Q_e$), afhankelijk van welke snelheid effectief gebruikt wordt
+
+<img src="Images/TNOdiagram.png" width="500" alt="TNO-diagram (draaidiagram, d=100mm): f vs. Fc, Mc, Pc, vc, Q" />
+
+---
+
+### 9.4 COPTURN-diagram (3D b-h-v-volume)
+
+#### Waarvoor dient het COPTURN-diagram?
+
+Het COPTURN-diagram (Cutting Optimisation Program voor draaien) gaat een stap verder dan Kronenberg/TNO: het bakent een **volume af in de 3D-ruimte opgespannen door b (snedebreedte), h (snededikte) en v (snijsnelheid)**, door **alle** verspaningswetten en beperkingen tegelijk in rekening te brengen. Binnen dit volume is verspanen zowel **mogelijk** als **toelaatbaar**. Daarna optimaliseert een computerprogramma (COP/COPTURN) naar **minimale kost** of **maximale productiviteit** met **Lagrange-multiplicatoren**.
+
+#### De grenzen van het volume (10 beperkingen)
+
+| # | Grens | Verklaring |
+|---|---|---|
+| 1 | $h_{min}$ | Door de **neusafronding** $r_\varepsilon$: de snijkant is niet onbeperkt scherp; bij te kleine h "glijdt" de beitel over het werkstuk i.p.v. te snijden |
+| 2 | $h_{max}$ | Door de **toelaatbare ruwheid**: $R_t = f^2/(8r_\varepsilon)$, met $h = f \cdot \sin\kappa$ |
+| 3 | $b_{min}$ | Door de **afronding van de beitelpunt** (neusradius) |
+| 4 | $b_{max}$ | $b \leq \tfrac{3}{4}$ van de totale lengte van de snijkant (stabiel proces) |
+| 5 | $\delta_{min} \approx 3$ | Te kleine slankheid $b/h$ → spanen te "vierkant"/dik → te grote krachten |
+| 6 | $\delta_{max} \approx 15$ (≈30 voor gietijzer) | Te grote slankheid → gevaarlijke lintspanen |
+| 7 | Wet van **Kienzle** (max. kracht) | $F_c$ mag de toelaatbare kracht niet overschrijden (machinekoppel of nauwkeurigheid) |
+| 8 | **Strengere Kienzle** bij laag toerental | Elektromotoren halen hun nominaal koppel niet bij laag toerental → strengere krachtgrens |
+| 9 | $v_{min}$ | Minimale snijsnelheid om **opbouwsnijkant (BUE)** te vermijden |
+| 10 | $v_{max}$ | Maximale snijsnelheid, bepaald door max. toerental/vermogen van de machine |
+
+Daarnaast spelen ook mee:
+
+- de **veralgemeende wet van Taylor** (bepaalt de economische standtijd $T_e$, zie §7.5 en §12.1)
+- **Kienzle uitgedrukt t.o.v. het motorvermogen**: $P = P_m = F_c \cdot v_c$ — hierin is v een variabele (i.p.v. vastgelegd zoals bij grens 7-8), wat een echt **3D-oppervlak** geeft i.p.v. een grens die je op het b-h-vlak kan projecteren.
+
+**Resultaat:** binnen het 3D-volume liggen alle **toelaatbare combinaties** (b, h, v). Het COP/COPTURN-programma zoekt hierin het punt dat de **kost minimaliseert** of de **productiviteit maximaliseert**.
+
+<img src="Images/COPTURNdiagram.png" width="500" alt="TNO-diagram (draaidiagram, d=100mm): f vs. Fc, Mc, Pc, vc, Q" />
+
+
+> **Examenvraag (juni 2024):** *"Bespreek het COPTURN-diagram. Wat zijn de assen? Hoe wordt het opgesteld? Waarvoor dient het?"* — assen = b, h, v; opbouw = de 10 grenzen + Taylor + Kienzle-vermogensoppervlak; doel = optimalisatie naar kost/productiviteit via Lagrange.
+>
+> **Examenvraag (2019, alternatieve formulering):** *"Beschrijf het diagram in detail. Leg stap voor stap uit hoe men hiertoe komt."* — loop de 10 grenzen in volgorde af zoals in de tabel hierboven.
 
 ---
 
@@ -889,6 +958,8 @@ $$f_{max} = \sqrt{8 \cdot r_\varepsilon \cdot R_{t,max}}$$
 
 **Uitvoer:** lijst van optimale snijvoorwaarden (v_opt, f_opt, a_opt)
 
+> Zie **§9.4** voor de volledige uitleg van het COPTURN-diagram (de 10 grenzen van het b-h-v-volume) — een veelgestelde examenvraag.
+
 ---
 
 ## 13. Formuleoverzicht
@@ -902,6 +973,8 @@ $$f_{max} = \sqrt{8 \cdot r_\varepsilon \cdot R_{t,max}}$$
 | δ_κ = b/h | Slankheid snede | Spaanvorming (3 < δ < 15 staal) |
 | F_c = k_c1.1 · b · h^(1-e) | Kienzle | Snijkracht |
 | P_c = F_c · v_c | Snijvermogen | Vermogen |
+| v_m = P_m / F_c | Max. snelheid bij motorvermogen | Kronenbergdiagram |
+| Q = v · A (Q_m = v_m·A, Q_e = v_e·A) | Spaandebiet | Kronenberg-/TNO-diagram |
 | v_c · T^n = C_T | Taylor (eenvoudig) | Standtijd |
 | v·T^m = C_TVB·VB^n / (h^p·b^q) | Veralgemeende Taylor | Standtijd |
 | T_e = (1/m−1)·K_G/K_U | Economische standtijd (min. kost) | Optimalisatie |
@@ -955,6 +1028,10 @@ $$f_{max} = \sqrt{8 \cdot r_\varepsilon \cdot R_{t,max}}$$
 - De kostenformule K_V = t_h·K_U + (t_h/T)·K_G + t_a·K_U en de drie termen daarin
 - De ruwheidsformule R_t = f²/(8·r_ε) en de maximale voeding hieruit
 - Doorbuigingsberekening via soepelheid: y_w = (s_m + s_w)·F_p
+- **Het Kronenbergdiagram**: het doel (beitel- vs. machinecapaciteit), de opbouwvolgorde van de lijnen (F_c → P_m → v_m → v_e → P_e → Q_m → Q_e), en het optimale punt k₃ (T=T_e & P_e=P_m)
+- Hoe je van k₃ naar k₂ optimaliseert als A > A_crit (v_c omlaag → T omhoog → Q blijft stijgen → goedkoper)
+- **Het TNO-diagram**: assen (f t.o.v. F_c, M_c, P_c, v_c, Q) en de kleurcode van de lijnen (v_e vs. v_m, Q_e vs. Q_m)
+- **Het COPTURN-diagram**: het 3D b-h-v-volume, de 10 grenzen die het afbakenen, en de optimalisatie naar kost/productiviteit via Lagrange
 
 ---
 

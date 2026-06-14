@@ -1,0 +1,420 @@
+## 24 juni 2025 voormiddag (versie 1)
+Vraag 1 Meerkeuze
+
+Wat is de fout in volgende notatie: '50.3 m +- 0.2'
+
+Fout gebruik van SI richtlijnen
+De nauwkeurigheid is fout.
+Niet significant(of zoiets)
+Hoe worden motorblokken meestal gemaakt?
+
+Smeden
+Gieten van aluminium
+Metal Injection Molding
+Vijfkoppig frezen
+Wat is het voornaamste voordeel van SLS?
+
+Goed gebruik van het printvolume mogelijk
+Extreem snel
+Goede oppervlakteafwerking
+Multi material printing
+Hoe worden PET flessen gemaakt?
+
+Ben de opties vergeten
+Wat is fout bij vonkerosie?
+
+Niet geleidend dielektricum
+Verhouding hardheid van elektrode tot werkstuk belangrijk voor afnamesnelheid
+Maakt voornamelijk gebruik van smelten
+Gebruikt voor harde metalen zoals (...)carbide en polykristallijn diamant
+Wat betekent een laag BPP voor de laserkwaliteit?
+
+Een goede dunne focus
+Niet nauwkeurig
+Slechte laser
+Vraag 2 (schriftelijk Castagne): gieten
+
+a) Beschrijf het gietproces: de verschillende stappen en gebruikte onderdelen
+b) Wet van Chvorinov: leg uit en hoe wordt het toegepast bij de opkomer?
+c) en d) Oefening op Chvorinov: afmetingen van gegoten voorwerp en stoltijd waren gegeven. c): bereken constante Chvorinov. d) Ontwerp cilindrische opkomer met stoltijd die 10% hoger is en die een diameter van 6cm heeft.
+Vraag 3 (mondeling Van Hooreweder): 3D diagram van b,h,v bespreken
+
+11 juni 2025 (versie 1)
+Vraag 2 (schriftelijk Van Hooreweder) Over wet van Taylor (hoe goed ik het mij herinner)
+
+a) Geef de wet van Taylor en de uitgebreide versie. Leg elk symbool uitgebreid uit.
+b) Hoe worden de parameters in de wet van Taylor bepaald? Geef eventueel een figuur.
+c) Leg het begrip standtijd uit. Wat is economische en effectieve standtijd?
+d) Hoe worden de kosten bepaald voor het draaien van 1 werkstuk? Geef de 3 soorten kosten.
+e) Stel dat je een minimale kost wilt, leg beknopt uit hoe je tot de juiste parameters zou komen.
+Vraag 3 (mondeling Castagne) Over slijpen
+
+a) Geef een definitie van slijpen. Leg het verschil uit tussen vlakslijpen en rondslijpen, maak een tekening. Bijvraag: Hoe zou je spaandebiet voor verschillende configuraties bepalen? (gewoon principe)
+b) Waaruit bestaat een slijpschijf? Leg ook de effecten uit van deze elementen. (open, gesloten structuur, harde, zachte slijpschijf, harde korrels, kleine korrels...)
+c) Welke mechanismen vinden er plaats tijdens het slijpen? (rubbing, plowing, cutting)
+d) Bespreek de effecten van warmte bij een slijpschijf. Extra bijvraag: zijn er ook situaties waar warmte wel gunstig is? Ze zei iets over hardening maar dat wordt niet vaak gebruikt.
+11 juni 2025 (versie 2)
+Vraag 2 Brecht (mondeling): Welk diagram zie je hier, leg uit in detail. Geef ook alle stappen om dit diagram op te stellen. Het ging dus over dat 3D COP diagram die dus begrensd worden door de snededikte h, de snedebreedte b en de snelheid v. Bijvragen waren:
+
+1) Toon mij op de beitel aan waar de hoofdsnijlijn ligt.
+2) Toon mij op de beitel aan waar het vrijloopvlak ligt.
+3) Hoe bekom je de T in de formule van Taylor --> via Te en Tp (economische en productie standtijd).
+4) Als je kijkt in je formularium zie je ook wat tekeningen staan van balken met bijhorende Y, waarvoor staat die Y en hoe speelt die ook een rol in de begrenzing.
+Vraag 3 Sylvie (schriftelijk): Vragen over scheiden, basically dezelfde die andere jaren ook is teruggekomen:
+
+a) Maak een schets van het stansproces en geef een gedetailleerde uitleg van de betrokken mechanismen.
+b) Hoe wordt de maximale theoretische ponskracht berekend als je meerdere ponsen tegelijk uitvoert?
+c) Leg uit waarom het voordelig kan zijn om te werken met afgeschuinde snijgereedschappen bij het scheiden. Toon dit ook aan met behulp van een wiskundig bewijs.
+d) Geef het verschil tussen conventioneel stansen en fijnstansen.
+5 juni 2025 (versie 1)
+Vraag 2 (schriftelijk Van Hooreweder)
+
+a) Naast het TNO diagram is de oppervlakteruwheid een belangrijke karakteristiek om naar te kijken bij het draaien. Hoe beïnvloed de oppervlakteruwheid de instelparameters bij het draaien. Leg uit/ leid af.
+b) Naast de oppervlakteruwheid is de specifieke nauwkeurigheid ook heel belangrijk. Welke krachten zijn er bij het draaien en welke voornaamste kracht die hierop het grootste effect heeft. Geef hier het wiskundig verband van?
+c) Hoe worden de parameters van dit wiskundig verband bepaald?
+Vraag 3 (mondeling Castagne) over het smeden van hoge druk turbine bladen
+
+a) leg het concept en nut van het directioneel afkoelen van turbinebladen.
+b) bij het afkoelen treden voornamelijk 2 concepten op: conductie en radiatie. Voor het maken van een bepaald turbineblad is de bijdragen van conductie en radiatie gelijk. T = 1500K;T0= 300K; epsilon=0,5; alfa = 0,5; Ks= 15W/mK; sigma (boltzman cte)=... J/(m^2 s K). Hoelang is dit blad? (antwoord = 0,126m)
+c) een bepaald blad van 500mm (groot) wordt gemaakt. Welke mechanisme zal het grootste zijn (radiatie of conductie)? Waarom?
+5 juni 2025 (versie 2)
+Vraag 2 (schriftelijk Castagne)
+
+a) Bespreek de verstevigingskromme. Welke karakteristieken kan je hieruit afleiden? Maak eventueel een schets en benoem de symbolen die je gebruikt.
+b) Wat is de betekenis van arbeid bij plastische vervorming? Leid de gemiddelde spanning af, leg uit wat deze betekent en waarvoor deze in de praktijk gebruikt kan worden. Benoem eveneens je gebruikte symbolen.
+c) Bespreek terugvering. Hoe werkt dit verschijnsel en bij welke productietechniek speelt deze een belangrijke rol? Wat zijn manieren om dit tegen te werken?
+d) Bespreek het effect van warmte bij het omvormen. Vergelijk koudomvormen met warmomvormen op vlak van materiaaleigenschappen, benodigde krachten en kwaliteit van eindproduct.
+Vraag 3 (mondeling Van Hooreweder)
+
+a) (Kronenberg diagram gegeven) Bespreek dit diagram en waarvoor het gebruikt wordt.
+b) Bespreek alle lijnen en wat ze betekenen. Op welke volgorde worden deze opgesteld?
+c) Wat is het optimale punt volgens Kronenberg?
+d) Wat zijn verder optimalisaties? Verklaar.
+25 juni 2024 namiddag
+Vraag 2 (schriftelijk Castagne)
+
+a) Bespreek slijpen. Leg het proces uit aan de hand van 2 configuraties.
+b) Leg de verschillen tussen draaien en slijpen uit.
+c) Wat zijn de effecten van warmte op het werkstuk?
+Vraag 3 (mondeling Van Hooreweder)
+
+a) Leg de voor en nadelen van 3D printen uit tov conventionele technieken.
+b) Wat is het verschil tussen sls en fdm? (Hij wilde ook weten wat het verschil is tussen de materialen die gebruikt worden.)
+c) Kunnen alle metalen gebuikt worden bij slm? (Hij wilde vooral horen dat het van de gebruikte laser afhangt.)
+25 juni 2024 namiddag
+Meerkeuzevragen 10/50
+
+Vraag 2 20/50 (schriftelijk Van Hooreweder)
+
+Wat is de definitie van een standtijddiagram? Geef grafisch weer hoe dit wordt opgesteld.
+Waarom gebruiken we een dubbele-log grafiek?
+Welke wetmatigheid zit hierin vervat, is deze empirisch of analytisch opgesteld?
+Vraag 3 20/50 (mondeling Castagne)
+
+a) Bespreek 3 abrasieve bewerkingsprocessen die specifiek gebruikt worden voor nabewerkingen.
+b) Hoe is een slijpschijf opgebouwd? Wat is de invloed van de verschillende onderdelen op het proces? (mondelinge bijvraag: hoe wordt de oppervlaktekwaliteit beïnvloed door o.a. het type korrel)
+c) Bespreek de equivalente spaandikte en de spaanverhouding?
+d) Wat is profileren en africhten van een slijpschijf? Waarom en hoe doet men dit?
+27 juni 2023
+Meerkeuzevragen 10/50 Welke van onderstaande AM technieken voor polymeren geeft de hoogste minimale mogelijke laagdikte?
+
+SLS
+SLM
+SLA
+FDM
+Voor een vaste combinatie werkstuk-gereedschap is de Tailor exponent 0,125 en de snelheid gelijk aan 100 RPM. Stel dat de snijsnelheid zal toenemen met 55% wat zal er dan gebeuren met de standtijd?
+
+Deze blijft min of meer gelijk want slechts weinig afhankelijk van de snijsnelheid
+Deze heeft een verlaging van 96%
+Deze heeft een verlaging van 0,96%
+Deze heeft een verlaging van 97%
+De kolkslijtage bij een draaibeitel stelt het volgende voor:
+
+slijtage op het vrijloopvlak
+slijtage op het spaanvlak
+slijtage op het afschuinvlak
+slijtage aan de beitelpunt
+De vrijloophoek van een draaibeitel heeft als functie om
+
+Een opbouwsnijkant te voorkomen
+De afschuifhoek te beïnvloeden
+De elastische terugdrukkracht op te vangen
+Wrijving tussen gereedschap en werkstuk te minimaliseren
+Bij het draaien zal er warmte ontstaan in het contact tussen werkstuk-snijgereedschap. Deze warmte zal vooral dissiperen via
+
+De spaan
+De beitel
+Het werkstuk
+Het machineframe
+5 meerkeuzevragen over
+
+Verschil tussen warm- en koudvorming keuzes:~anisotropie ~korrelgrootte ~afwerking en precisie ~sterkte
+Wat is geen voordeel van gieten keuzes:~vormvrijheid en weinig verspilling van materiaal ~krimp
+Vraag over wat wel van toepassing is voor een Gauss laser keuzes:~M² groot ~BPP ~multidirectioneel ~heel lange zin over richten met lenzen
+Welk materiaal zal niet in 1 keer gewalst kunnen worden? Keuzes: oplijsting van wrijvingscoëfficiënten, plaatdiktes begin en eind en de roldiameter
+Een plaat van 2 dik, radius 5, hoek 110°, C_a waarden gegeven voor r_b/s_0 (2.5) wat is het plooiverlies?
+Vraag 1 20/50 Ivm het boren van metalen:
+
+Maak een schets van het boorgereedschap met een vooraanzicht en onderaanzicht en benoem alle verschillende hoeken en vlakken
+Teken de interactie van de beitel met een werkstuk en geef aan hoe de beitelgeometrie zal variëren in de radiale richting. Leg uit hoe dit komt.
+Geef aan waarom het zo belangrijk is om een boor correct te slijpen/scherpen.
+Schrijf de wet van Kienzle neer voor het boren
+Vraag 2 20/50 Ivm het snijden van metalen platen
+
+Maak een schets van het stansproces en geef een gedetailleerde uitleg van de betrokken mechanismen. Hoe wordt de maximale theoretische stanskracht berekend?
+Beschrijf wat de invloed van de snijspleet is op het proces een hoe de afmetingen van de pons en de matrijs moeten worden berekend.
+Leg uit waarom het voordelig kan zijn om te werken met afgeschuinde snijgereedschappen bij het scheiden. Toon dit ook aan met behulp van een wiskundig bewijs.
+Vergelijk de kwaliteit van de gesneden rand na stansen en lasersnijden. Geef voor elk proces wat de belangrijkste defecten zijn en hoe we ze kunnen verminderen.
+13 juni 2023
+Vraag 1
+
+Geef de wet van Taylor (korte en lange versie) en zeg waarvoor alle grootheden staan
+Hoe worden de constantes bepaald (van de korte versie)?
+Waarom hebben we de lange versie nodig?
+Wat is het verschil tussen effectieve standtijd en economische
+Bespreek de kosten en leg uit hoe je de optimale parameters kan bekomen (ge moest niet de volledige afleiding geven, gwn zeggen hoe je het zou kunnen doen)
+Vraag 2
+
+Geeft grootteordes/rangschik de stroomgroottes bij MAG lassen, OP lassen en weerstandspuntlassen + wat is het risico voor de las zelf bij hoge stromen
+Teken puntlassen en projectielassen en bespreek verschillen
+Geef 3 functies van de bekleding bij lassen met beklede elektrode
+Bij MAG lassen wordt het toevoegmateriaal gecoat, met welk materiaal en geef 2 functies
+Waarvoor staat TIG, leg uit en teken een de elektrode
+14 juni 2022 (schriftelijk)
+Meerkeuzevragen
+1. Welke AM techniek voor polymeren heeft de grootste ruwheid
+
+a) SLS
+b) SLM
+c) SLA
+d) FDM
+2. Welke laser heeft de helft van de golflengte / dubbele van de frequentie van Nd-YAG?
+
+a) Fiber
+b) CO2
+c) Diode
+d) Groene laser
+3. Bij meeloop mantelfrezen, welke stelling is juist:
+
+a) Het werkstuk wordt opgetild
+b) De beitel gaat eerst wrijven en dan snijden
+c) Het werkstuk wordt neergedrukt
+d) Er wordt te veel materiaal verwijderd
+...
+
+8 juni 2021 (alles schriftelijk)
+Vraag 1: Praktisch allemaal uit de meerkeuzevragen van 2019. Verder nog:
+
+Wat is de treksterkte van een staaf bij de trekproef? (niet zeker van antw mogelijkheden)
+
+a) De maximale spanning
+b) De maximale kracht gedeeld door de oppervlakte vlak voor breuk
+c) De spanning bij overgang elastisch -> plastisch
+d) De kracht bij breuk gedeeld door de originele doorsnede
+Gegeven de plaatdikte (2.5) en gewenste gatdiameter (50) en de 'vergoedingsparameter 7.5%', bereken de ponsdiameter.
+
+a)
+b)
+c) 50
+d) 50,3
+Wat is de totale stollingstijd bij gieten?
+
+a) De tijd om, na gieten, af te koelen tot kamertemperatuur
+b) De tijd nodig om, na gieten, volledig te stollen
+c) 
+d) 
+Bij lasersnijden met O2, waarvoor dient de zuurstof NIET?
+
+a) Wegblazen van gesmolten materiaal
+b) Laser beschermen tegen spatten
+c) Voorziening extra energie bij snijproces
+d) creëren van inerte atmosfeer
+Vraag 2:
+
+  i) Wat is de standtijd?
+ ii) Geef het standtijddiagram en leg volledig uit.
+iii) Waarom is er een dubbele logaritmische as?
+ iv) Geef de formule die deze datapunten beschrijft. Is dit empirisch of analytisch? Leg uit.
+  v) Wat is het verschil tussen de economische en de procuctie standdtijd
+Vraag 3:
+
+  i) Definieer slijpen, geef de eigenschappen etc
+ ii) Waarom zou je slijpen ipv frezen of draaien.
+iii) Geef de samenstelling van de slijpschijf en de mechanismen/eigenschappen ervan.
+ iv) Geef het verspaningsprincipe, specifiek aan slijpen
+  v) Leid het verspaningsdebiet af (tekening gegeven, was één van de situaties van die tabel met alle mogelijke slijpconfiguraties)
+4 juni 2021 (alles schriftelijk)
+Vraag 1: Praktisch allemaal uit de meerkeuzevragen van 2019
+
+Vraag 2: Snijplaatjes worden naast de gewone beitel veelal gebruikt.
+
+i) Wat is een snijplaatjes en uit welk materiaal worden ze gemaakt?
+
+ii) Wat is hun voordeel tov de 'gewone' beitel?
+
+iii) Hoe worden ze gemaakt?
+
+iv) Welke belangrijke parameter heeft een effect op de gebruiksduur en hoe wordt deze bepaald?
+
+v) Schets zo'n snijplaatje en duid alle hoeken en vlakken aan.
+
+Vraag 3: Walsen
+
+a)
+
+  i) Leid de gemiddelde spanning af ifv de karakteristieke spanning, de versterkingsexponent en de vervorming.
+ ii) Leid de maximale meeneemhoek af.
+iii) Leid de maximale diktereductie (d_max) af.
+b)
+
+  i) Een wals moet een plaat reduceren van 24mm naar 16 mm. Bereken de minimale diameter van de wals als mu = 0.12 en n = 50 t/min.
+ ii) Als geweten is dat de maximale diameter van de wals 600 mm is. Is dit voldoende om de bewerking uit i) in een keer uit te voeren? Zo nee, wat is een alternatief (een oplossing aanbieden volstaat). Toon aan dat deze oplossing volstaat. (LET OP: straal en diameter niet verwarren!)
+iii) Is het een voordeel walsen met kleinere straal te gebruiken? waarom? Toevoeging antw denk ik: snelheid berekenen met n en zo kijken welk proces sneller is + verwijzen naar opp ruwheid -> hangt af van welke eis(en) belangrijk zijn in het proces)
+juni 2019
+alles is samengezet in dit document: Docs van examenvragen 2019
+
+20 juni 2019
+1. a) Wat behoort niet tot poedermetallurgie?
+
+- Basispoeder
+- Bindmiddel
+- Persen
+- Smelten
+b) Welke stelling is juist bij positieve spaanhoek?
+
+- Moeilijk snijden
+- Materiaal stuikt in het werkstuk
+- Botte beitel (niet zeker of dit de optie was)
+- Makkelijk snijden
+c) Bij welke techniekgroep is de spaan het meest recycleerbaar (ofzoiets)?
+
+- Scheiden
+- Frezen
+- Boren
+- Draaien
+d) Een ideale laser voldoet aan de volgende kwaliteitsparameter(s):
+
+- BBP = 1
+- Rayleigh afstand = 1
+- M^2 = 1
+- Zowel M^2 en BBP = 1
+e) Bij het trekken, klopt de stelling:
+
+- (Iets over alleen een spanning in uniaxiale richting)
+- Trekken kan slechts gebeuren in discrete stappen (bv. 10 - 20 - 40%)
+- Men kan zowel koudomvormen als warmomvormen
+- De maximale omvormweerstand is hetzelfde voor extrusie als voor draadtrekken
+2. Maak een schets van de doorsnede van een beitel in de werkstukken met alle relevante onderdelen: vlakken / hoeken / snededikte / spaandikte / elastische terugvering / ...
+
+3. Bespreek het KRONENBERG diagram (mondeling toe te lichten) a) Geef aan voor wat dit Kronenbergdiagram gebruikt wordt. b) Wat is de betekenis van de lijnen op het diagram en in welke volgorde worden ze opgesteld. c) Wat is volgens Kronenberg het optimale punt in dit diagram d) Hoe zou je dit eventueel nog verder kunnen optimaliseren. Bespreek uitgebreid.
+
+17 juni 2019
+Vraag 1 (meerkeuze): Allemaal oude examenvragen
+
+Vraag 2: Bij OP lassen kan naast AC ook gewerkt worden met DCEP en DCEN (respectievelijk “DC elektrode positief” en “DC elektrode negatief”). Wat is het effect van deze twee instellingen (dus DCEP en DCEN) en waar vinden elk van hen toepassingen?
+
+Vraag 3 (mondeling met schriftelijke voorbereiding): 1) Je krijgt een beitel: toon de spaan-, wig- en vrijloophoek. Wat is het nut van de vrijloophoek? Toon aan/leg uit waarom de snijkracht kleiner is bij een grotere spaanhoek?
+
+2) Geef de wet van Kienzle. Welke kracht is dit en toon die op een figuur? Hoe werd deze wet opgesteld en hoe wordt die gebruikt?
+
+3) Geef de verschillende slijtagevormen en link deze met twee belangrijke slijtage criteria.
+
+(bijvraag: je krijgt een voorwerp van de prof: “vertel eens welke productietechnieken zouden gebruikt kunnen zijn om dit te maken. Het hoeft niet juist te zijn, maar zeg welke mogelijk zijn en waarom.” Het was bij mij een assemblage, met schroeven en zelfs een klinknagel in. Kijk goed naar de oppervlakte ruwheid (glad, wrs geen AM), of er scherpe hoeken zijn (zou extrusie kunnen zijn) en een scheidingslijn (gegoten of niet). Deze vraag gaat over heel de cursus, bij mij was er een deel gesmeed)
+
+27 juni 2018
+EXVR - Productietechnieken. 1. Vijf kleine vraagjes A. Welke hoeken op een beitel zijn samen gelijk aan 90°? B. ... 2. Leidt formule af van maximale buigstraal. 3. Geef de opstelling van EBM en benoem zo veel mogelijk componenten. Geef de verschillen en gelijkenissen tussen EBM en SLM.
+
+
+
+8 juni 2018
+maar de grote vragen waren ten eerste duide alle relevante hoeken en vlakken aan op een tekening die ge zelf moest maken van een beitel en dan de mondelinge vraag was vergelijk puntlassen en projectielassen hun maximum lasbare plaatdikte en dan heb ik iets gezegd van ja projectie lassen kan dikker aangezien ge maar op 1 punt contact hebt dus moet uw stroom wel daar door en dan hebt ge toch nog genoeg opwarming om te smelten
+
+als u plaat meer contact heeft kan dat ook meer warmte wegleiden enzo en dan vroeg die als bijvragen geef een voorbeeld van toepassingen van beide technieken en dan heb ik gezegd ja puntlassen autocarroserie makkelijk automatiseerbaar en projectielassen die radiatoren van de slides en dan vroeg die noem alle lastechnieken die kunnen werken met toevoegmateriaal en dan zei ik MIG/MAG, booglassen met afsmeltelektrode, autogeen lassen, TIG lassen, hete lucht handlassen met kunststoffen, euh en dan waren er nog 1 of twee ma ik ben het al vergeten en dan vroeg die schrijf de wet van Kiensle eens op en dan vroeg die wat is de invloed van de snelheid op die kracht en dan zei ik ja da was bijna constant want ge had zo een grafiek die maar 10% ofzo daalde die vroeg ook zo bij puntlassen het initieel temperatuursverloop en dan het temperatuursverloop doorheen de dikte van de plaat na verloop van tijd en dan de meerkeuze vragen was zo een vraag van die M^2 bij lasers ma die was makkelijk dan iets van poedermetallurgie. meerkeuzevraag wij welke techniek kan je het overschotmateriaal het makkelijkst hergebruiken ofzoiets, en dan waren de opties verspanen, oervormen, omvormen, scheiden en ik heb scheiden aangeduid aangezien ik dacht aan ponsen enzo want uw materiaal dat overblijft heeft toch geen temperatuurseffect ofzo doorstaan zoals bij verspanen. er was ook nog een vraag wat is het gevolg van een positievere spaanhoek en dan meerdere keuzemogelijkheden en de juiste was makkelijker snijden denk ik
+
+8 juni 2018 namiddag
+Vraag 1 - multiple choice (op 5)
+
+a) Wat behoort tot oervormen?
+
+- Frezen
+- Sinteren
+- Scheiden
+- Buigen
+b) Tijdens het draaien wordt veel warmte ontwikkeld. Door wat wordt het meeste van die warmte afgevoerd?
+
+- Spaan
+- Gereedschap
+- Werkstuk
+- Machineframe
+c) Bij MAGlassen wordt een actief gas gebruikt. Welk van de volgende is geen doel van (een component van) dat gas.
+
+- Het gas kan het lasmateriaal legeren
+- Het gas kan de penetratie van de las bevorderen
+- Het gas kan de stabiliteit van de vlamboog veranderen
+- Het gas kan de oxidelaag bij het lassen van aluminium verwijderen.
+d) Welk van de volgende stellingen is juist voor gewone boren:
+
+- Gebruikt meerdere snijkanten met gecontroleerde geometrie
+- Gebruikt 1 snijkant met gecontroleerde geometrie
+- Gebruikt 2 snijkanten met ongecontroleerde geometrie
+- Gebruikt 1 snijkant met ongecontroleerde geometrie
+e) Welk van de volgende is geen doel van koelmiddelen?
+
+- Spaanafvoer
+- Smeren en koelen
+- Nauwkeurigheid verhogen
+- De opbouwsnijkant (BUE) verstevigen
+
+Vraag 2 (op 5) Schets en SLM-machine en benoem zo veel mogelijk onderdelen. Bespreek dan uitgebreid de werking van SLM van ontwerp tot het finale product.
+
+
+Vraag 3 (mondeling) (op 10) Kronenbergdiagram gegeven bij de opgave a) Geef aan voor wat dit Kronenbergdiagram gebruikt wordt. b) Wat is de betekenis van de lijnen op het diagram en in welke volgorde worden ze opgesteld. c) Wat is volgens Kronenberg het optimale punt in dit diagram d) Hoe zou je dit eventueel nog verder kunnen optimaliseren. Bespreek uitgebreid.
+
+Bijvraagjes: Wat is de betekenis van Kc11 in de vergelijking van Kienzle, hoe wordt dit bepaald. (hier wij hij zeker horen dat dit via testen wordt bepaald waarbij b = h = 1mm)
+
+8 juni 2018 voormiddag
+Vraag 1 - multiple choice
+
+a) Welke machines niet toepasbaar bij omvormen plaat?
+
+- Hamer
+- Krachtgebonden pers
+- Weggebonden pers
+- Krachtgebonden schaar
+b) Wat behoort tot omvormen?
+
+- Boren
+- Draaien
+- Smeden
+- Sinteren
+c) Welke uitspraak over kotteren is juist?
+
+- Gereedschap draait rond eigen as
+- Het behoort onder 'scheiden'
+- 1 snijkant
+- Onbepaalde snijkantgeometrie
+d) Welke AM techniek voor polymeren laat goed toe boven elkaar te manufacturen?
+
+- FDM
+- SLA
+- EBM
+- SLS
+e) Wat klopt niet over slijpen?
+
+- Hoge snijkrachten
+- Laag spaandebiet
+- Negatieve spaanhoek
+- Positieve spaanhoek
+
+Vraag 2 Vertel wat over DCEN en DCEP bij OP lassen
+
+
+Vraag 3 (mondeling) a) Duid aan: spaanhoek, vrijloophoek, wighoek. Waarvoor dient vrijloophoek? Waarom kleinere krachten bij positieve spaanhoek?
+
+b) Leg wet van Kienzle uit. Geef redenering van afleiding. Waarom is dit noodzakelijke info?
+
+c) Wat zijn de twee slijtagecriteria
+
+Bijvraagjes: over warmtegeleiding via wig en spaan
+
+Voor 2018 werd het vak door de andere prof gegeven: prof. Kruth.
